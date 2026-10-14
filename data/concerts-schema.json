@@ -1,0 +1,86 @@
+{
+  "generated": "2026-10-06T09:37:01Z",
+  "events": [
+    {
+      "@type": "MusicEvent",
+      "name": "Bluz i Pivo, Belgrado, Serbia",
+      "startDate": "2026-10-21T18:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "Bratia Music",
+        "url": "https://bratiamusic.com"
+      },
+      "endDate": "2026-10-21T20:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Bluz i Pivo",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Cetinjska 15",
+          "addressLocality": "Serbia",
+          "addressCountry": "ES"
+        }
+      },
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "Bratia Music",
+        "url": "https://bratiamusic.com"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Caixa Forum Zaragoza",
+      "startDate": "2026-11-08T19:00:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "Bratia Music",
+        "url": "https://bratiamusic.com"
+      },
+      "endDate": "2026-11-08T21:00:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "CaixaForum Zaragoza",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. de José Anselmo Clavé",
+          "addressLocality": "España",
+          "addressCountry": "ES"
+        }
+      },
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "Bratia Music",
+        "url": "https://bratiamusic.com"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Bratia Rendez•Vous feat. Professor Adrian Cunningham",
+      "startDate": "2026-12-18T18:00:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "Bratia Music",
+        "url": "https://bratiamusic.com"
+      },
+      "endDate": "2026-12-18T20:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Jamboree Jazz & Dance Club",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pl. Reial",
+          "addressLocality": "España",
+          "addressCountry": "ES"
+        }
+      },
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "Bratia Music",
+        "url": "https://bratiamusic.com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{{- if site.Params.noindex -}}
+# Staging / preview: no s'ha d'indexar ni rastrejar
+User-agent: *
+Disallow: /
+{{- else -}}
+User-agent: *
+Allow: /
+Disallow: /ca/admin/
+Disallow: /es/admin/
+Disallow: /en/admin/
+Disallow: /cms/
+Disallow: /data/
+
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{- end -}}

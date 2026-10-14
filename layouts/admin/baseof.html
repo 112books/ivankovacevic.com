@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }}</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
+  <style>
+    body.terminal.admin { font-size: 18px; }
+    .admin-header { font-size: 1.2rem; }
+    .admin-footer {
+      border-top: 1px solid #1a3320;
+      padding: 1rem 1.5rem;
+      font-size: 0.75rem;
+      color: #4a7a54;
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .admin-footer a { color: #00cc33; text-decoration: none; }
+    .admin-footer a:hover { color: #00ff41; }
+  </style>
+</head>
+<body class="terminal admin">
+
+  <header class="admin-header">
+    <a href="https://linuxbcn.com" target="_blank">LinuxBCN.com</a>
+    · <strong>Admin · Ivan Kovačević</strong>
+    <nav>
+      <a href="{{ "ca/admin/" | absURL }}">← Admin home</a>
+      <a href="{{ .Site.BaseURL }}">Go to site</a>
+    </nav>
+  </header>
+
+  <main class="admin-terminal">
+    {{ block "main" . }}{{ .Content }}{{ end }}
+  </main>
+
+  <footer class="admin-footer">
+    <span>Powered by <a href="https://linuxbcn.com" target="_blank">LinuxBCN.com</a> · Consultancy · Development · Hosting · Design</span>
+    <span><a href="https://gohugo.io" target="_blank">Hugo SSG</a></span>
+  </footer>
+
+</body>
+</html>
