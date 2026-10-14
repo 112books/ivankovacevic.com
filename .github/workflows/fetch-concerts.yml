@@ -3,7 +3,7 @@ name: Fetch concerts iCal
 on:
   schedule:
     - cron: '0 3 * * *'   # cada nit a les 3:00 UTC
-  workflow_dispatch:        # permet executar-lo manualment
+  workflow_dispatch:
 
 jobs:
   fetch:
@@ -14,34 +14,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Download iCal (amb reintents)
-        id: download
-        run: |
-          mkdir -p static/data
-          success=false
-          for attempt in 1 2 3; do
-            echo "Intent $attempt/3..."
-            if curl -L --fail --silent --show-error --max-time 30 \
-              "https://calendar.google.com/calendar/ical/7713a217c6e9631a76ac934719903101dbbc9550c23cfb6dc082c9114d8bf981%40group.calendar.google.com/public/basic.ics" \
-              -o static/data/concerts.txt; then
-              echo "Descàrrega exitosa a l'intent $attempt"
-              success=true
-              break
-            else
-              echo "Intent $attempt fallat, esperant 10s..."
-              sleep 10
-            fi
-          done
-          if [ "$success" != "true" ]; then
-            echo "Tots els intents han fallat"
-            exit 1
-          fi
-          echo "Fitxer descarregat:"
-          wc -l static/data/concerts.txt
+      - name: Setup Python
+        uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38 # v5
+        with:
+          python-version: '3.12'
 
-      - name: Genera Schema.org MusicEvent
-        run: |
-          python3 scripts/process-concerts.py static/data/concerts.txt data/concerts-schema.json https://ivankovacevic.com
+      - name: Install dependencies
+        run: pip install -q -r requirements.txt
+
+      - name: Sync agenda (multi-font via data/sources.yaml)
+        run: python3 scripts/sync-agenda.py
 
       - name: Commit if changed
         run: |
@@ -49,7 +31,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add static/data/concerts.txt data/concerts-schema.json
           git diff --staged --quiet || {
-            git commit -m "chore: actualitzar concerts.ics i schema"
+            git commit -m "chore: actualitzar agenda i schema [skip ci]"
             git pull --rebase origin main
             git push
           }
@@ -57,10 +39,10 @@ jobs:
       - name: Notify on failure
         if: failure()
         run: |
-          echo "::error::Fetch concerts iCal failed after 3 attempts"
+          echo "::error::Fetch concerts iCal failed"
           gh issue create \
-            --title "🚨 Fetch concerts iCal failed after 3 retries" \
-            --body "The scheduled workflow to fetch concerts from Google Calendar has failed after 3 retry attempts.\n\n**Workflow run:** ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}\n\nPlease check the workflow logs and manually trigger the workflow if needed." \
+            --title "Fetch concerts iCal failed" \
+            --body "The scheduled workflow to sync the agenda has failed.\n\n**Run:** ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
             --label "bug,automation" || true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

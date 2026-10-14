@@ -2,43 +2,55 @@
 
 Backlog viu. Estat a 2026-10-14.
 
+## Fet recentment
+- [x] Repositori GitHub `112books/ivankovacevic.com` creat + push inicial.
+- [x] `pages.yml` (GitHub Pages, staging) + Pages activat. Staging: https://112books.github.io/ivankovacevic.com/
+- [x] Disseny C (folk fosc) aplicat: fonts locals (Oswald + Source Serif 4), paleta terracota/fosc càlid, animacions reveal + marquee.
+- [x] Pàgines legals EN/CA/SR (avis, privacitat, cookies). ES ja existia.
+- [x] i18n SR complet (56 claus).
+- [x] Infraestructura d'agregació multi-font: `data/sources.yaml` + `scripts/sync-agenda.py`,
+      `scripts/sync-videos.py`, `scripts/sync-news.py`. Workflows `fetch-concerts`,
+      `fetch-videos`, `fetch-news` (nou) llegeixen la configuració.
+
+## Automatització de contingut (model aprovat)
+Font de veritat única: **`data/sources.yaml`**. Afegir un projecte = afegir una entrada.
+
+- **Agenda (`gigs`)**: llista de calendars iCal (Google Calendar públic `.ics`) de cada
+  projecte on toca. El workflow nocturn els fusiona en un sol VCALENDAR
+  (`static/data/concerts.txt` per al JS) i en `data/concerts-schema.json` (JSON-LD).
+  Cada event porta el nom del projecte com a artista.
+- **Vídeos (`videos`)**: llista de canals de YouTube (projectes + propi). `sync-videos.py`
+  baixa amb yt-dlp, etiqueta cada vídeo amb el canal d'origen i fusiona.
+- **Notícies (`news`)**: llista de feeds RSS/Atom (Google Alerts, blogs de projectes, premsa).
+  `sync-news.py` agrega mencions a `static/data/news.json`.
+- **Fotografies**: **selecció manual** (decisió de Joan). No s'automatitza.
+
+### Cal omplir `data/sources.yaml` amb:
+- [ ] Llista de **projectes** d'Ivan i, per a cadascun: calendari iCal, canal de YouTube, RSS/xarxes.
+- [ ] **Google Alerts** per «Ivan Kovačević» i variants → RSS.
+- [ ] Confirmar si hi ha xarxes pròpies (Instagram/Facebook) a agregar.
+
 ## Tasques manuals (Joan)
-- [ ] **Google Calendar** "Ivan Kovačević – Gigs" (compte Joan/LinuxBCN), públic, iCal `.ics`.
-      Compartir amb Ivan. Actualitzar `fetch-concerts.yml` (millor via `vars.CALENDAR_ICS_URL`).
-- [ ] **YouTube**: confirmar canal propi (`UCG-CSJzP_90xHVhaDQj6PvA`) o crear llista de
-      reproducció pública. Actualitzar `fetch-videos.yml` si cal.
-- [ ] **Google Fotos**: àlbums compartits i omplir `data/galleries.yaml`.
 - [ ] **GoatCounter**: crear `ivankovacevic.goatcounter.com` + token API.
 - [ ] **GitHub**: afegir Ivan com a col·laborador (`write`) i donar-li accés al CMS.
+- [ ] **Google Fotos**: àlbums compartits per a la selecció de fotografies.
 - [ ] **Producció**: host, usuari SSH i docroot del servidor de LinuxBCN.
 
 ## Contingut pendent
-- [ ] **Traduccions CA i SR** dels projectes, notícies, discografia i textos legals.
-      Actualment CA/SR només tenen esquelet de seccions + biografia.
+- [ ] **Traduccions CA i SR** dels projectes, notícies i discografia (seccions + biografia fetes).
 - [ ] **SR**: revisió per part de l'Ivan abans de publicar (marcar `draft: false`).
-- [ ] **Pàgines legals**: crear EN/CA/SR (ara només ES). El peu enllaça a `/es/legal/`.
 - [ ] **Discografia**: dades reals (bandes, àlbums, any, portades). Actualment 1 disc de mostra.
-- [ ] **Projectes**: afegir `name`, `role`, `photo`, `description` a cada fitxa; netejar HTML cru del WP.
-- [ ] **Notícies**: EN buit; ES amb 1 entrada. Migrar/escriure la resta (D'Addario, Ruta 66...).
-- [ ] **Notícia D'Addario**: recuperar contingut de `/ivan-kovacevic-sobre-daddario/`.
-- [ ] `data/band.yaml`, `data/galleries.yaml`, `static/data/concerts.*`, `static/data/videos.json`
-      són encara placeholders de Bratia → substituir.
+- [ ] **Projectes**: afegir `name`, `role`, `photo`, `description` a cada fitxa.
+- [ ] **Notícies**: migrar/escriure contingut editorial (D'Addario, Ruta 66...).
 - [ ] Netejar imatges de Bratia restants a `static/images/` (gallery/, error/, contact/, sponsor/).
 
 ## Tècnic pendent
-- [ ] `pages.yml` (GitHub Pages, staging) + activar Pages al repo.
-- [ ] `build.yml`: revisar que validi el build.
-- [ ] Secció `/admin/` (dashboard GoatCounter) — recrear contingut de la secció admin.
+- [ ] Secció `/admin/` (dashboard GoatCounter) — recrear contingut.
 - [ ] `og:image` real (substituir `images/wp/foto-background.png`).
-- [ ] Revisió de disseny (identitat visual pròpia) — **requereix aprovació de Joan**.
-- [ ] Crisp: CSP `connect-src` encara apunta a l'OAuth `cms-oauth-bratia` (reutilitzat).
+- [ ] CSP `connect-src` encara apunta a l'OAuth `cms-oauth-bratia` (reutilitzat).
 - [ ] Redirects: completar amb la llista del `wp-sitemap.xml` antic.
+- [ ] Etiqueta de canal per vídeo a les targetes de `videos/list.html` (dades ja hi són).
 
 ## Decisions obertes
-- Disseny: paleta tipografia i animacions (direcció: balcànic + jazz elegant fosc).
 - Àmbit d'edició de l'Ivan al CMS (ES/EN; CA/SR per traducció?).
-
-## Disseny C (folk fosc)
-- Implementar opció C: `static/css/styles.css` (variables, tipografies Oswald + Source Serif 4, colors terracota, paleta fosca càlida). Afegir fonts a head.
-- Afegir transicions i animacions (reveal, hover botons, marquee de gires opcional a hero).
-- Actualitzar marques (logotip, favicons si cal) sense trencar.
+- Nom del projecte a `data/sources.yaml` per a Bratia → confirmar nomenclatura.

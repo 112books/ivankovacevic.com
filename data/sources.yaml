@@ -1,0 +1,30 @@
+# Fonts automatitzades d'Ivan Kovačević.
+#
+# Els workflows nocturns llegeixen aquest fitxer i agreguen:
+#   - gigs   : calendaris iCal (Google Calendar, etc.) de cada projecte
+#   - videos : canals de YouTube dels projectes i propis
+#   - news   : feeds RSS (Google Alerts, blogs, premsa) on apareix Ivan
+#
+# Afegir/treure entrades aquí és tot el que cal fer. No cal tocar codi.
+#   name : nom del projecte o font (es mostra com a artista/origen)
+#   ical : URL pública .ics del calendari
+#   channel : ID del canal de YouTube (UC...)
+#   rss  : URL del feed RSS/Atom
+
+gigs:
+  - name: "Bratia"
+    ical: "https://calendar.google.com/calendar/ical/7713a217c6e9631a76ac934719903101dbbc9550c23cfb6dc082c9114d8bf981%40group.calendar.google.com/public/basic.ics"
+  # - name: "Projecte 2"
+  #   ical: "https://exemple.cat/agenda.ics"
+
+videos:
+  - name: "Ivan Kovačević"
+    channel: "UCG-CSJzP_90xHVhaDQj6PvA"
+  # - name: "Projecte 2"
+  #   channel: "UCxxxxxxxxxxxxxxxxxxxxxx"
+
+news:
+  # - name: "Google Alerts: Ivan Kovačević"
+  #   rss: "https://www.google.com/alerts/feeds/00000000000000000000/0000000000000000000"
+  # - name: "Blog Projecte 2"
+  #   rss: "https://exemple.cat/feed.xml"
