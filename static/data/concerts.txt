@@ -10,14 +10,6 @@ DTEND:20261022T200000Z
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Can Met\, La Bisbal
-DTSTART:20261219T190000Z
-DTEND:20261219T210000Z
-LOCATION:Associació CAN MET\, Av. de les Voltes\, 10\, 17100 La Bisbal d'Empordà\, Girona\, España
-DESCRIPTION:Unirse con Google Meet: https://meet.google.com/cbh-epbt-qvp\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Bratia Rendez•Vous feat. Adrian Cunningham
 DTSTART:20261218T180000Z
 DTEND:20261218T203000Z
@@ -31,11 +23,17 @@ DTEND:20261017T200000Z
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bratia Extravaganza + JOC\, Teatre de Cerdanyola
-DTSTART:20261220T180000Z
-DTEND:20261220T200000Z
-LOCATION:Ateneu Cerdanyola\, Carrer de la Indústria\, 38\, 40\, 08290 Cerdanyola del Vallès\, Barcelona\, España
-DESCRIPTION:Bratia Extravaganza feat. La Jove Orquestra de Cerdanyola (JOC)\n\nUnirse con Google Meet: https://meet.google.com/egp-tzqf-erb\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
+SUMMARY:Novosadašnji Jazz Club\, Novi Sad\, Serbia
+DTSTART:20261018T180000Z
+DTEND:20261018T200000Z
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Can Met\, La Bisbal
+DTSTART:20261219T190000Z
+DTEND:20261219T210000Z
+LOCATION:Associació CAN MET\, Av. de les Voltes\, 10\, 17100 La Bisbal d'Empordà\, Girona\, España
+DESCRIPTION:Unirse con Google Meet: https://meet.google.com/cbh-epbt-qvp\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
@@ -46,6 +44,20 @@ LOCATION:CaixaForum Zaragoza\, Av. de José Anselmo Clavé\, 4\, Delicias\, 5000
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Bratia Extravaganza + JOC\, Teatre de Cerdanyola
+DTSTART:20261220T180000Z
+DTEND:20261220T200000Z
+LOCATION:Ateneu Cerdanyola\, Carrer de la Indústria\, 38\, 40\, 08290 Cerdanyola del Vallès\, Barcelona\, España
+DESCRIPTION:Bratia Extravaganza feat. La Jove Orquestra de Cerdanyola (JOC)\n\nUnirse con Google Meet: https://meet.google.com/egp-tzqf-erb\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dom Kulture\, Užice\, Serbia
+DTSTART:20261023T180000Z
+DTEND:20261023T200000Z
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bluz i Pivo\, Belgrado\, Serbia
 DTSTART:20261021T183000Z
 DTEND:20261021T203000Z
@@ -53,21 +65,9 @@ LOCATION:Bluz i Pivo\, Cetinjska 15\, Beograd 11000\, Serbia
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Novosadašnji Jazz Club\, Novi Sad\, Serbia
-DTSTART:20261018T180000Z
-DTEND:20261018T200000Z
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Teatro Alartis\, Valdeolmos\, España
 DTSTART:20261107T190000Z
 DTEND:20261107T210000Z
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Dom Kulture\, Užice\, Serbia
-DTSTART:20261023T180000Z
-DTEND:20261023T200000Z
 X-PERFORMER:Bratia
 END:VEVENT
 END:VCALENDAR
