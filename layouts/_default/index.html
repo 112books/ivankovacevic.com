@@ -13,8 +13,11 @@
     </div>
 
     <div class="hero-content">
-      <p class="hero-eyebrow">{{ .Site.Params.tagline }}</p>
-      <p class="hero-slogan">{{ i18n "slogan" }}</p>
+      <p class="hero-eyebrow reveal">{{ .Site.Params.tagline }}</p>
+      <p class="hero-slogan reveal" style="animation-delay:.1s">{{ i18n "slogan" }}</p>
+    </div>
+    <div class="marquee reveal" style="animation-delay:.25s;max-width:72vw;margin-top:2rem">
+      <div class="marquee__track">· {{ i18n "slogan" }} · {{ i18n "slogan" }} · {{ i18n "slogan" }} · {{ i18n "slogan" }} ·</div>
     </div>
   </div>
 </div>

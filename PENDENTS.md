@@ -37,3 +37,8 @@ Backlog viu. Estat a 2026-10-14.
 ## Decisions obertes
 - Disseny: paleta tipografia i animacions (direcció: balcànic + jazz elegant fosc).
 - Àmbit d'edició de l'Ivan al CMS (ES/EN; CA/SR per traducció?).
+
+## Disseny C (folk fosc)
+- Implementar opció C: `static/css/styles.css` (variables, tipografies Oswald + Source Serif 4, colors terracota, paleta fosca càlida). Afegir fonts a head.
+- Afegir transicions i animacions (reveal, hover botons, marquee de gires opcional a hero).
+- Actualitzar marques (logotip, favicons si cal) sense trencar.

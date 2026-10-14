@@ -29,19 +29,25 @@
 
 
 :root {
-  --c-dark:        #0e0d0b;
-  --c-dark-2:      #1a1814;
-  --c-mid:         #2e2b26;
-  --c-gold:        #c8a84b;
-  --c-gold-light:  #e2c97e;
-  --c-red:         #b83030;
-  --c-light:       #f5f1ea;
-  --c-white:       #ffffff;
-  --c-text:        #2c2a27;
-  --c-text-muted:  #5c5652;
+  --c-bg: #0d0a08;
+  --c-surface: #14100d;
+  --c-border: #3f2d1f66;
+  --c-accent: #c4552e;
+  --c-accent-2: #e8a06a;
+  --c-ink: #f0e6d2;
+  --c-ink-soft: #d8cbb2;
+  --c-muted: #b9a88d;
+  --c-dark: var(--c-bg);
+  --c-gold: var(--c-accent);
+  --c-gold-light: var(--c-accent-2);
+  --c-light: var(--c-ink);
+  --c-white: #ffffff;
+  --c-text: var(--c-ink);
+  --c-text-muted: var(--c-muted);
+  --c-red: #b84526;
 
-  --f-display: 'Playfair Display', Georgia, serif;
-  --f-body:    'DM Sans', system-ui, sans-serif;
+  --f-display: 'Oswald', 'Impact', system-ui, sans-serif;
+  --f-body:    'Source Serif 4', Georgia, serif;
 
   --max-w:        1160px;
   --header-top-h:  88px;
@@ -368,8 +374,8 @@ a   { color: inherit; }
 
 /* ── 7. SECCIONS GENÈRIQUES ──────────────────────────────── */
 .section      { padding: var(--section-v) var(--gap); }
-.section--dark   { background: var(--c-dark-2); color: var(--c-light); }
-.section--accent { background: var(--c-mid);    color: var(--c-light); }
+.section--dark   { background: var(--c-dark-2); color: var(--c-ink); }
+.section--accent { background: var(--c-mid);    color: var(--c-ink); }
 .section-inner   { max-width: var(--max-w); margin: 0 auto; }
 
 .section-title {
@@ -471,7 +477,7 @@ a   { color: inherit; }
   background:
     linear-gradient(rgba(0,0,0,0.82), rgba(0,0,0,0.90)),
     var(--concerts-bg, none) center center / cover no-repeat;
-  color: var(--c-light);
+  color: var(--c-ink);
 }
 .concerts-section .section-title { color: var(--c-gold); font-size: clamp(2rem, 5vw, 3.2rem); }
 .concerts-section .section-title::after { background: var(--c-gold); }
@@ -514,13 +520,13 @@ a   { color: inherit; }
 }
 
 .cal-nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
-.cal-month-label { font-size: 0.9rem; font-weight: 600; text-transform: capitalize; letter-spacing: 0.05em; color: var(--c-light); }
+.cal-month-label { font-size: 0.9rem; font-weight: 600; text-transform: capitalize; letter-spacing: 0.05em; color: var(--c-ink); }
 .cal-prev, .cal-next { background: none; border: none; color: var(--c-gold); cursor: pointer; font-size: 1.1rem; padding: 4px 10px; transition: opacity 0.2s; line-height: 1; }
 .cal-prev:hover, .cal-next:hover { opacity: 0.6; }
 .cal-grid-header, .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
 .cal-grid-header { margin-bottom: 4px; }
 .cal-grid-header span { text-align: center; font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; color: rgba(255,255,255,0.7); padding: 2px 0; }
-.cal-cell { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; font-size: 0.78rem; border-radius: 50%; color: var(--c-light); cursor: default; transition: background 0.15s; }
+.cal-cell { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; font-size: 0.78rem; border-radius: 50%; color: var(--c-ink); cursor: default; transition: background 0.15s; }
 .cal-cell--empty { opacity: 0; pointer-events: none; }
 .cal-cell--today { outline: 1px solid rgba(255,255,255,0.4); outline-offset: -2px; }
 .cal-cell--event { background: var(--c-gold); color: #000; font-weight: 700; cursor: pointer; }
@@ -533,7 +539,7 @@ a   { color: inherit; }
 .concert-li:hover { padding-left: 0.5rem; }
 .concert-li.is-active { padding-left: 0.5rem; border-left: 2px solid var(--c-gold); }
 .concert-li-date { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--c-gold); white-space: nowrap; flex-shrink: 0; }
-.concert-li-title { font-size: 0.95rem; font-weight: 600; color: var(--c-light); }
+.concert-li-title { font-size: 0.95rem; font-weight: 600; color: var(--c-ink); }
 .concert-li-location { font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 0.15rem; }
 .concert-li--past { opacity: 0.7; }
 .concert-li--past:hover { opacity: 0.9; }
@@ -541,7 +547,7 @@ a   { color: inherit; }
 .concert-detail { border: 1px solid rgba(255,255,255,0.12); border-radius: 4px; padding: 2rem; margin-bottom: 3rem; background: rgba(0,0,0,0.35); }
 .concert-detail[hidden] { display: none; }
 .concert-detail-date { font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; color: var(--c-gold); margin-bottom: .5rem; font-weight: 600; }
-.concert-detail-title { font-family: var(--f-display); font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 400; color: var(--c-light); margin: 0 0 1rem; }
+.concert-detail-title { font-family: var(--f-display); font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 400; color: var(--c-ink); margin: 0 0 1rem; }
 .concert-detail-location { font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem; }
 .concert-detail-desc { font-size: 0.88rem; color: rgba(255,255,255,0.6); line-height: 1.7; margin-bottom: 1.5rem; white-space: pre-line; }
 .concert-detail-link { display: inline-block; padding: 0.5em 1.5em; border: 1px solid var(--c-gold); color: var(--c-gold); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.06em; text-decoration: none; transition: background 0.2s, color 0.2s; }
@@ -606,7 +612,7 @@ a   { color: inherit; }
 /* ── 11. FOOTER ──────────────────────────────────────────── */
 footer {
   background: var(--c-dark);
-  color: var(--c-light);
+  color: var(--c-ink);
   padding: 3rem var(--gap) 1.5rem;
 }
 
@@ -708,8 +714,8 @@ footer {
 .back-link:hover { color: var(--c-gold); }
 button.back-link { background: none; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
 
-.page-wrap--dark { background: var(--c-dark-2); color: var(--c-light); }
-.page-wrap--dark .page-title { color: var(--c-light); }
+.page-wrap--dark { background: var(--c-dark-2); color: var(--c-ink); }
+.page-wrap--dark .page-title { color: var(--c-ink); }
 
 /* Discografia: portada del darrer disc com a fons subtil */
 .page-wrap--disc {
@@ -771,8 +777,8 @@ button.back-link { background: none; border: 0; padding: 0; cursor: pointer; fon
 .about-split { display: grid; grid-template-columns: 1fr 1fr; min-height: calc(100vh - var(--header-h)); gap: 0; }
 .about-split__image { position: sticky; top: var(--header-h); height: calc(100vh - var(--header-h)); overflow: hidden; }
 .about-split__image img { width: 100%; height: 100%; object-fit: cover; object-position: center top; filter: brightness(.85); }
-.about-split__content { padding: 5rem 4rem; background: var(--c-dark); color: var(--c-light); display: flex; flex-direction: column; justify-content: center; }
-.about-split__content .page-title { color: var(--c-light); font-size: clamp(2rem, 5vw, 3.2rem); }
+.about-split__content { padding: 5rem 4rem; background: var(--c-dark); color: var(--c-ink); display: flex; flex-direction: column; justify-content: center; }
+.about-split__content .page-title { color: var(--c-ink); font-size: clamp(2rem, 5vw, 3.2rem); }
 .about-split__content .prose { font-size: .9rem; line-height: 1.7; }
 .about-split__content .page-title::after { background: var(--c-gold); }
 
@@ -801,9 +807,9 @@ button.back-link { background: none; border: 0; padding: 0; cursor: pointer; fon
 .disc-platform__icon svg { width: 20px; height: 20px; }
 .disc-platform__icon:hover { color: var(--c-gold); transform: translateY(-2px); }
 
-.page-wrap--dark .disc-card__title { color: var(--c-light); }
+.page-wrap--dark .disc-card__title { color: var(--c-ink); }
 .page-wrap--dark .disc-card__year { color: rgba(255,255,255,.5); }
-.page-wrap--dark .disc-platform--main { color: var(--c-light); }
+.page-wrap--dark .disc-platform--main { color: var(--c-ink); }
 .page-wrap--dark .disc-platform__icon { color: rgba(255,255,255,.45); }
 
 @media (max-width: 768px) {
@@ -979,7 +985,7 @@ button.back-link { background: none; border: 0; padding: 0; cursor: pointer; fon
 
 .videos-player__embed { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 4px; background: #000; }
 .videos-player__embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
-.videos-player__title { font-family: var(--f-display); font-size: 1.1rem; color: var(--c-light); margin: 1rem 0 .25rem; }
+.videos-player__title { font-family: var(--f-display); font-size: 1.1rem; color: var(--c-ink); margin: 1rem 0 .25rem; }
 .videos-player__date { font-size: .75rem; color: rgba(255,255,255,.65); }
 
 .videos-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0; max-height: 520px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.15) transparent; }
@@ -990,7 +996,7 @@ button.back-link { background: none; border: 0; padding: 0; cursor: pointer; fon
 .videos-item__thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .videos-item__play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: .7rem; color: #fff; background: rgba(0,0,0,.4); opacity: 0; transition: opacity .15s; }
 .videos-item:hover .videos-item__play { opacity: 1; }
-.videos-item__title { font-size: .78rem; font-weight: 500; color: var(--c-light); line-height: 1.4; margin: 0 0 .2rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.videos-item__title { font-size: .78rem; font-weight: 500; color: var(--c-ink); line-height: 1.4; margin: 0 0 .2rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .videos-item__date { font-size: .65rem; color: rgba(255,255,255,.65); margin: 0; }
 .videos-loading { list-style: none; padding: 1rem 0; }
 
@@ -1181,7 +1187,7 @@ button.back-link { background: none; border: 0; padding: 0; cursor: pointer; fon
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.15);
   border-radius: 4px;
-  color: var(--c-light);
+  color: var(--c-ink);
   font-family: var(--f-body);
   font-size: 1rem;
   transition: border-color 0.2s, background 0.2s;
@@ -1299,7 +1305,7 @@ button.back-link { background: none; border: 0; padding: 0; cursor: pointer; fon
   font-family: var(--f-display);
   font-size: 1.05rem;
   font-weight: 400;
-  color: var(--c-light);
+  color: var(--c-ink);
   transition: color 0.2s;
   margin: 0;
 }
