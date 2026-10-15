@@ -2,7 +2,7 @@
 
   <!-- Fila 1: logo + idiomes -->
   <div class="header-top">
-    <a href="{{ .Site.BaseURL }}" class="site-logo" aria-label="{{ .Site.Title }}">
+    <a href="{{ .Site.Home.RelPermalink }}" class="site-logo" aria-label="{{ .Site.Title }}">
       <img class="logo-full" src="{{ "images/logo.svg" | relURL }}" alt="{{ .Site.Title }}" width="320" height="80">
     </a>
     {{ partial "lang-switcher.html" (dict "Site" .Site "Translations" .Translations "class" "lang-switcher--compact") }}
@@ -38,7 +38,7 @@
 <!-- Nav compacte (apareix en scroll) -->
 <nav class="nav-compact" id="nav-compact" aria-label="{{ i18n "nav_compact" | default "Navegació ràpida" }}" aria-hidden="true">
   <div class="nav-compact__logo">
-    <a href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Title }}">
+    <a href="{{ .Site.Home.RelPermalink }}" aria-label="{{ .Site.Title }}">
       <img src="{{ "images/logo.svg" | relURL }}" alt="" aria-hidden="true">
     </a>
   </div>
