@@ -23,7 +23,7 @@ Deo uspeha Los Mambo Jambo leži u njihovim energičnim nastupima uživo. Repert
 
 ### Linkovi:
 
-- **Zvanični vebsajt**: [losmambojambo.com](http://losmambojambo.com)
+- **Zvanični vebsajt**: [buenritmo.bigcartel.com/artist/los-mambo-jambo](https://buenritmo.bigcartel.com/artist/los-mambo-jambo)
 - **Facebook**: [facebook.com/pg/losmambojambo/about/](https://www.facebook.com/pg/losmambojambo/about/)
 - **Twitter**: [twitter.com/LosMamboJambo](https://twitter.com/LosMamboJambo)
 

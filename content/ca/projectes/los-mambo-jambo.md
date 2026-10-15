@@ -23,7 +23,7 @@ Part de l'èxit de Los Mambo Jambo rau en els seus enèrgics directes. El seu re
 
 ### Enllaços:
 
-- **Web Oficial**: [losmambojambo.com](http://losmambojambo.com)
+- **Web Oficial**: [buenritmo.bigcartel.com/artist/los-mambo-jambo](https://buenritmo.bigcartel.com/artist/los-mambo-jambo)
 - **Facebook**: [facebook.com/pg/losmambojambo/about/](https://www.facebook.com/pg/losmambojambo/about/)
 - **Twitter**: [twitter.com/LosMamboJambo](https://twitter.com/LosMamboJambo)
 
