@@ -33,6 +33,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Generate llms-full.txt
+        run: python3 scripts/generate-llms.py
+
       - name: Build
         run: |
           rm -rf public && hugo --minify --environment staging

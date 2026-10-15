@@ -18,9 +18,13 @@
 
 {{- $ogImage := "" -}}
 {{- if .Params.og_image -}}
-  {{- $ogImage = .Params.og_image | absURL -}}
+  {{- $ogImage = strings.TrimPrefix "/" .Params.og_image | absURL -}}
+{{- else if .Params.cover -}}
+  {{- $ogImage = strings.TrimPrefix "/" .Params.cover | absURL -}}
+{{- else if .Params.photo -}}
+  {{- $ogImage = strings.TrimPrefix "/" .Params.photo | absURL -}}
 {{- else if .Site.Params.og_image -}}
-  {{- $ogImage = .Site.Params.og_image | absURL -}}
+  {{- $ogImage = strings.TrimPrefix "/" .Site.Params.og_image | absURL -}}
 {{- end -}}
 
 {{- $locales := dict "ca" "ca_ES" "es" "es_ES" "en" "en_GB" "sr" "sr_Latn" -}}
@@ -39,7 +43,7 @@
 <meta property="og:site_name"   content="{{ .Site.Title }}">
 <meta property="og:locale"      content="{{ $locale }}">
 <meta property="og:description" content="{{ $description }}">
-{{ if $ogImage }}<meta property="og:image" content="{{ $ogImage }}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{{ $title }}">{{ end }}
+{{ if $ogImage }}<meta property="og:image" content="{{ $ogImage }}"><meta property="og:image:alt" content="{{ $title }}">{{ end }}
 
 {{/* og:locale:alternate per als idiomes alternatius */}}
 {{ range hugo.Sites }}

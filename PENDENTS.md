@@ -35,8 +35,11 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
   Apple Music verificats via API d'iTunes; JSON-LD `MusicGroup`/`MusicAlbum`.
 - **Vídeos**: dates reals de YouTube (105/105) i ordre global més nou→més vell (`videos.json`,
   `sync-videos.py`, `videos.js`).
-- **SEO/GEO**: `layouts/robots.txt` ampliat (bots d'IA permesos), `static/llms.txt` corregit i
-  redireccions 301 de l'antic WordPress ampliades a `static/.htaccess`. Pla a `PLA-SEO.md`.
+- **SEO/GEO**: `layouts/robots.txt` ampliat (bots d'IA permesos), `static/llms.txt` corregit,
+  `llms-full.txt` generat, `og:image` per pàgina, `<noscript>` a l'agenda i redireccions 301 de
+  l'antic WordPress (122 URLs) a `static/.htaccess`. Pla a `PLA-SEO.md`.
+- **Disseny (aprovat per Joan)**: fons de cerca (`search-bg.jpg`), banner a tot l'ample a projectes
+  (`projects-hero.jpg`) i fons atenuat a les pàgines legals (`legal-bg.jpg`).
 - **SEO**: el `SearchAction` de la home ara usa l'URL de cerca localitzat (cerca/buscar/pretraga).
 
 ## Pendent
@@ -64,33 +67,31 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 
 ### Tècnic
 - [ ] Secció `/admin/` (dashboard GoatCounter) — recrear contingut.
-- [ ] `og:image` real (substituir `images/wp/foto-background.png`).
+- [x] `og:image` per pàgina (portada/foto) i global `images/og-image.jpg` de reserva.
 - [ ] CSP `connect-src` encara apunta a l'OAuth `cms-oauth-bratia` (reutilitzat).
-- [ ] Redirects: completar amb la llista del `wp-sitemap.xml` antic.
+- [x] Redirects: inventari complet del sitemap Yoast (122 URLs) a `static/.htaccess`.
 - [ ] Etiqueta de canal per vídeo a les targetes de `videos/list.html`.
 - [ ] Renombrar workflow `fetch-concerts.yml` (ara «iCal» → «iCal + Bandsintown»).
 
 ### SEO
 > Pla complet (redireccions, GEO/IA, sitemaps) a `PLA-SEO.md`.
-- [ ] **Metes**: `title` i `meta description` únics i de longitud correcta per pàgina i idioma.
-- [ ] **Canonical + hreflang**: revisar canonical i `hreflang` (incloent `x-default`) a les 4 llengües.
-- [ ] **Open Graph / Twitter**: `og:image` real per pàgina (ara `images/wp/foto-background.png`);
-      `og:title`/`description`/`image`/`url` i `twitter:card`.
-- [ ] **Dades estructurades (JSON-LD)**: `Person` (Ivan), `MusicGroup` (bandes), `MusicAlbum`
-      (discografia), `MusicEvent` (agenda), `Organization`, `WebSite`+`SearchAction`.
-- [ ] **Redirects**: completar la llista del `wp-sitemap.xml` antic (301 → noves rutes per idioma).
-- [ ] **Sitemap**: dividir/actualitzar i enviar a Google Search Console + Bing; vigilar `noindex`.
-- [ ] **RSS/feed**: decidir si cal (ara no hi ha news).
+- [x] **Metes**: `description` única a discografia (49), projectes (9) i legals (3) × 4 idiomes.
+- [x] **Canonical + hreflang**: canonical, hreflang recíproc i `x-default` (EN) a les 4 llengües.
+- [x] **Open Graph / Twitter**: `og:image` per pàgina (portada/foto; global de reserva) + OG/Twitter.
+- [x] **Dades estructurades (JSON-LD)**: `Person`, `MusicGroup`, `MusicAlbum`, `MusicEvent`,
+      `BreadcrumbList`, `WebSite`+`SearchAction`.
+- [x] **Redirects**: 301 de l'inventari complet del sitemap Yoast (122 URLs) a `.htaccess`.
+- [ ] **Sitemap**: enviar a Google Search Console + Bing (requereix accés de Joan).
+- [ ] **RSS/feed**: decidit no fer-ne (no hi ha notícies).
 
 ### SEO per IA (GEO)
-- [ ] **`llms.txt`** (i opcionalment `llms-full.txt`) amb resum del lloc i enllaços clau.
-- [ ] **Política per a bots d'IA** a `robots.txt`: permetre/bloquejar explícitament
-      (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot…).
-- [ ] **Entitats clares**: JSON-LD coherent Ivan ↔ bandes ↔ discos ↔ concerts (desambiguació).
-- [ ] **Contingut citable**: resum biogràfic, fitxes de disc amb any/formats i dades en text
-      (no només imatge), perquè siguin fàcilment extractables.
-- [ ] **Renderitzat sense JS**: comprovar que les pàgines clau tinguin contingut en HTML
-      (agenda i discografia carreguen via JS; valorar `noscript`/SSR parcial).
+- [x] **`llms.txt`** + **`llms-full.txt`** (generat amb `scripts/generate-llms.py`, enganxat a
+      `pages.yml` i `sync-web.sh`).
+- [x] **Política per a bots d'IA** a `layouts/robots.txt` (GPTBot, ClaudeBot, PerplexityBot,
+      Google-Extended, CCBot… permesos; staging bloquejat).
+- [x] **Entitats clares**: JSON-LD coherent Ivan ↔ bandes ↔ discos ↔ concerts.
+- [x] **Contingut citable**: fitxes de disc amb any/tipus/enllaços en text + `llms-full.txt`.
+- [x] **Renderitzat sense JS**: `<noscript>` amb els propers concerts a l'agenda.
 
 ### Manual (Joan)
 - [ ] Host, usuari SSH i docroot de producció (LinuxBCN).

@@ -135,6 +135,9 @@ do_publish() {
     print_message "Netejant build anterior..."
     rm -rf ${BUILD_DIR}
 
+    print_message "Generant llms-full.txt..."
+    python3 scripts/generate-llms.py || print_warning "No s'ha pogut generar llms-full.txt"
+
     print_message "Build Hugo producció..."
     hugo --minify --environment production || exit 1
     cp ${BUILD_DIR}/en/404.html ${BUILD_DIR}/404.html
