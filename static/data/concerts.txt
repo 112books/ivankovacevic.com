@@ -4,9 +4,25 @@ PRODID:-//ivankovacevic.com//agenda//CA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Ivan Kovačević
 BEGIN:VEVENT
+SUMMARY:Bratia Extravaganza + JOC\, Teatre de Cerdanyola
+DTSTART:20261220T180000Z
+DTEND:20261220T200000Z
+LOCATION:Ateneu Cerdanyola\, Carrer de la Indústria\, 38\, 40\, 08290 Cerdanyola del Vallès\, Barcelona\, España
+DESCRIPTION:Bratia Extravaganza feat. La Jove Orquestra de Cerdanyola (JOC)\n\nJoin with Google Meet: https://meet.google.com/egp-tzqf-erb\n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282720
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:SKC\, Kragujevac\, Serbia
 DTSTART:20261022T180000Z
 DTEND:20261022T200000Z
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Can Met\, La Bisbal
+DTSTART:20261219T190000Z
+DTEND:20261219T210000Z
+LOCATION:Associació CAN MET\, Av. de les Voltes\, 10\, 17100 La Bisbal d'Empordà\, Girona\, España
+DESCRIPTION:Join with Google Meet: https://meet.google.com/cbh-epbt-qvp\n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282720
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
@@ -17,26 +33,6 @@ LOCATION:Jamboree Jazz & Dance Club\, Pl. Reial\, 17\, Ciutat Vella\, 08002Barce
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Scena Rogoz\, Varaždin\, Croacia
-DTSTART:20261017T180000Z
-DTEND:20261017T200000Z
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Novosadašnji Jazz Club\, Novi Sad\, Serbia
-DTSTART:20261018T180000Z
-DTEND:20261018T200000Z
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Can Met\, La Bisbal
-DTSTART:20261219T190000Z
-DTEND:20261219T210000Z
-LOCATION:Associació CAN MET\, Av. de les Voltes\, 10\, 17100 La Bisbal d'Empordà\, Girona\, España
-DESCRIPTION:Unirse con Google Meet: https://meet.google.com/cbh-epbt-qvp\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Caixa Forum Zaragoza
 DTSTART:20261108T190000Z
 DTEND:20261108T210000Z
@@ -44,11 +40,9 @@ LOCATION:CaixaForum Zaragoza\, Av. de José Anselmo Clavé\, 4\, Delicias\, 5000
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bratia Extravaganza + JOC\, Teatre de Cerdanyola
-DTSTART:20261220T180000Z
-DTEND:20261220T200000Z
-LOCATION:Ateneu Cerdanyola\, Carrer de la Indústria\, 38\, 40\, 08290 Cerdanyola del Vallès\, Barcelona\, España
-DESCRIPTION:Bratia Extravaganza feat. La Jove Orquestra de Cerdanyola (JOC)\n\nUnirse con Google Meet: https://meet.google.com/egp-tzqf-erb\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
+SUMMARY:Scena Rogoz\, Varaždin\, Croacia
+DTSTART:20261017T180000Z
+DTEND:20261017T200000Z
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
@@ -62,6 +56,12 @@ SUMMARY:Bluz i Pivo\, Belgrado\, Serbia
 DTSTART:20261021T183000Z
 DTEND:20261021T203000Z
 LOCATION:Bluz i Pivo\, Cetinjska 15\, Beograd 11000\, Serbia
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Novosadašnji Jazz Club\, Novi Sad\, Serbia
+DTSTART:20261018T180000Z
+DTEND:20261018T200000Z
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
