@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T12:33:26Z",
-  "generated": "2026-10-15T12:33:26Z",
+  "generated_at": "2026-10-15T15:06:56Z",
+  "generated": "2026-10-15T15:06:56Z",
   "period": {
     "start": "2026-09-15",
     "end": "2026-10-15"
@@ -12,6 +12,32 @@
   "hits": [],
   "browsers": [],
   "systems": [],
-  "sizes": [],
+  "sizes": [
+    {
+      "id": "phone",
+      "name": "phone",
+      "count": 0
+    },
+    {
+      "id": "tablet",
+      "name": "tablet",
+      "count": 0
+    },
+    {
+      "id": "desktop",
+      "name": "desktop",
+      "count": 0
+    },
+    {
+      "id": "desktophd",
+      "name": "desktophd",
+      "count": 0
+    },
+    {
+      "id": "unknown",
+      "name": "unknown",
+      "count": 0
+    }
+  ],
   "locations": []
 }
