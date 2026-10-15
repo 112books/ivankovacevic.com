@@ -156,6 +156,9 @@ do_publish() {
 
     if [ $RESULT -eq 0 ] || [ $RESULT -eq 23 ]; then
         print_success "Web publicada a https://ivankovacevic.com"
+
+        print_message "Notificant a IndexNow..."
+        python3 scripts/indexnow.py || print_warning "IndexNow ha fallat"
     else
         print_error "Error en la pujada. Comprova la connexió SSH."
         exit 1

@@ -2,7 +2,7 @@
 ErrorDocument 404 /404.html
 
 # ── Redireccions ──────────────────────────────────────────
-RedirectMatch 301 ^/admin/$ /en/admin/
+RedirectMatch 301 ^/admin/?$ /ca/admin/
 
 # ── Redireccions des de l'antic WordPress ─────────────────
 # ES (URLs antigues a l'arrel)
@@ -82,6 +82,7 @@ RedirectMatch 410 ^/xmlrpc\.php$
 RedirectMatch 410 ^/wp-json(/.*)?$
 RedirectMatch 410 ^/wp-cron\.php$
 RedirectMatch 410 ^/wp-includes(/.*)?$
+RedirectMatch 410 ^/wp-content(/.*)?$
 RedirectMatch 410 ^/author(/.*)?$
 
 # ── Seguretat: Headers HTTP ───────────────────────────────

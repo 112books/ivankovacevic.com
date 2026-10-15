@@ -40,6 +40,12 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
   l'antic WordPress (122 URLs) a `static/.htaccess`. Pla a `PLA-SEO.md`.
 - **Disseny (aprovat per Joan)**: fons de cerca (`search-bg.jpg`), banner a tot l'ample a projectes
   (`projects-hero.jpg`) i fons atenuat a les pàgines legals (`legal-bg.jpg`).
+- **Crèdits i panell**: fotos de Joan Linux (@pocallum) al peu (excepte signades i portades);
+  `/ca/admin/` i `/ca/admin/insights/` operatius; accés a CMS i estadístiques a `ACCES.md`.
+- **Seguretat**: auditoria de producció (`SEGURETAT.md`); restes WP (`wp-content`) eliminades i
+  bloquejades amb 410; IndexNow afegit al desplegament.
+- **PRODUCCIÓ migrada a Hugo** (2026-10-15): `./sync-web.sh publish` completat (86,5 MB, rsync);
+  301 antics verificats, `robots.txt`/`llms.txt`/`llms-full.txt`/`sitemap.xml` en línia.
 - **SEO**: el `SearchAction` de la home ara usa l'URL de cerca localitzat (cerca/buscar/pretraga).
 
 ## Pendent
@@ -94,7 +100,8 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 - [x] **Renderitzat sense JS**: `<noscript>` amb els propers concerts a l'agenda.
 
 ### Manual (Joan)
-- [ ] Host, usuari SSH i docroot de producció (LinuxBCN).
+- [x] Host, usuari SSH i docroot de producció (LinuxBCN) — migració feta el 2026-10-15.
+- [ ] Forçar 301 http -> https i canonicalitzar www -> sense www (cal panell de hosting).
 - [ ] Ruta de fotografies a Google Photos per a la selecció.
 
 ## Decisions obertes / a confirmar
