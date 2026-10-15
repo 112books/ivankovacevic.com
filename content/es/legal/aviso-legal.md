@@ -5,92 +5,58 @@ layout: "single"
 translationKey: "legal-notice"
 weight: 1
 ---
-## Identificación y Titularidad
+## Identificación y titularidad
 
-En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, el Titular expone sus datos identificativos:
+En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), el titular del sitio web expone sus datos identificativos:
 
-- **Titular:**  Ivan Kovacevic.
-- **NIF:** x3687997q
-- **Domicilio:**  Alegre de dalt 11, Barcelona - España.
-- **Correo electrónico:**  ivandoublebass@gmail.com
-- **Sitio Web:**  <https://ivankovacevic.com>
+- **Titular:** Ivan Kovačević
+- **NIF:** X3687997Q
+- **Domicilio:** Alegre de Dalt 11, Barcelona (España)
+- **Correo electrónico:** ivandoublebass@gmail.com
+- **Sitio web:** https://ivankovacevic.com
 
 ## Finalidad
 
-La finalidad del Sitio Web es: Promover actividad profesional.
+La finalidad de este sitio web es dar a conocer la actividad profesional y artística del titular: biografía, proyectos, discografía, conciertos, vídeos y fotografías, así como facilitar el contacto para contratación.
 
-## Condiciones de Uso
+## Condiciones de uso
 
-La utilización del Sitio Web le otorga la condición de Usuario, e implica la aceptación completa de todas las cláusulas y condiciones de uso incluidas en las páginas:
+El acceso y la navegación por el sitio web atribuyen la condición de usuario e implican la aceptación de este aviso legal, de la [política de privacidad](/es/legal/politica-privacidad/) y de la [política de cookies](/es/legal/politica-cookies/). Si no estuviera de acuerdo con ellas, absténgase de utilizar el sitio.
 
-- [Aviso Legal](https://ivankovacevic.com/aviso-legal/)
-- [Política de Privacidad](https://ivankovacevic.com/politica-de-privacidad/)
-- [Política de Cookies](https://ivankovacevic.com/politica-de-cookies/)
+El usuario se compromete a hacer un uso adecuado de los contenidos y a no emplearlos para actividades ilícitas o contrarias a la buena fe y al ordenamiento legal, ni de forma que puedan dañar, inutilizar, sobrecargar o deteriorar el sitio o impedir su normal utilización.
 
-Si no estuviera conforme con todas y cada una de estas cláusulas y condiciones absténgase de utilizar el Sitio Web.
+El acceso al sitio web no supone, en ningún caso, el inicio de una relación comercial con el titular.
 
-El acceso al Sitio Web no supone, en modo alguno, el inicio de una relación comercial con el Titular.
+## Enlaces a otros sitios web
 
-A través del Sitio Web, el Titular le facilita el acceso y la utilización de diversos contenidos que el Titular y/o sus colaboradores han publicado por medio de Internet.
-
-A tal efecto, está obligado y comprometido a NO utilizar cualquiera de los contenidos del Sitio Web con fines o efectos ilícitos, prohibidos en este Aviso Legal o por la legislación vigente, lesivos de los derechos e intereses de terceros, o que de cualquier forma puedan dañar, inutilizar, sobrecargar, deteriorar o impedir la normal utilización de los contenidos, los equipos informáticos o los documentos, archivos y toda clase de contenidos almacenados en cualquier equipo informático propios o contratados por el Titular, de otros usuarios o de cualquier usuario de Internet.
-
-El Titular se reserva el derecho de retirar todos aquellos comentarios que vulneren la legislación vigente, lesivos de los derechos o intereses de terceros, o que, a su juicio, no resulten adecuados para su publicación.
-
-El Titular no será responsable de las opiniones vertidas por los usuarios a través del sistema de comentarios, u otras herramientas de participación, conforme a lo previsto en la normativa de aplicación.
-
-## Medidas de seguridad
-
-Los datos personales que facilite al Titular pueden ser almacenados en bases de datos automatizadas o no, cuya titularidad corresponde en exclusiva al Titular, que asume todas las medidas de índole técnica, organizativa y de seguridad que garantizan la confidencialidad, integridad y calidad de la información contenida en las mismas de acuerdo con lo establecido en la normativa vigente en protección de datos.
-
-No obstante, debe ser consciente de que las medidas de seguridad de los sistemas informáticos en Internet no son enteramente fiables y que, por tanto el Titular no puede garantizar la inexistencia de virus u otros elementos que puedan producir alteraciones en los sistemas informáticos (software y hardware) del Usuario o en sus documentos electrónicos y ficheros contenidos en los mismos aunque el Titular pone todos los medios necesarios y toma las medidas de seguridad oportunas para evitar la presencia de estos elementos dañinos.
-
-## Tratamiento de Datos Personales
-
-Puede consultar toda la información relativa al tratamiento de datos personales que recoge el Titular en la página de [Política de Privacidad](https://ivankovacevic.com/politica-de-privacidad/).
-
-## Contenidos
-
-El Titular ha obtenido la información, el contenido multimedia y los materiales incluidos en el Sitio Web de fuentes que considera fiables, pero, si bien ha tomado todas las medidas razonables para asegurar que la información contenida es correcta, el Titular no garantiza que sea exacta, completa o actualizada. El Titular declina expresamente cualquier responsabilidad por error u omisión en la información contenida en las páginas del Sitio Web.
-
-Queda prohibido transmitir o enviar a través del Sitio Web cualquier contenido ilegal o ilícito, virus informáticos, o mensajes que, en general, afecten o violen derechos del Titular o de terceros.
-
-Los contenidos del Sitio Web tienen únicamente una finalidad informativa y bajo ninguna circunstancia deben usarse ni considerarse como oferta de venta, solicitud de una oferta de compra ni recomendación para realizar cualquier otra operación, salvo que así se indique expresamente.
-
-El Titular se reserva el derecho a modificar, suspender, cancelar o restringir el contenido del Sitio Web, los vínculos o la información obtenida a través del Sitio Web, sin necesidad de previo aviso.
-
-El Titular no es responsable de los daños y perjuicios que pudieran derivarse de la utilización de la información del Sitio Web.
-
-## Política de cookies
-
-Puede consultar toda la información relativa a la política de recogida y tratamiento de las cookies en la página de [Política de Cookies](https://ivankovacevic.com/politica-de-cookies/).
-
-## Enlaces a otros sitios Web
-
-El Titular puede proporcionarle acceso a sitios Web de terceros mediante enlaces con la finalidad exclusiva de informar sobre la existencia de otras fuentes de información en Internet en las que podrá ampliar los datos ofrecidos en el Sitio Web.
-
-Estos enlaces a otros sitios Web no suponen en ningún caso una sugerencia o recomendación para que usted visite las páginas web de destino, que están fuera del control del Titular, por lo que el Titular no es responsable del contenido de los sitios web vinculados ni del resultado que obtenga al seguir los enlaces. Asimismo, el Titular no responde de los links o enlaces ubicados en los sitios web vinculados a los que le proporciona acceso.
-
-El establecimiento del enlace no implica en ningún caso la existencia de relaciones entre el Titular y el propietario del sitio en el que se establezca el enlace, ni la aceptación o aprobación por parte del Titular de sus contenidos o servicios.
-
-Si accede a un sitio web externo desde un enlace que encuentre en el Sitio Web usted deberá leer la propia política de privacidad del otro sitio web que puede ser diferente de la de este sitio Web.
+El sitio puede incluir enlaces a páginas de terceros (redes sociales, plataformas musicales, medios de comunicación y webs de los proyectos). El titular no controla ni responde del contenido, las políticas o las prácticas de esos sitios; el acceso a ellos se realiza bajo la responsabilidad del usuario, que deberá consultar sus propias condiciones y políticas de privacidad.
 
 ## Propiedad intelectual e industrial
 
-Todos los derechos están reservados.
+Todos los derechos están reservados. Los textos, fotografías, logotipos, diseño y demás contenidos de este sitio web son titularidad del titular o se utilizan con autorización de sus autores, y están protegidos por la normativa de propiedad intelectual e industrial.
 
-Todo acceso a este Sitio Web está sujeto a las siguientes condiciones: la reproducción, almacenaje permanente y la difusión de los contenidos o cualquier otro uso que tenga finalidad pública o comercial queda expresamente prohibida sin el consentimiento previo expreso y por escrito del Titular.
+Queda prohibida su reproducción, distribución, comunicación pública, transformación o cualquier otro uso con finalidad pública o comercial sin la autorización previa y por escrito del titular, salvo en los casos permitidos por la ley.
+
+Las marcas, nombres comerciales y logotipos de terceros que puedan aparecer pertenecen a sus respectivos propietarios y se muestran únicamente a título informativo.
+
+## Protección de datos
+
+El tratamiento de los datos personales que el usuario pueda facilitar se rige por la [política de privacidad](/es/legal/politica-privacidad/).
+
+## Cookies
+
+El uso de cookies se describe en la [política de cookies](/es/legal/politica-cookies/).
 
 ## Limitación de responsabilidad
 
-El Titular declina cualquier responsabilidad en caso de que existan interrupciones o un mal funcionamiento de los Servicios o contenidos ofrecidos en Internet, cualquiera que sea su causa. Asimismo, el Titular no se hace responsable por caídas de la red, pérdidas de negocio a consecuencia de dichas caídas, suspensiones temporales de fluido eléctrico o cualquier otro tipo de daño indirecto que te pueda ser causado por causas ajenas a el Titular.
+El titular ha adoptado las medidas razonables para que la información del sitio sea correcta y esté actualizada, pero no garantiza que esté exenta de errores ni que el sitio esté siempre disponible o libre de elementos que puedan causar daños. El titular no será responsable de las interrupciones del servicio, de las caídas de red ni de los daños indirectos derivados del uso del sitio o de la información contenida en él.
 
-Antes de tomar decisiones y/o acciones con base a la información incluida en el Sitio Web, el Titular le recomienda comprobar y contrastar la información recibida con otras fuentes.
+El titular se reserva el derecho de modificar, suspender o cancelar, total o parcialmente y sin previo aviso, el contenido y los servicios del sitio web.
 
-## Jurisdicción
+## Legislación aplicable y jurisdicción
 
-Este Aviso Legal se rige íntegramente por la legislación española.
+Este aviso legal se rige por la legislación española. Para la resolución de cualquier controversia serán competentes los juzgados y tribunales que correspondan conforme a derecho.
 
 ## Contacto
 
-En caso de que usted tenga cualquier duda acerca de este Aviso Legal o quiera realizar cualquier comentario sobre el Sitio Web, puede enviar un mensaje de correo electrónico a la dirección: ivandoublebass@gmail.com
+Para cualquier duda o comentario sobre este aviso legal puede escribir a ivandoublebass@gmail.com.

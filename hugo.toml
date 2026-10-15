@@ -63,28 +63,22 @@ defaultContentLanguageInSubdir = true
   weight = 7
 
 [[languages.en.menu.main]]
-  name = "News"
-  url = "/en/news/"
-  identifier = "news"
-  weight = 8
-
-[[languages.en.menu.main]]
   name = "Press"
   url = "/en/press/"
   identifier = "press"
-  weight = 9
+  weight = 8
 
 [[languages.en.menu.main]]
   name = "Contact"
   url = "/en/contact/"
   identifier = "contact"
-  weight = 10
+  weight = 9
 
 [[languages.en.menu.main]]
   name = "Search"
   url = "/en/search/"
   identifier = "search"
-  weight = 11
+  weight = 10
 
 [languages.ca]
   contentDir = "content/ca"
@@ -139,28 +133,22 @@ defaultContentLanguageInSubdir = true
   weight = 7
 
 [[languages.ca.menu.main]]
-  name = "Notícies"
-  url = "/ca/noticies/"
-  identifier = "news"
-  weight = 8
-
-[[languages.ca.menu.main]]
   name = "Premsa"
   url = "/ca/premsa/"
   identifier = "press"
-  weight = 9
+  weight = 8
 
 [[languages.ca.menu.main]]
   name = "Contacte"
   url = "/ca/contacte/"
   identifier = "contact"
-  weight = 10
+  weight = 9
 
 [[languages.ca.menu.main]]
   name = "Cerca"
   url = "/ca/cerca/"
   identifier = "search"
-  weight = 11
+  weight = 10
 
 [languages.es]
   contentDir = "content/es"
@@ -215,28 +203,22 @@ defaultContentLanguageInSubdir = true
   weight = 7
 
 [[languages.es.menu.main]]
-  name = "Noticias"
-  url = "/es/noticias/"
-  identifier = "news"
-  weight = 8
-
-[[languages.es.menu.main]]
   name = "Prensa"
   url = "/es/prensa/"
   identifier = "press"
-  weight = 9
+  weight = 8
 
 [[languages.es.menu.main]]
   name = "Contacto"
   url = "/es/contacto/"
   identifier = "contact"
-  weight = 10
+  weight = 9
 
 [[languages.es.menu.main]]
   name = "Buscar"
   url = "/es/buscar/"
   identifier = "search"
-  weight = 11
+  weight = 10
 
 [languages.sr]
   contentDir = "content/sr"
@@ -291,28 +273,22 @@ defaultContentLanguageInSubdir = true
   weight = 7
 
 [[languages.sr.menu.main]]
-  name = "Vesti"
-  url = "/sr/vesti/"
-  identifier = "news"
-  weight = 8
-
-[[languages.sr.menu.main]]
   name = "Štampa"
   url = "/sr/stampa/"
   identifier = "press"
-  weight = 9
+  weight = 8
 
 [[languages.sr.menu.main]]
   name = "Kontakt"
   url = "/sr/kontakt/"
   identifier = "contact"
-  weight = 10
+  weight = 9
 
 [[languages.sr.menu.main]]
   name = "Pretraga"
   url = "/sr/pretraga/"
   identifier = "search"
-  weight = 11
+  weight = 10
 
 # ══════════════════════════════════════════════════════════════
 # PARÀMETRES GENERALS

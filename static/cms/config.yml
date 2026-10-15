@@ -128,37 +128,6 @@ collections:
       - { label: "Hidden", name: "hidden", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
-  # ─── Noticias / News ─────────────────────────────
-  - name: "news-es"
-    label: "Noticias (ES)"
-    label_singular: "Noticia"
-    folder: "content/es/noticias"
-    create: true
-    slug: "{{year}}-{{slug}}"
-    filter: { field: "headless", pattern: "^$" }
-    summary: "{{date}} — {{title}}"
-    fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Fecha", name: "date", widget: "datetime", required: true }
-      - { label: "Descripción", name: "description", widget: "string", required: false }
-      - { label: "Portada", name: "image", widget: "image", required: false }
-      - { label: "Cuerpo", name: "body", widget: "markdown" }
-
-  - name: "news-en"
-    label: "News (EN)"
-    label_singular: "News item"
-    folder: "content/en/news"
-    create: true
-    slug: "{{year}}-{{slug}}"
-    filter: { field: "headless", pattern: "^$" }
-    summary: "{{date}} — {{title}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime", required: true }
-      - { label: "Description", name: "description", widget: "string", required: false }
-      - { label: "Cover", name: "image", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-
   # ─── Discografía / Discography ───────────────────
   - name: "discography-es"
     label: "Discografía (ES)"
