@@ -1,6 +1,7 @@
 ---
 title: "Ivan Kovačević sobre D'Addario"
 translationKey: "daddario"
+noindex: true
 description: "La experiencia de Ivan Kovačević con las cuerdas de contrabajo D'Addario."
 ---
 

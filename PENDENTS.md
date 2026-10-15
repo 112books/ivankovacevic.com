@@ -11,7 +11,8 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
   premsa (4 idiomes), legal (4 idiomes, amb GoatCounter i tercers).
 - Pàgines legals reescrites; homepage arreglada (marquee eliminat, h1 sr-only, títol localitzat).
 - Mitjans WP conservats a `media-archive/wp-uploads/` (50 fitxers; **no publicats**).
-- **D'Addario**: pàgina pròpia als 4 idiomes + logo patrocinador al peu (entre menú Follow i llegals).
+- **D'Addario**: pàgina pròpia als 4 idiomes (**noindex**, fora del sitemap), sense enllaç al peu.
+  El bloc `params.sponsors` del peu queda desactivat per si torna a ser espònsor.
 - **Icones de navegació**: contacte → sobre; premsa → diari.
 - **Agenda**: afegit Bandsintown (Barcelona Big Blues Band, BGKO, Bratia). Bratia via Google iCal.
 - **Enllaços de plataforma per projecte**: `data/project-links.yaml` (Spotify/Apple/Bandcamp/YouTube/

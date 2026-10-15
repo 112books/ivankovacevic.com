@@ -323,11 +323,13 @@ google_calendar_ical = ""
   url  = "https://www.youtube.com/channel/UCG-CSJzP_90xHVhaDQj6PvA"
 
 # Patrocinadors / endorsaments (logo al peu, entre xarxes i text legal)
-[[params.sponsors]]
-  name     = "D'Addario"
-  page     = "daddario"
-  external = "https://www.daddario.com"
-  logo     = "images/sponsors/daddario.png"
+# Desactivat: la pàgina /daddario/ es manté (noindex) per si torna a ser espònsor,
+# però sense enllaç al peu. Per reactivar, descomentar aquest bloc.
+# [[params.sponsors]]
+#   name     = "D'Addario"
+#   page     = "daddario"
+#   external = "https://www.daddario.com"
+#   logo     = "images/sponsors/daddario.png"
 
 [params.analytics]
 goatcounter = "ivankovacevic"

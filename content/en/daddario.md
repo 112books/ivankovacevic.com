@@ -1,6 +1,7 @@
 ---
 title: "Ivan Kovačević on D'Addario"
 translationKey: "daddario"
+noindex: true
 description: "Ivan Kovačević's experience with D'Addario double bass strings."
 ---
 

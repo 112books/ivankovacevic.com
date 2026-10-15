@@ -14,19 +14,19 @@
       {{ end }}
     </div>
 
+    {{ with .Site.Params.sponsors }}
     <div class="footer-sponsor">
-      {{ if .Site.Params.sponsors }}
-        {{ range .Site.Params.sponsors }}
-          {{ $link := .external | default "#" }}
-          {{ with .page }}
-            {{ with site.GetPage (printf "/%s" .) }}{{ $link = .RelPermalink }}{{ end }}
-          {{ end }}
-          <a href="{{ $link }}"{{ if hasPrefix $link "http" }} target="_blank" rel="noopener"{{ end }} aria-label="{{ .name }}">
-            <img src="{{ .logo | relURL }}" alt="{{ .name }}" loading="lazy">
-          </a>
+      {{ range . }}
+        {{ $link := .external | default "#" }}
+        {{ with .page }}
+          {{ with site.GetPage (printf "/%s" .) }}{{ $link = .RelPermalink }}{{ end }}
         {{ end }}
+        <a href="{{ $link }}"{{ if hasPrefix $link "http" }} target="_blank" rel="noopener"{{ end }} aria-label="{{ .name }}">
+          <img src="{{ .logo | relURL }}" alt="{{ .name }}" loading="lazy">
+        </a>
       {{ end }}
     </div>
+    {{ end }}
 
     <div class="footer-legal">
       <ul class="legal-links">
