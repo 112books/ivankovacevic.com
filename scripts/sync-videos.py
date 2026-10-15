@@ -10,7 +10,14 @@ import json
 import re
 import subprocess
 import sys
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+
+UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
+)
 
 try:
     import yaml
@@ -75,6 +82,20 @@ def normalize(entry, channel_name):
         "embed": f"https://www.youtube.com/embed/{video_id}?rel=0&modestbranding=1",
         "channel": channel_name,
     }
+
+
+def fetch_upload_date(video_id):
+    """Data de publicació real de la pàgina del vídeo (yt-dlp --flat-playlist no la dóna)."""
+    try:
+        req = urllib.request.Request(
+            f"https://www.youtube.com/watch?v={video_id}",
+            headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"},
+        )
+        html = urllib.request.urlopen(req, timeout=25).read().decode("utf-8", "replace")
+        m = re.search(r'"uploadDate":"([^"]+)"', html)
+        return m.group(1)[:10] if m else ""
+    except Exception:
+        return ""
 
 
 FEATURED = Path(__file__).resolve().parent.parent / "data" / "videos-featured.yaml"
@@ -149,10 +170,18 @@ def main():
 
     feat_count = merge_featured(merged)
 
-    featured = [v for v in merged.values() if v.get("featured")]
-    rest = [v for v in merged.values() if not v.get("featured")]
-    rest.sort(key=lambda v: v.get("published", ""), reverse=True)
-    videos = featured + rest
+    videos = list(merged.values())
+
+    # Completa dates que yt-dlp no aporta (destacats i entrades antigues)
+    missing = [v for v in videos if not v.get("published")]
+    if missing:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            for v, date in zip(missing, pool.map(lambda x: fetch_upload_date(x["id"]), missing)):
+                if date:
+                    v["published"] = date
+
+    # Ordre global: més nou -> més vell (tots els projectes junts)
+    videos.sort(key=lambda v: (v.get("published") or "0000-00-00", v.get("title", "")), reverse=True)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(videos, ensure_ascii=False, indent=2), encoding="utf-8")
 

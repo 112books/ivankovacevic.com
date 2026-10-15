@@ -28,9 +28,15 @@
     .then(function(r) { return r.json(); })
     .then(function(videos) {
       if (!videos.length) return showError();
-      allVideos = videos;
-      renderFacade(videos[0]);
-      renderList(videos);
+      allVideos = videos.slice().sort(function(a, b) {
+        var da = a.published || '', db = b.published || '';
+        if (da === db) return 0;
+        if (!da) return 1;
+        if (!db) return -1;
+        return da < db ? 1 : -1;
+      });
+      renderFacade(allVideos[0]);
+      renderList(allVideos);
     })
     .catch(showError);
 
