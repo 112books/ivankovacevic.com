@@ -1,15 +1,18 @@
 ---
 title: "Biography"
+description: "The musical career of double bassist Ivan Kovačević: from Belgrade to Barcelona, Balkan music, jazz and rhythm & blues."
 type: "biography"
 layout: "single"
 translationKey: "biography"
-image: "/images/wp/foto-background.png"
+image: "/images/wp/misc/ivan-bio-1.jpg"
 ---
 
 **Ivan Kovačević** — *born 16 April 1977, Belgrade, Serbia.*
 
-Whether as director and creator of the [Barcelona Big Blues Band](https://www.barcelonabigbluesband.com/), as a member of [Los Mambo Jambo](https://losmambojambo.com), as part of the [Barcelona Gipsy balKan Orchestra](https://bgko.org) or the [Bernat Font](https://www.bernatfont.com) trio, Ivan Kovačević has made a near superhuman effort to be ubiquitous in all these projects without losing an ounce of integrity or energy.
+Serbian double bassist Ivan Kovačević is one of the leading musicians of the blues, jazz and rock'n'roll scene in Spain. Trained on the double bass at the jazz department of Belgrade's "Stanković" music school, in the late nineties he was part of the city's alternative and jazz scene, until in 2001 he settled in Barcelona — the city that has been his home and his artistic laboratory ever since.
 
-5 Spots is yet another example of his insatiable dedication to music without compromise or rest of any kind, and with the demands of maximum commitment and quality. Rather than "terrible", this is a truly formidable Ivan.
+Based in Barcelona for more than twenty years, he has played in renowned bands such as [Los Mambo Jambo](https://losmambojambo.com), The Nu Niles, Down Home, [Bernat Font Trio](https://www.bernatfont.com) and Lazy Jumpers, and has taken part in over fifty albums. His professional rise began with Los Mambo Jambo, and he went on to create and lead the [Barcelona Big Blues Band](https://www.barcelonabigbluesband.com/) — the largest rhythm & blues big band in Europe — as double bassist, director, arranger and producer.
 
-Based in Barcelona for more than twenty years, he has played in renowned bands such as Los Mambo Jambo, The Nu Niles, Down Home, Bernat Font Trio and Lazy Jumpers, and has taken part in over fifty albums. As one of the pillars of the Barcelona Gipsy balKan Orchestra he has toured more than thirty-five countries. He currently leads the Barcelona Big Blues Band — the largest rhythm & blues big band in Europe — as double bassist, director and arranger.
+He is one of the founding members of the [Barcelona Gipsy balKan Orchestra](https://bgko.org), whose reading of traditional Balkan and Eastern European music has turned it into an international benchmark of contemporary world music, with performances in more than thirty-five countries across Europe and the Americas.
+
+[Bratia](https://bratiamusic.com) — his Balkan gypsy jazz quintet and an international collective of five nationalities — springs from his desire to fuse the infinitely rich soundscape of the Balkans with the energy and precision of gypsy jazz. And 5 Spots is yet another expression of his insatiable dedication to music without concessions.

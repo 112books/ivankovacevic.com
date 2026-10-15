@@ -297,7 +297,7 @@ defaultContentLanguageInSubdir = true
 [params]
 description = "Official website of double bassist Ivan Kovačević."
 tagline     = "Double Bass · Balkan · Jazz · Rhythm & Blues"
-og_image    = "images/wp/foto-background.png"
+og_image    = "images/og-image.jpg"
 
 promo_enabled = false
 promo_text    = ""

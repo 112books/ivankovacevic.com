@@ -21,7 +21,7 @@ No longer with us is the clarinetist, Robindro Nikolic, co-founder of the old Ba
 
 ### Enlaces:
 
-- [Web Oficial](http://bgko.org/?page_id=2848)
+- [Web Oficial](https://bgko.org/?page_id=2848)
 - [Facebook](https://www.facebook.com/BarcelonaGipsybalKanOrchestra/)
 - [Youtube](https://www.youtube.com/watch?v=4wZ5kEc0Djc&index=1&list=PLS1YEJ4qdaI0w2s2qmlT0Ro1TdcP_c9cj)
 - [Twitter](https://twitter.com/bcngipsybalkan)

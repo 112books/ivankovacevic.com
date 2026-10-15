@@ -4,7 +4,7 @@
   {{ with index . 0 }}{{ $latestCover = .Params.cover }}{{ end }}
 {{ end }}
 <div class="page-wrap page-wrap--dark page-wrap--disc"
-  {{ if $latestCover }}style="--disc-bg: url('{{ $latestCover | absURL }}')"{{ end }}>
+  {{ if $latestCover }}style="--disc-bg: url('{{ strings.TrimPrefix "/" $latestCover | relURL }}')"{{ end }}>
   <div class="page-inner">
     <h1 class="page-title">{{ .Title }}</h1>
 
@@ -15,7 +15,7 @@
           <!-- Portada -->
           <div class="disc-card__cover">
             {{ if .Params.cover }}
-              <img src="{{ .Params.cover | relURL }}" alt="{{ .Title }}">
+              <img src="{{ strings.TrimPrefix "/" .Params.cover | relURL }}" alt="{{ .Title }}">
             {{ end }}
             {{ if .Params.spotify_embed }}
             <div class="disc-card__player">

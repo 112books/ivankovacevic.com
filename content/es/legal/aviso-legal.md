@@ -2,6 +2,8 @@
 title: "Aviso legal"
 type: "legal"
 layout: "single"
+translationKey: "legal-notice"
+weight: 1
 ---
 ## Identificación y Titularidad
 

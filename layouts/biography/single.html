@@ -3,7 +3,7 @@
 
   {{ with .Params.image }}
   <div class="about-split__image">
-    <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+    <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}" loading="lazy">
   </div>
   {{ end }}
 

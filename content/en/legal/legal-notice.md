@@ -2,6 +2,8 @@
 title: "Legal notice"
 type: "legal"
 layout: "single"
+translationKey: "legal-notice"
+weight: 1
 ---
 ## Identification
 

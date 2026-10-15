@@ -26,13 +26,12 @@
 
     <div class="footer-legal">
       <ul class="legal-links">
-        {{/* Els textos legals existeixen de moment només en ES. */}}
-        {{ $legal := slice
-          (dict "url" "es/legal/aviso-legal"        "label" (i18n "legal_notice"))
-          (dict "url" "es/legal/politica-privacidad" "label" (i18n "privacy_policy"))
-          (dict "url" "es/legal/politica-cookies"   "label" (i18n "cookie_policy")) }}
-        {{ range $legal }}
-        <li><a href="{{ .url | relURL }}/">{{ .label }}</a></li>
+        {{ range (where site.RegularPages "Type" "legal").ByWeight }}
+          {{ $label := .Title }}
+          {{ if eq .Params.translationKey "legal-notice" }}{{ $label = i18n "legal_notice" | default .Title }}{{ end }}
+          {{ if eq .Params.translationKey "privacy-policy" }}{{ $label = i18n "privacy_policy" | default .Title }}{{ end }}
+          {{ if eq .Params.translationKey "cookies-policy" }}{{ $label = i18n "cookie_policy" | default .Title }}{{ end }}
+        <li><a href="{{ .RelPermalink }}">{{ $label }}</a></li>
         {{ end }}
       </ul>
     </div>

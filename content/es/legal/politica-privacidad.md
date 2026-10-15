@@ -2,6 +2,8 @@
 title: "Política de privacidad"
 type: "legal"
 layout: "single"
+translationKey: "privacy-policy"
+weight: 2
 ---
 El Titular le informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios que puedan ser recabados durante la navegación a través del Sitio Web: [https://ivankovacevic.com]()
 

@@ -137,6 +137,7 @@ do_publish() {
 
     print_message "Build Hugo producció..."
     hugo --minify --environment production || exit 1
+    cp ${BUILD_DIR}/en/404.html ${BUILD_DIR}/404.html
     do_pagefind production
 
     print_message "Enviant fitxers via rsync..."

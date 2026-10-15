@@ -34,7 +34,9 @@ jobs:
           node-version: '20'
 
       - name: Build
-        run: rm -rf public && hugo --minify --environment staging
+        run: |
+          rm -rf public && hugo --minify --environment staging
+          cp public/en/404.html public/404.html
 
       - name: Index with Pagefind
         run: npx --yes pagefind@1.5.2 --site public

@@ -5,32 +5,34 @@ translationKey: "los-mambo-jambo"
 weight: 5
 layout: "single"
 ---
-Los Mambo Jambo es la banda instrumental creadora del ‘Sonido Jambofónico’, una mezcla salvaje de rock&roll, rhythm&blues, surf y swing interpretada bajo una perspectiva contemporánea. Su estilo es producto de la conjura de sus cuatro componentes, figuras emblemáticas de la escena del rock&roll y el jazz en España: Dani Nel·lo (saxo), Dani Baraldés (guitarra), Ivan Kovacevic (contrabajo) y Anton Jarl (batería).
+![los-mambo-jambo](/images/wp/projects/jambologyOK3.jpg)
 
-El cuarteto nace a finales del 2009 en Barcelona. La música instrumental es un lenguaje universal y Los Mambo Jambo se unen con la vocación de lanzar una propuesta directa e intemporal, una invitación que conecte con cualquier persona en cualquier lugar del mundo. A día de hoy, Los Mambo Jambo tienen publicados tres álbumes y cuatro 7’’, uno de ellos en colaboración con el cantante estadounidense Barrence Withfield.
+Los Mambo Jambo is the instrumental band that created the 'Sonido Jambofónico', a wild blend of rock & roll, rhythm & blues, surf and swing performed from a contemporary perspective. Their style is the product of a conjuring by its four members, emblematic figures of the rock & roll and jazz scene in Spain: Dani Nel·lo (sax), Dani Baraldés (guitar), Ivan Kovacevic (double bass) and Anton Jarl (drums).
 
-Los Mambo Jambo han tenido desde el principio una vocación internacional. Han paseado su “Sonido Jambofónico” por los escenarios de toda Europa (Noruega, Alemania, UK, Italia, Holanda…) y por México, donde reciben una acogida especialmente calurosa. Su segundo disco “Impacto Inminente” (Isotónic Records) apareció publicado antes en México que en Europa. Y su tercer disco “Jambology”, tuvo una acogida impactante entre sus fans, la prensa y los medios, y en escenarios de España y toda Europa.
+The quartet was born in late 2009 in Barcelona. Instrumental music is a universal language and Los Mambo Jambo come together with the vocation of launching a direct and timeless proposition, an invitation that connects with anyone anywhere in the world. To date, Los Mambo Jambo have released three albums and four 7" singles, one of them in collaboration with American singer Barrence Withfield.
 
-Parte del éxito de Los Mambo Jambo reside en sus enérgicos directos. Su repertorio lo conforman temas concisos y muy intensos ejecutados con fe, precisión y entrega. En esencia, un directo de Los Mambo Jambo, es una comunión de energías entre la banda y el público.
+From the very beginning, Los Mambo Jambo have had an international vocation. They have taken their "Sonido Jambofónico" across stages all over Europe (Norway, Germany, UK, Italy, Holland…) and across Mexico, where they receive an especially warm reception. Their second album "Impacto Inminente" (Isotónic Records) was released in Mexico before Europe. And their third album "Jambology" had an impressive reception among their fans, the press and the media, and on stages across Spain and all of Europe.
 
-### Formación:
+Part of Los Mambo Jambo's success lies in their energetic live shows. Their repertoire consists of concise and highly intense pieces performed with faith, precision and commitment. In essence, a Los Mambo Jambo live show is a communion of energies between the band and the audience.
 
-- Dani Nel·lo: Saxofón
-- Ivan Kovacevic: Contrabajo
-- Anton Jarl: Batería
-- Dani Baraldés: guitarra
+### Lineup:
+
+- Dani Nel·lo: Saxophone
+- Ivan Kovacevic: Double bass
+- Anton Jarl: Drums
+- Dani Baraldés: guitar
 
 ### Links:
 
-- **Web Oficial**: [losmambojambo.com](http://losmambojambo.com)
-- **Facebook**: [facebook.com/pg/losmambojambo/about/](https://www.facebook.com/pg/losmambojambo/about/)
-- **Twitter**: [twitter.com/LosMamboJambo](https://twitter.com/LosMamboJambo)
+- **Official Website**: [losmambojambo.com](http://losmambojambo.com)
+- **Facebook**: [facebook.com/pg/losmambojambo/about/](https://www.facebook.com/pg/losmambojambo/about/)
+- **Twitter**: [twitter.com/LosMamboJambo](https://twitter.com/LosMamboJambo)
 
 <div style="width: 100%; padding-top: 64%; position: relative; border-bottom: 1px solid #aaa; display: inline-block; background: rgba(255,255,255,0.9);">
 
 <div style="position: absolute; bottom: 0; left: 0; font-family: arial,helvetica,sans-serif; font-size: 12px; line-height: 1.833; display: inline-block; padding: 5px 0 5px 10px;">
 
-<span style="float: left; margin-right: 10px;"> <img src="http://img.irtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVEes.png" style="height: 20px; width: auto; background: transparent; padding: 0; margin: 0;" decoding="async" /> </span> <a href="http://www.rtve.es/alacarta/videos/cachitos-de-hierro-y-cromo/cachitos-tu-cachito-entero-mambo-jambo-hombre-tierra/3713666/" style="color: #333; font-weight: bold;" title="Mambo Jambo - El hombre y la tierra"><strong>Mambo Jambo – El hombre y la tierra</strong></a>
+<span style="float: left; margin-right: 10px;"> <img src="https://img.irtve.es/css/rtve.commons/rtve.header.footer/i/logoRTVEes.png" style="height: 20px; width: auto; background: transparent; padding: 0; margin: 0;" decoding="async" /> </span> <a href="https://www.rtve.es/alacarta/videos/cachitos-de-hierro-y-cromo/cachitos-tu-cachito-entero-mambo-jambo-hombre-tierra/3713666/" style="color: #333; font-weight: bold;" title="Mambo Jambo - El hombre y la tierra"><strong>Mambo Jambo – El hombre y la tierra</strong></a>
 
 </div>
 

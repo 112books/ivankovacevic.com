@@ -5,13 +5,7 @@ translationKey: "bratia"
 weight: 1
 layout: "single"
 ---
-<div class="wp-block-image">
-
-<figure class="aligncenter size-large">
-<img src="/images/wp/BRATIA-LETTERS-WEB.png" class="wp-image-769" loading="lazy" decoding="async" width="500" height="309" />
-</figure>
-
-</div>
+![Bratia](/images/wp/BRATIA-LETTERS-WEB.png)
 
 Bratia, la banda Barcelonesa, nace de la necesidad del contrabajista serbio afincado en Barcelona, <a href="https://ivankovacevic.com/" target="_blank" rel="noreferrer noopener">Ivan Kovacevic</a>, de unir dos mundos musicales en una trepidante propuesta. El infinito mundo sonoro de los países balcánicos y la energía, sobriedad y  precisión del jazz manouche unificados por el nomadismo de la música gitana crea un cóctel explosivo que no deja a nadie indiferente…
 

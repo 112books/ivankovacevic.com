@@ -1,0 +1,16 @@
+---
+title: "Impacto Inminente (ediciones)"
+type: "discography"
+translationKey: "lmj-impacto-inminente-alt"
+weight: 35
+cover: "/images/wp/discography/06-mambojamboimpactoinminente-300x340.jpg"
+type_release: "album"
+year: 
+spotify: ""
+spotify_embed: ""
+apple_music: ""
+youtube: ""
+smartlink: ""
+---
+
+Los Mambo Jambo. Con Ivan Kovačević al contrabajo.

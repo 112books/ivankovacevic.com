@@ -2,6 +2,8 @@
 title: "Cookies policy"
 type: "legal"
 layout: "single"
+translationKey: "cookies-policy"
+weight: 3
 ---
 This website only uses strictly necessary technical cookies where applicable. Third-party services (if any) respect user privacy.
 

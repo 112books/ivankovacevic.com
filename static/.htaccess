@@ -45,6 +45,13 @@ RedirectMatch 301 ^/en/2018/05/0[79]/lazy-jumpers/?$                     /en/pro
 # Posts antics → notícies
 RedirectMatch 301 ^/2018/05/10/268x0w/?$ /es/noticias/
 
+# ── WordPress llegat: endpoints inexistents (410 Gone) ────
+RedirectMatch 410 ^/wp-admin(/.*)?$
+RedirectMatch 410 ^/wp-login\.php$
+RedirectMatch 410 ^/xmlrpc\.php$
+RedirectMatch 410 ^/wp-json(/.*)?$
+RedirectMatch 410 ^/wp-cron\.php$
+
 # ── Seguretat: Headers HTTP ───────────────────────────────
 <IfModule mod_headers.c>
     # HSTS: força HTTPS durant 1 any (preload per a la llista de navegadors)

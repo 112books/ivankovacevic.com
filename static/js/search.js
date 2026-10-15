@@ -25,6 +25,13 @@
       empty: 'Enter a term to search.',
       excerpt: 'Excerpt',
     },
+    sr: {
+      searching: 'Pretraga...',
+      results: (n) => n === 1 ? '1 rezultat' : `${n} rezultata`,
+      noResults: (q) => `Nema rezultata za "${q}"`,
+      empty: 'Unesi pojam za pretragu.',
+      excerpt: 'Izvod',
+    },
   };
 
   const t = I18N[lang] || I18N.ca;

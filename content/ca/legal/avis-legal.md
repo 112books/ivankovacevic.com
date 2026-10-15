@@ -2,6 +2,8 @@
 title: "Avís legal"
 type: "legal"
 layout: "single"
+translationKey: "legal-notice"
+weight: 1
 ---
 ## Identificació i titularitat
 

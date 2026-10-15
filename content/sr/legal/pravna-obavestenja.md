@@ -1,8 +1,11 @@
 ---
-title: "Pravni napomena"
+title: "Pravna obaveštenja"
 type: "legal"
 layout: "single"
+translationKey: "legal-notice"
+weight: 1
 ---
+
 ## Identifikacija
 
 - Vlasnik: Ivan Kovačević

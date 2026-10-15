@@ -4,3 +4,4 @@ enableGitInfo = false
 [params]
   noindex = true
   canonicalBaseURL = "https://ivankovacevic.com/"
+

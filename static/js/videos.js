@@ -12,7 +12,8 @@
   var I18N = {
     ca: { play: 'Reproduir vídeo', watch: 'Veure a YouTube', error: "No s'han pogut carregar els vídeos.", channel: 'Veure al canal de YouTube' },
     es: { play: 'Reproducir vídeo', watch: 'Ver en YouTube', error: 'No se han podido cargar los vídeos.', channel: 'Ver en el canal de YouTube' },
-    en: { play: 'Play video', watch: 'Watch on YouTube', error: 'Videos could not be loaded.', channel: 'Watch on YouTube channel' }
+    en: { play: 'Play video', watch: 'Watch on YouTube', error: 'Videos could not be loaded.', channel: 'Watch on YouTube channel' },
+    sr: { play: 'Pusti video', watch: 'Pogledaj na YouTube-u', error: 'Nije moguće učitati videozapise.', channel: 'Pogledaj kanal na YouTube-u' }
   };
   var t = I18N[lang] || I18N.ca;
 

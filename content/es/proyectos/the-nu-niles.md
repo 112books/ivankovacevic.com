@@ -5,6 +5,8 @@ translationKey: "the-nu-niles"
 weight: 8
 layout: "single"
 ---
+![the-nu-niles](/images/wp/projects/Nu-Niles-Nu-Niles.jpg)
+
 The Nu Niles se formaron en [1996](https://es.wikipedia.org/wiki/1996 "1996") y desde entonces no han dejado de hacer música. Empezaron su carrera como banda de [rockabilly](https://es.wikipedia.org/wiki/Rockabilly "Rockabilly") en su concepto más puro, cuando ese estilo parecía estar en contra de cualquier movimiento musical y posiblemente fuese el estilo más <a href="https://es.wikipedia.org/wiki/Underground" class="mw-redirect" title="Underground">underground</a> del momento. Actualmente el estilo de la banda contiene ingredientes de puro [rock and roll](https://es.wikipedia.org/wiki/Rock_and_roll "Rock and roll"), [rockabilly](https://es.wikipedia.org/wiki/Rockabilly "Rockabilly"), [surf](https://es.wikipedia.org/wiki/Surf "Surf"), [punk](https://es.wikipedia.org/wiki/Punk "Punk"), [ska](https://es.wikipedia.org/wiki/Ska "Ska"), tex-mex o spaguetti western consiguiendo un estilo propio y característico.
 
 El grupo está formado por Mario Cobo en la guitarra y la voz, Ivan Kovacevic al contrabajo y Blas Picón en la batería.

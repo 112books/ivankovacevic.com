@@ -5,18 +5,20 @@ translationKey: "lazy-jumpers"
 weight: 7
 layout: "single"
 ---
-Lazy Jumpers es un cuarteto residente en Barcelona de Blues y Rhythm&Blues reconocido internacionalment como una de les mejores bandes de Blues y Rhythm&Blues actuales. Avala su nombre, su discografía y experiencia en directo.
+![lazy-jumpers](/images/wp/projects/LAIZY-JUMPERS.jpg)
 
-- **Voz y harmónica** BLAS PICÓN
-- **Guitarra** MARIO COBO
-- **Batería** DAVID GARCIA
-- **Contrabajo** IVAN KOVACEVIC
+Lazy Jumpers is a Blues and Rhythm & Blues quartet based in Barcelona, internationally recognised as one of today's finest Blues and Rhythm & Blues bands. Its name is backed by its discography and live experience.
 
-### <span class="Estilo18">DISCOGRAFIA</span>
+- **Vocals and harmonica** BLAS PICÓN
+- **Guitar** MARIO COBO
+- **Drums** DAVID GARCIA
+- **Double bass** IVAN KOVACEVIC
 
-**1.»Comin’ On Like Gangbusters \| ***Discogràfica El Toro 2007\*
-**2.»Bad Luck, Turn my Back on You» El Toro R&B \| ***Discogràfica El Toro 2005***\
-3.Somebody tell that woman \| ***Discogràfica El Toro 2003*\
-**4.LITTLE RACHEL & THE LAZY JUMPERS – There’a anew miss rhythm in town \| ***Discogràfica El Toro 2006*
+### <span class="Estilo18">DISCOGRAPHY</span>
 
-### Discografía en [eltororecords.com](https://www.eltororecords.com/El-Toro-R-B/LAZY-JUMPERS-THE::50.html?language=es)
+**1.»Comin’ On Like Gangbusters \| ***El Toro Records 2007\*
+**2.»Bad Luck, Turn my Back on You» El Toro R&B \| ***El Toro Records 2005***\
+3.Somebody tell that woman \| ***El Toro Records 2003*\
+**4.LITTLE RACHEL & THE LAZY JUMPERS – There’a anew miss rhythm in town \| ***El Toro Records 2006*
+
+### Discography at [eltororecords.com](https://www.eltororecords.com/El-Toro-R-B/LAZY-JUMPERS-THE::50.html?language=es)

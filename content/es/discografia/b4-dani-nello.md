@@ -1,0 +1,16 @@
+---
+title: "Dani Nel·lo & Barcelona Big Blues Band"
+type: "discography"
+translationKey: "b4-dani-nello"
+weight: 16
+cover: "/images/wp/discography/Portada-Nel.lo_.jpg"
+type_release: "album"
+year: 
+spotify: ""
+spotify_embed: ""
+apple_music: ""
+youtube: ""
+smartlink: ""
+---
+
+Barcelona Big Blues Band. Con Ivan Kovačević al contrabajo.

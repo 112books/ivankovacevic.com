@@ -5,6 +5,8 @@ translationKey: "down-home"
 weight: 9
 layout: "single"
 ---
+![down-home](/images/wp/projects/shapeimage_1.jpg)
+
 ### Genero
 
 neo swing, crazy bluesin’, shaky rhythm, groovy boogie

@@ -5,7 +5,7 @@ translationKey: "5-spots"
 weight: 6
 layout: "single"
 ---
-<img src="/images/wp/Sofa.jpg" class="alignnone wp-image-258 size-full" loading="lazy" decoding="async" width="4296" height="1870" alt="5 spots - Al Milano Jazz Club" />Había un tiempo en que el Jazz escupía fuego por la boca, cargaba de humo la atmosfera y bailaba con el clink de los cubitos bañados en destilados que perfo­raban el hígado.
+![5 spots - Al Milano Jazz Club](/images/wp/Sofa.jpg)Había un tiempo en que el Jazz escupía fuego por la boca, cargaba de humo la atmosfera y bailaba con el clink de los cubitos bañados en destilados que perfo­raban el hígado.
 
 Más que música era un puñetazo al orden establecido, un anhelo de vida y libertad que se expresaba sin concesiones de ningún tipo.
 
@@ -19,7 +19,7 @@ Darle al play y esto ya no habrá quien lo pare.
 
 ### **Enlaces:**
 
-<img src="/images/wp/268x0w.jpg" class="alignnone wp-image-256" loading="lazy" decoding="async" width="151" height="151" /> <img src="/images/wp/5spots.png" class="alignnone wp-image-240" loading="lazy" decoding="async" width="150" height="150" alt="5 spots - Cava de Blues" />
+![5 Spots](/images/wp/268x0w.jpg) ![5 spots - Cava de Blues](/images/wp/5spots.png)
 
 [Ivan Kivacevic 5 Spots en iTunes](https://itunes.apple.com/es/artist/ivan-kovacevic-5-spots/1047592568)
 

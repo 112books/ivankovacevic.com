@@ -2,6 +2,8 @@
 title: "Política de cookies"
 type: "legal"
 layout: "single"
+translationKey: "cookies-policy"
+weight: 3
 ---
 ## ¿Qué son las cookies?
 
@@ -46,7 +48,7 @@ En los siguientes enlaces encontrará instrucciones para habilitar o deshabilita
 - <a href="https://support.google.com/chrome/answer/95647?hl=es" target="_blank" rel="noopener noreferrer nofollow">Google Chrome</a>
 - <a href="https://support.microsoft.com/es-es/help/17442/windows-internet-explorer-delete-manage-cookies#ie=%22ie-10" target="_blank" rel="noopener noreferrer nofollow">Internet Explorer</a>
 - <a href="https://support.microsoft.com/es-es/help/4468242/microsoft-edge-browsing-data-and-privacy" target="_blank" rel="noopener noreferrer nofollow">Microsoft Edge</a>
-- <a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES" target="_blank" rel="noopener noreferrer nofollow">Safari</a>
+- <a href="https://support.apple.com/kb/HT1677?viewlocale=es_ES" target="_blank" rel="noopener noreferrer nofollow">Safari</a>
 
 ## ¿Qué tipos de cookies se utilizan en esta página web?
 

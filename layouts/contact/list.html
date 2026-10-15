@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="contact-wrap" style="--contact-bg: url('{{ "images/wp/foto-background.png" | absURL }}')">
+<div class="contact-wrap" style="--contact-bg: url('{{ "images/wp/misc/contacto.jpg" | absURL }}')">
 
   <div class="contact-overlay">
     <div class="contact-inner">
@@ -9,19 +9,10 @@
         
         <!-- Text introductori des de data/contact.yaml -->
         <p class="contact-lead">
-          {{ $lang := .Lang }}
-          {{ if eq $lang "ca" }}
-            {{ with hugo.Data.contact.intro_ca }}
-              {{ . | markdownify }}
-            {{ end }}
-          {{ else if eq $lang "es" }}
-            {{ with hugo.Data.contact.intro_es }}
-              {{ . | markdownify }}
-            {{ end }}
+          {{ with index hugo.Data.contact (printf "intro_%s" .Lang) }}
+            {{ . | markdownify }}
           {{ else }}
-            {{ with hugo.Data.contact.intro_en }}
-              {{ . | markdownify }}
-            {{ end }}
+            {{ with hugo.Data.contact.intro_en }}{{ . | markdownify }}{{ end }}
           {{ end }}
         </p>
 
@@ -47,7 +38,8 @@
         <p class="contact-social-label">
           {{ if eq .Lang "ca" }}El dia a dia de la banda
           {{ else if eq .Lang "es" }}El día a día de la banda
-          {{ else }}The band's day to day
+          {{ else if eq .Lang "sr" }}Svakodnevni rad benda
+          {{ else }}The band's day-to-day
           {{ end }}
         </p>
 

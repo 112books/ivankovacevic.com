@@ -1,56 +1,49 @@
-slogan: Kontrabasista — balkanski ritam i klasični džez
-read_bio: Pročitaj biografiju
-upcoming_shows: Predstojeći koncerti
-sections: Sekcije
-latest_projects: Najnoviji projekti
-latest_news: Najnovosti
-all_news: Sve vesti
-more_projects: Više projekata
-view_all: Pogledaj sve
-read_more: Pročitaj više
-related_projects: Povezani projekti
-no_results: Nema rezultata
-videos_lead: Selektovan snimci uživo i studijski radovi.
-videos_cta: Pogledaj ceo kanal
-videos_cta_sub: Više snimaka na YouTube-u
-photos_lead: Izbor fotografija sa nastupa i sesija.
-view_on_google_photos: Pogledaj na Google Photos
-galleries_empty: Trenutno nema dostupnih galerija.
-press: Štampa
-discography: Diskografija
-next_shows: Predstojeći koncerti
-past_shows: Prošli koncerti
-subscribe_calendar: Prijavi se na kalendar
-rss_feed: RSS
-download_ics: Preuzmi .ics
-location: Mesto
-date: Datum
-time: Vreme
-tickets: Ulaznice
-buy_tickets: Kupi ulaznice
-more_info: Više informacija
-back: Nazad
-search: Pretraga
-search_placeholder: Pretraži...
-close: Zatvori
-legal: Pravno
-privacy: Privatnost
-cookies: Kolačići
-all_rights_reserved: Sva prava zadržana
-site_by: Sajt izradio
-contact: Kontakt
-get_in_touch: Kontaktiraj me
-email: Imejl
-phone: Telefon
-name: Ime
-message: Poruka
-send: Pošalji
-sent: Poslato!
-error: Greška. Pokušaj ponovo.
-required: Obavezno polje
-biography: Biografija
-projects: Projekti
-gigs: Koncerti
-videos: Video
-photos: Fotografije
-news: Vesti
+home: "Početna"
+biography: "Biografija"
+projects: "Projekti"
+discography: "Diskografija"
+gigs: "Koncerti"
+videos: "Video"
+photos: "Fotografije"
+news: "Vesti"
+media: "Mediji"
+booking: "Buking"
+merch: "Prodavnica"
+newsletter: "Newsletter"
+legal_notice: "Pravna obaveštenja"
+privacy_policy: "Politika privatnosti"
+cookie_policy: "Politika kolačića"
+cookie_settings: "Podešavanja kolačića"
+all_rights_reserved: "Sva prava zadržana"
+contact: "Kontakt"
+slogan: "Koreni, ritam i bas koji pokreće svet."
+follow_us: "Zaprati"
+skip_to_content: "Pređi na glavni sadržaj"
+nav_main: "Glavna navigacija"
+nav_compact: "Brza navigacija"
+nav_toggle: "Otvori meni"
+search_placeholder: "Pretraži koncerte, projekte, albume..."
+search_label: "Pretraži sajt Ivana Kovačevića"
+search_clear: "Obriši pretragu"
+search_nav: "Pretraga"
+cal_prev: "Prethodni mesec"
+cal_next: "Sledeći mesec"
+upcoming_concerts: "Predstojeći koncerti"
+past_concerts: "Prošli koncerti"
+loading: "Učitavanje..."
+sections: "Sekcije"
+back: "Nazad"
+cal_subscribe_ical: "Pretplati se (iCal)"
+cal_download_ics: "Preuzmi .ics"
+subscribe_calendar: "Pretplati se na kalendar"
+web_standards: "Web standardi"
+read_more: "Pročitaj više"
+related_projects: "Bendovi i projekti"
+latest_news: "Najnovije vesti"
+no_results: "Nema rezultata."
+videos_lead: "Muzika u pokretu. Koncerti, sesije i trenuci koji prikazuju rad Ivana Kovačevića."
+videos_cta: "Poseti kanal · YouTube"
+videos_cta_sub: "Pretplati se da ne propustiš nijedan novi video"
+photos_lead: "Uhvaćeni trenuci. Muzika na sceni i van nje."
+view_on_google_photos: "Pogledaj na Google Photos"
+galleries_empty: "Foto galerije uskoro."
