@@ -1,6 +1,7 @@
 ---
 title: "Drew Davies & Barcelona Big Blues Band"
 type: "discography"
+description: "Drew Davies & Barcelona Big Blues Band (2025, ep) — Barcelona Big Blues Band, con Ivan Kovačević al contrabajo."
 translationKey: "b4-drew-davies"
 weight: 12
 cover: "/images/wp/discography/07-drew.jpg"

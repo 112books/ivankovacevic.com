@@ -1,6 +1,7 @@
 ---
 title: "Ivan Kovačević 5 Spots"
 type: "projects"
+description: "There was a time when jazz was breathing fire, it smoked up the air and it danced to the clink of ice cubes soaked in distilled liver-piercing fluids."
 translationKey: "5-spots"
 weight: 6
 layout: "single"

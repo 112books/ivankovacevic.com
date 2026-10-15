@@ -1,6 +1,7 @@
 ---
 title: Nova Era
 type: discography
+description: "Nova Era (2020, album) — Barcelona Gipsy balKan Orchestra, with Ivan Kovačević on double bass."
 translationKey: bgko-nova-era
 weight: 26
 cover: /images/wp/discography/bgko-nova-era.jpg

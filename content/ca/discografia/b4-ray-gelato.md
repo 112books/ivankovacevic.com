@@ -1,6 +1,7 @@
 ---
 title: "Ray Gelato & Barcelona Big Blues Band"
 type: "discography"
+description: "Ray Gelato & Barcelona Big Blues Band (2025, ep) — Barcelona Big Blues Band, amb Ivan Kovačević al contrabaix."
 translationKey: "b4-ray-gelato"
 weight: 17
 cover: "/images/wp/discography/ray-gelato-portada.jpg"

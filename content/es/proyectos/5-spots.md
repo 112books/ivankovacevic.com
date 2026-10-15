@@ -1,6 +1,7 @@
 ---
 title: "Ivan Kovačević 5 Spots"
 type: "projects"
+description: "Había un tiempo en que el Jazz escupía fuego por la boca, cargaba de humo la atmosfera y bailaba con el clink de los cubitos bañados en destilados que…"
 translationKey: "5-spots"
 weight: 6
 layout: "single"

@@ -1,6 +1,7 @@
 ---
 title: "Impacto Inminente (ediciones)"
 type: "discography"
+description: "Impacto Inminente (ediciones) (2013, album) — Los Mambo Jambo, sa Ivan Kovačević na kontrabasu."
 translationKey: "lmj-impacto-inminente-alt"
 weight: 35
 cover: "/images/wp/discography/06-mambojamboimpactoinminente-300x340.jpg"

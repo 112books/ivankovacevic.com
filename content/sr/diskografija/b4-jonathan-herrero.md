@@ -1,6 +1,7 @@
 ---
 title: "B4 feat. Jonathan Herrero"
 type: "discography"
+description: "B4 feat. Jonathan Herrero (2025, ep) — Barcelona Big Blues Band, sa Ivan Kovačević na kontrabasu."
 translationKey: "b4-jonathan-herrero"
 weight: 15
 cover: "/images/wp/discography/caratula-b4-jonathan-herrero.jpg"

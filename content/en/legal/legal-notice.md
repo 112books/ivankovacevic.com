@@ -1,6 +1,7 @@
 ---
 title: "Legal notice"
 type: "legal"
+description: "Legal notice — Ivan Kovačević."
 layout: "single"
 translationKey: "legal-notice"
 weight: 1

@@ -1,6 +1,7 @@
 ---
 title: "Política de cookies"
 type: "legal"
+description: "Política de cookies — Ivan Kovačević."
 layout: "single"
 translationKey: "cookies-policy"
 weight: 3

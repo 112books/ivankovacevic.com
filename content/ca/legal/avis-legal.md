@@ -1,6 +1,7 @@
 ---
 title: "Avís legal"
 type: "legal"
+description: "Avís legal — Ivan Kovačević."
 layout: "single"
 translationKey: "legal-notice"
 weight: 1

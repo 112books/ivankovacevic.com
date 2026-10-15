@@ -1,6 +1,7 @@
 ---
 title: "Bratia"
 type: "projects"
+description: "Bratia, the Barcelona-based band, was born from the need of the Serbian double bassist settled in Barcelona, Ivan Kovacevic , to bring two musical worlds…"
 translationKey: "bratia"
 weight: 1
 layout: "single"

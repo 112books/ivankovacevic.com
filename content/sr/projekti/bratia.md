@@ -1,6 +1,7 @@
 ---
 title: "Bratia"
 type: "projects"
+description: "Bratia, barselonski bend, nastao je iz potrebe srpskog kontrabasiste koji živi u Barseloni, Ivan Kovačević , da spoji dva muzička sveta u uzbudljivu celinu."
 translationKey: "bratia"
 weight: 1
 layout: "single"

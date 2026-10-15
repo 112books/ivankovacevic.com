@@ -1,6 +1,7 @@
 ---
 title: "Dani Nel·lo & Barcelona Big Blues Band"
 type: "discography"
+description: "Dani Nel·lo & Barcelona Big Blues Band (2014, album) — Barcelona Big Blues Band, con Ivan Kovačević al contrabajo."
 translationKey: "b4-dani-nello"
 weight: 16
 cover: "/images/wp/discography/Portada-Nel.lo_.jpg"

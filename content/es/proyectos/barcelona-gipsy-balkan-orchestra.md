@@ -1,6 +1,7 @@
 ---
 title: "Barcelona Gipsy balKan Orchestra"
 type: "projects"
+description: "Después de tres años de conciertos increíbles, encuentros musicales inspiradores, numerosas giras y 21 países visitados, la BGKO evoluciona y, a partir de…"
 translationKey: "barcelona-gipsy-balkan-orchestra"
 weight: 3
 layout: "single"

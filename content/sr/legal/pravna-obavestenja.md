@@ -1,6 +1,7 @@
 ---
 title: "Pravna obaveštenja"
 type: "legal"
+description: "Pravna obaveštenja — Ivan Kovačević."
 layout: "single"
 translationKey: "legal-notice"
 weight: 1

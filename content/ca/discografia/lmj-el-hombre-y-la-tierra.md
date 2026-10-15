@@ -1,6 +1,7 @@
 ---
 title: "El Hombre y la Tierra"
 type: "discography"
+description: "El Hombre y la Tierra (2016, album) — Los Mambo Jambo, amb Ivan Kovačević al contrabaix."
 translationKey: "lmj-el-hombre-y-la-tierra"
 weight: 30
 cover: "/images/wp/discography/01-2el_hombre_y_la_tierra_portada_2400x2400-300x340.jpg"

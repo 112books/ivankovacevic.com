@@ -1,6 +1,7 @@
 ---
 title: "Politika kolačića"
 type: "legal"
+description: "Politika kolačića — Ivan Kovačević."
 layout: "single"
 translationKey: "cookies-policy"
 weight: 3

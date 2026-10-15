@@ -1,6 +1,7 @@
 ---
 title: "Out for a While"
 type: "discography"
+description: "Out for a While (2013, album) — Bernat Font Trio, amb Ivan Kovačević al contrabaix."
 translationKey: "bft-out-for-a-while"
 weight: 53
 cover: "/images/wp/discography/bft-out-for-a-while.jpg"

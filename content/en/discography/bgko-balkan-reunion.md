@@ -1,6 +1,7 @@
 ---
 title: "Balkan Reunion"
 type: "discography"
+description: "Balkan Reunion (2015, album) — Barcelona Gipsy balKan Orchestra, with Ivan Kovačević on double bass."
 translationKey: "bgko-balkan-reunion"
 weight: 22
 cover: "/images/wp/discography/02-portada_balkan_reunion-293x300.jpg"

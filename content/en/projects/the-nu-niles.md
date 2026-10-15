@@ -1,6 +1,7 @@
 ---
 title: "The Nu Niles"
 type: "projects"
+description: "The Nu Niles formed in 1996 and since then they have never stopped making music."
 translationKey: "the-nu-niles"
 weight: 8
 layout: "single"

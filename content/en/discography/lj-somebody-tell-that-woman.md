@@ -1,6 +1,7 @@
 ---
 title: "Somebody Tell That Woman"
 type: "discography"
+description: "Somebody Tell That Woman (2003, album) — The Lazy Jumpers, with Ivan Kovačević on double bass."
 translationKey: "lj-somebody-tell-that-woman"
 weight: 61
 cover: ""

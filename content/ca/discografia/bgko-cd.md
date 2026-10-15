@@ -1,6 +1,7 @@
 ---
 title: "Barcelona Gipsy Klezmer Orchestra"
 type: "discography"
+description: "Barcelona Gipsy Klezmer Orchestra (2013, album) — Barcelona Gipsy balKan Orchestra, amb Ivan Kovačević al contrabaix."
 translationKey: "bgko-cd"
 weight: 24
 cover: "/images/wp/discography/04-Portada-BGKO-CD-300x267.jpg"

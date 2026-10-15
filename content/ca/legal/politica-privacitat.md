@@ -1,6 +1,7 @@
 ---
 title: "Política de privacitat"
 type: "legal"
+description: "Política de privacitat — Ivan Kovačević."
 layout: "single"
 translationKey: "privacy-policy"
 weight: 2

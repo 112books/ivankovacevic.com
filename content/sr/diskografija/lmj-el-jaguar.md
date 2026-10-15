@@ -1,6 +1,7 @@
 ---
 title: "El Jaguar (7\")"
 type: "discography"
+description: "El Jaguar (7\\\") (single) — Los Mambo Jambo, sa Ivan Kovačević na kontrabasu."
 translationKey: "lmj-el-jaguar"
 weight: 32
 cover: "/images/wp/discography/03-jaguardefi-300x340.jpg"

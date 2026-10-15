@@ -1,6 +1,7 @@
 ---
 title: "Los Mambo Jambo"
 type: "projects"
+description: "Los Mambo Jambo is the instrumental band that created the 'Sonido Jambofónico', a wild blend of rock & roll, rhythm & blues, surf and swing performed from a…"
 translationKey: "los-mambo-jambo"
 weight: 5
 layout: "single"

@@ -1,6 +1,7 @@
 ---
 title: "Spencer Evoy & Barcelona Big Blues Band"
 type: "discography"
+description: "Spencer Evoy & Barcelona Big Blues Band (2025, ep) — Barcelona Big Blues Band, amb Ivan Kovačević al contrabaix."
 translationKey: "b4-spencer-evoy"
 weight: 18
 cover: "/images/wp/discography/spencer-evoy-portada.jpg"

@@ -1,6 +1,7 @@
 ---
 title: "Haircut Boogie"
 type: "discography"
+description: "Haircut Boogie (1998, ep) — The Nu Niles, sa Ivan Kovačević na kontrabasu."
 translationKey: "nn-haircut-boogie"
 weight: 71
 cover: ""

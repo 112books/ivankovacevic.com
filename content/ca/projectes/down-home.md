@@ -1,6 +1,7 @@
 ---
 title: "Down Home"
 type: "projects"
+description: "Gènere neo swing, crazy bluesin’, shaky rhythm, groovy boogie Formació Hernán Senra (Chino): dobro i veu\\ Duska Miscevic, saxo alt\\ Pol Prats: saxo tenor\\ Ivan…"
 translationKey: "down-home"
 weight: 9
 layout: "single"

@@ -1,6 +1,7 @@
 ---
 title: "Lazy Jumpers"
 type: "projects"
+description: "Lazy Jumpers is a Blues and Rhythm & Blues quartet based in Barcelona, internationally recognised as one of today's finest Blues and Rhythm & Blues bands."
 translationKey: "lazy-jumpers"
 weight: 7
 layout: "single"

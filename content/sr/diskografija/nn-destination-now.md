@@ -1,6 +1,7 @@
 ---
 title: "Destination Now"
 type: "discography"
+description: "Destination Now (2005, album) — The Nu Niles, sa Ivan Kovačević na kontrabasu."
 translationKey: "nn-destination-now"
 weight: 75
 cover: "/images/wp/discography/nn-destination-now.jpg"

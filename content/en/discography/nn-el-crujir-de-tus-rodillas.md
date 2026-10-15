@@ -1,6 +1,7 @@
 ---
 title: "El Crujir de Tus Rodillas / Ya Llegan"
 type: "discography"
+description: "El Crujir de Tus Rodillas / Ya Llegan (2009, single) — The Nu Niles, with Ivan Kovačević on double bass."
 translationKey: "nn-el-crujir-de-tus-rodillas"
 weight: 77
 cover: ""

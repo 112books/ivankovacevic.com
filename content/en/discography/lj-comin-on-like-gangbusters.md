@@ -1,6 +1,7 @@
 ---
 title: "Comin' On Like Gangbusters"
 type: "discography"
+description: "Comin' On Like Gangbusters (2007, album) — The Lazy Jumpers, with Ivan Kovačević on double bass."
 translationKey: "lj-comin-on-like-gangbusters"
 weight: 64
 cover: "/images/wp/discography/lj-comin-on-like-gangbusters.jpg"

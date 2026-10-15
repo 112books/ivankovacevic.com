@@ -1,6 +1,7 @@
 ---
 title: "Los Mambo Jambo (EP)"
 type: "discography"
+description: "Los Mambo Jambo (EP) (2011, ep) — Los Mambo Jambo, con Ivan Kovačević al contrabajo."
 translationKey: "lmj-ep"
 weight: 38
 cover: "/images/wp/discography/09-ep-mambo-jambo-300x340.jpg"

@@ -1,6 +1,7 @@
 ---
 title: "Avo Kanto"
 type: "discography"
+description: "Avo Kanto (2018, album) — Barcelona Gipsy balKan Orchestra, con Ivan Kovačević al contrabajo."
 translationKey: "bgko-avo-kanto"
 weight: 20
 cover: "/images/wp/discography/01-bgko_avo-kanto_portada_3000x3000.jpeg"

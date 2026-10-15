@@ -1,6 +1,7 @@
 ---
 title: "You Didn't Come to My Funeral"
 type: "discography"
+description: "You Didn't Come to My Funeral (2007, album) — The Nu Niles, con Ivan Kovačević al contrabajo."
 translationKey: "nn-you-didnt-come-to-my-funeral"
 weight: 76
 cover: "/images/wp/discography/nn-you-didnt-come-to-my-funeral.jpg"

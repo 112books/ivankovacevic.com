@@ -1,6 +1,7 @@
 ---
 title: "Lazy Jumpers"
 type: "projects"
+description: "Lazy Jumpers je kvartet iz Barselone koji svira blues i rhythm&blues, međunarodno priznat kao jedan od najboljih aktuelnih blues i rhythm&blues bendova."
 translationKey: "lazy-jumpers"
 weight: 7
 layout: "single"

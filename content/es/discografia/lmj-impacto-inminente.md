@@ -1,6 +1,7 @@
 ---
 title: "Impacto Inminente"
 type: "discography"
+description: "Impacto Inminente (2013, album) — Los Mambo Jambo, con Ivan Kovačević al contrabajo."
 translationKey: "lmj-impacto-inminente"
 weight: 34
 cover: "/images/wp/discography/05-portada_impacto_inminente-300x340-1.jpg"

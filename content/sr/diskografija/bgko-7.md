@@ -1,6 +1,7 @@
 ---
 title: 7
 type: discography
+description: "7 (2024, album) — Barcelona Gipsy balKan Orchestra, sa Ivan Kovačević na kontrabasu."
 translationKey: bgko-7
 weight: 27
 cover: /images/wp/discography/bgko-7.jpg

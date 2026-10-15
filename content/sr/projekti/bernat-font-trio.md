@@ -1,6 +1,7 @@
 ---
 title: "Bernat Font Trio"
 type: "projects"
+description: "Trio Bernat Font odigrao je svoj prvi koncert u februaru 2009."
 translationKey: "bernat-font-trio"
 weight: 4
 layout: "single"

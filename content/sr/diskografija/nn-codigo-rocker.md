@@ -1,6 +1,7 @@
 ---
 title: "Código Rocker"
 type: "discography"
+description: "Código Rocker (2015, album) — The Nu Niles, sa Ivan Kovačević na kontrabasu."
 translationKey: "nn-codigo-rocker"
 weight: 80
 cover: "/images/wp/discography/nn-codigo-rocker.jpg"

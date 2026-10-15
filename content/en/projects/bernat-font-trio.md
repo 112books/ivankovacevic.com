@@ -1,6 +1,7 @@
 ---
 title: "Bernat Font Trio"
 type: "projects"
+description: "In February of 2009 the trio of Bernat Font went on stage for the first time."
 translationKey: "bernat-font-trio"
 weight: 4
 layout: "single"

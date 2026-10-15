@@ -1,6 +1,7 @@
 ---
 title: "Mambo 7 / Baile (7\")"
 type: "discography"
+description: "Mambo 7 / Baile (7\\\") (single) — Los Mambo Jambo, with Ivan Kovačević on double bass."
 translationKey: "lmj-mambo-7-baile"
 weight: 36
 cover: "/images/wp/discography/07-portada_mambo_7_baile-300x340.jpg"

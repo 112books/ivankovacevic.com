@@ -1,6 +1,7 @@
 ---
 title: "The Sand – Live"
 type: "discography"
+description: "The Sand – Live (2014, album) — Bernat Font Trio, amb Ivan Kovačević al contrabaix."
 translationKey: "bft-the-sand-live"
 weight: 54
 cover: "/images/wp/discography/bft-the-sand-live.jpg"

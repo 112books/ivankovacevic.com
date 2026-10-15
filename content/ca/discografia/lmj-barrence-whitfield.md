@@ -1,6 +1,7 @@
 ---
 title: "Los Mambo Jambo con Barrence Whitfield (7\")"
 type: "discography"
+description: "Los Mambo Jambo con Barrence Whitfield (7\\\") (2014, single) — Los Mambo Jambo, amb Ivan Kovačević al contrabaix."
 translationKey: "lmj-barrence-whitfield"
 weight: 33
 cover: "/images/wp/discography/04-barrence-mb-300x340.jpg"

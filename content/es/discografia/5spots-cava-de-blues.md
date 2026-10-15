@@ -1,6 +1,7 @@
 ---
 title: "Cava de Blues"
 type: "discography"
+description: "Cava de Blues (2014, album) — Ivan Kovačević 5 Spots, con Ivan Kovačević al contrabajo."
 translationKey: "5spots-cava-de-blues"
 weight: 40
 cover: "/images/wp/discography/Cava-de-Blues.png"

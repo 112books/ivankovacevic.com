@@ -1,6 +1,7 @@
 ---
 title: "Del Ebro al Danubio"
 type: "discography"
+description: "Del Ebro al Danubio (2016, album) — Barcelona Gipsy balKan Orchestra, con Ivan Kovačević al contrabajo."
 translationKey: "bgko-del-ebro-al-danubio"
 weight: 21
 cover: "/images/wp/discography/02-Portada-del-ebro.jpg"

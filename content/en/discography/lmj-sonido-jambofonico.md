@@ -1,6 +1,7 @@
 ---
 title: "Sonido Jambofónico"
 type: "discography"
+description: "Sonido Jambofónico (2012, album) — Los Mambo Jambo, with Ivan Kovačević on double bass."
 translationKey: "lmj-sonido-jambofonico"
 weight: 37
 cover: "/images/wp/discography/08-Sonido_Jambofonico-300x340.jpg"

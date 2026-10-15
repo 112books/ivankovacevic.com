@@ -1,6 +1,7 @@
 ---
 title: "Los Mambo Jambo con Barrence Whitfield (7\")"
 type: "discography"
+description: "Los Mambo Jambo con Barrence Whitfield (7\\\") (2014, single) — Los Mambo Jambo, with Ivan Kovačević on double bass."
 translationKey: "lmj-barrence-whitfield"
 weight: 33
 cover: "/images/wp/discography/04-barrence-mb-300x340.jpg"

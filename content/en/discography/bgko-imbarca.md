@@ -1,6 +1,7 @@
 ---
 title: Imbarca
 type: "discography"
+description: "Imbarca (2012, album) — Barcelona Gipsy balKan Orchestra, with Ivan Kovačević on double bass."
 translationKey: bgko-imbarca
 weight: 23
 cover: "/images/wp/discography/03-barcelonaGIPSYBALKANORQUESTRA-300x300.jpg"

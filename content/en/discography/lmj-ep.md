@@ -1,6 +1,7 @@
 ---
 title: "Los Mambo Jambo (EP)"
 type: "discography"
+description: "Los Mambo Jambo (EP) (2011, ep) — Los Mambo Jambo, with Ivan Kovačević on double bass."
 translationKey: "lmj-ep"
 weight: 38
 cover: "/images/wp/discography/09-ep-mambo-jambo-300x340.jpg"

@@ -1,6 +1,7 @@
 ---
 title: "Ivan Kovačević 5 Spots"
 type: "projects"
+description: "Hi havia un temps en què el jazz escopia foc per la boca, carregava de fum l'atmosfera i ballava amb el clink dels glaçons banyats en destil·lats que foradaven…"
 translationKey: "5-spots"
 weight: 6
 layout: "single"

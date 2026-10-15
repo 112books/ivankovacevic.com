@@ -1,6 +1,7 @@
 ---
 title: "Sin Rendición"
 type: "discography"
+description: "Sin Rendición (2009, album) — The Nu Niles, con Ivan Kovačević al contrabajo."
 translationKey: "nn-sin-rendicion"
 weight: 78
 cover: "/images/wp/discography/nn-sin-rendicion.jpg"

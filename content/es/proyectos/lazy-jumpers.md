@@ -1,6 +1,7 @@
 ---
 title: "Lazy Jumpers"
 type: "projects"
+description: "Lazy Jumpers es un cuarteto residente en Barcelona de Blues y Rhythm&Blues reconocido internacionalment como una de les mejores bandes de Blues y Rhythm&Blues…"
 translationKey: "lazy-jumpers"
 weight: 7
 layout: "single"

@@ -1,6 +1,7 @@
 ---
 title: "Ivan Kovačević 5 Spots"
 type: "projects"
+description: "Nekada je džez plamteo iz grla, ispunjavao atmosferu dimom i plesao uz zveket kockica u alkoholnim pićima koja su pržila jetru."
 translationKey: "5-spots"
 weight: 6
 layout: "single"

@@ -1,6 +1,7 @@
 ---
 title: "Agustí Burriel & Barcelona Big Blues Band"
 type: "discography"
+description: "Agustí Burriel & Barcelona Big Blues Band (2025, ep) — Barcelona Big Blues Band, with Ivan Kovačević on double bass."
 translationKey: "b4-agusti-burriel"
 weight: 14
 cover: "/images/wp/discography/09-portada-Agusti.jpg"

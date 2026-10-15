@@ -1,6 +1,7 @@
 ---
 title: "Jambology"
 type: "discography"
+description: "Jambology (2016, album) — Los Mambo Jambo, sa Ivan Kovačević na kontrabasu."
 translationKey: "lmj-jambology"
 weight: 31
 cover: "/images/wp/discography/02-LPmambology-portada-300x340.jpg"

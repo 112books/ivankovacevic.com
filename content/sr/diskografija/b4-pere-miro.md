@@ -1,6 +1,7 @@
 ---
 title: Pere Miró & Barcelona Big Blues Band
 type: discography
+description: "Pere Miró & Barcelona Big Blues Band (2021, ep) — Barcelona Big Blues Band, sa Ivan Kovačević na kontrabasu."
 translationKey: b4-pere-miro
 weight: 19
 cover: /images/wp/discography/b4-pere-miro.jpg

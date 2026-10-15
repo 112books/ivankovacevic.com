@@ -1,6 +1,7 @@
 ---
 title: "Good Luck, Good Friends & Good Rockin'"
 type: "discography"
+description: "Good Luck, Good Friends & Good Rockin' (1999, album) — The Nu Niles, amb Ivan Kovačević al contrabaix."
 translationKey: "nn-good-luck-good-friends"
 weight: 72
 cover: "/images/wp/discography/nn-good-luck-good-friends.jpg"

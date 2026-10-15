@@ -1,6 +1,7 @@
 ---
 title: "The Nu Niles"
 type: "projects"
+description: "The Nu Niles formirani su 1996. Ivan Kovačević on double bass."
 translationKey: "the-nu-niles"
 weight: 8
 layout: "single"

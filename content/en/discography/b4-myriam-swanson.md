@@ -1,6 +1,7 @@
 ---
 title: "Myriam Swanson & Barcelona Big Blues Band"
 type: "discography"
+description: "Myriam Swanson & Barcelona Big Blues Band (2025, ep) — Barcelona Big Blues Band, with Ivan Kovačević on double bass."
 translationKey: "b4-myriam-swanson"
 weight: 13
 cover: "/images/wp/discography/08-portada-Swanson.jpg"

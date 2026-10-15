@@ -1,6 +1,7 @@
 ---
 title: Europa cierra la frontera
 type: discography
+description: "Europa cierra la frontera (2015, album) — Barcelona Gipsy balKan Orchestra, amb Ivan Kovačević al contrabaix."
 translationKey: bgko-europa-cierra-la-frontera
 weight: 25
 cover: /images/wp/discography/bgko-europa-cierra-la-frontera.jpg

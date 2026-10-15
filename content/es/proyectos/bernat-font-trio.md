@@ -1,6 +1,7 @@
 ---
 title: "Bernat Font Trio"
 type: "projects"
+description: "El trío de Bernat Font hizo su primera actuación en febrero de 2009."
 translationKey: "bernat-font-trio"
 weight: 4
 layout: "single"

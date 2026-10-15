@@ -1,6 +1,7 @@
 ---
 title: "Shift"
 type: "discography"
+description: "Shift (2016, album) — Ivan Kovačević 5 Spots, sa Ivan Kovačević na kontrabasu."
 translationKey: "5spots-shift"
 weight: 41
 cover: "/images/wp/discography/Ivan-Kovacevic-5-Spots.jpg"

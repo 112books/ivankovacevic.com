@@ -1,6 +1,7 @@
 ---
 title: "Los Mambo Jambo"
 type: "projects"
+description: "Los Mambo Jambo je instrumentalni bend koji je stvorio \"Jambofonski zvuk\" - divlju mešavinu rock&roll-a, rhythm&blues-a, surf-a i svinga interpretiranu kroz…"
 translationKey: "los-mambo-jambo"
 weight: 5
 layout: "single"

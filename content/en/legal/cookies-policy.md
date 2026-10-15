@@ -1,6 +1,7 @@
 ---
 title: "Cookies policy"
 type: "legal"
+description: "Cookies policy — Ivan Kovačević."
 layout: "single"
 translationKey: "cookies-policy"
 weight: 3

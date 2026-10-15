@@ -1,6 +1,7 @@
 ---
 title: "Barcelona Gipsy balKan Orchestra"
 type: "projects"
+description: "Starting from November 2015, BGKO evolves: after so much intense work and growth, we are responding to the urge to expand our artistic horizons."
 translationKey: "barcelona-gipsy-balkan-orchestra"
 weight: 3
 layout: "single"

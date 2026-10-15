@@ -1,6 +1,7 @@
 ---
 title: "Blues a l'Estudi"
 type: "discography"
+description: "Blues a l'Estudi (2012, album) — Bernat Font Trio, sa Ivan Kovačević na kontrabasu."
 translationKey: "bft-blues-a-lestudi"
 weight: 52
 cover: "/images/wp/discography/bft-blues-a-lestudi.jpg"

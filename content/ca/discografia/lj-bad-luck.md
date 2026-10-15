@@ -1,6 +1,7 @@
 ---
 title: "Bad Luck, Turn My Back on You"
 type: "discography"
+description: "Bad Luck, Turn My Back on You (2005, album) — The Lazy Jumpers, amb Ivan Kovačević al contrabaix."
 translationKey: "lj-bad-luck"
 weight: 62
 cover: "/images/wp/discography/lj-bad-luck.jpg"

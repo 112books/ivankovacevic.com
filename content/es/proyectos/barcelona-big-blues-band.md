@@ -1,6 +1,7 @@
 ---
 title: "Barcelona Big Blues Band"
 type: "projects"
+description: "Tradicionalmente, Barcelona ha presentado grandes big bands de jazz y swing durante muchos años."
 translationKey: "barcelona-big-blues-band"
 weight: 2
 layout: "single"

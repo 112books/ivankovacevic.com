@@ -1,6 +1,7 @@
 ---
 title: "Barcelona Big Blues Band"
 type: "projects"
+description: "Tradicionalno, Barselona već dugi niz godina predstavlja sjajne big bendove džez i sving muzike."
 translationKey: "barcelona-big-blues-band"
 weight: 2
 layout: "single"

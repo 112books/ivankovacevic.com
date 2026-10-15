@@ -1,6 +1,7 @@
 ---
 title: "Bratia"
 type: "projects"
+description: "Bratia, la banda Barcelonesa, nace de la necesidad del contrabajista serbio afincado en Barcelona, Ivan Kovacevic , de unir dos mundos musicales en una…"
 translationKey: "bratia"
 weight: 1
 layout: "single"

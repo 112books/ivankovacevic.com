@@ -1,6 +1,7 @@
 ---
 title: "The Shout"
 type: "discography"
+description: "The Shout (2011, album) — Bernat Font Trio, con Ivan Kovačević al contrabajo."
 translationKey: "bft-the-shout"
 weight: 51
 cover: "/images/wp/discography/bft-the-shout.jpg"

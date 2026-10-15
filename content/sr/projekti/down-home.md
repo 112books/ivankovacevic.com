@@ -1,6 +1,7 @@
 ---
 title: "Down Home"
 type: "projects"
+description: "Žanr neo swing, crazy bluesin’, shaky rhythm, groovy boogie Sastav Hernán Senra (Chino): dobro i vokal Duška Miščević: alto saksofon Pol Prats: tenor saksofon…"
 translationKey: "down-home"
 weight: 9
 layout: "single"
