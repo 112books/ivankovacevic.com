@@ -28,7 +28,7 @@
 
   {{ partial "head.html" . }}
 
-  <main id="main-content" tabindex="-1" data-pagefind-body>
+  <main id="main-content" tabindex="-1"{{ if ne .Type "search" }} data-pagefind-body{{ end }}>
     {{ block "main" . }}{{ .Content }}{{ end }}
   </main>
 

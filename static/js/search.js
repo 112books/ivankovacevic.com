@@ -57,11 +57,16 @@
   let pagefind = null;
   let debounceTimer = null;
 
+  // Ruta del bundle de Pagefind, relativa al baseURL (funciona sota subpath).
+  const pagefindUrl =
+    document.querySelector('.search-container')?.dataset.pagefindScript ||
+    '/pagefind/pagefind.js';
+
   // Carrega Pagefind de forma lazy
   async function loadPagefind() {
     if (pagefind) return pagefind;
     try {
-      pagefind = await import('/pagefind/pagefind.js');
+      pagefind = await import(pagefindUrl);
       await pagefind.options({ excerptLength: 20 });
       return pagefind;
     } catch(e) {

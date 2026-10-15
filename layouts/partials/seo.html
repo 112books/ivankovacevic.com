@@ -6,6 +6,8 @@
 {{- $canonical   := .Permalink -}}
 {{- if $canonBase }}{{ $canonical = replace .Permalink site.BaseURL $canonBase }}{{ end -}}
 {{- $lang        := .Site.Language.Lang -}}
+{{- $searchURL   := printf "%s%s/search/" .Site.BaseURL $lang -}}
+{{- range where .Site.Pages "Type" "search" }}{{ $searchURL = .Permalink }}{{ end -}}
 {{- $ogType      := "website" -}}
 {{- if .IsPage -}}
   {{- if eq .Type "discography" -}}{{- $ogType = "music.album" -}}
@@ -158,7 +160,7 @@
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "{{ .Site.BaseURL }}{{ $lang }}/search/?q={search_term_string}"
+      "urlTemplate": "{{ $searchURL }}?q={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   }

@@ -124,6 +124,7 @@
         location: unfold(get("LOCATION")),
         desc:     unfold(get("DESCRIPTION")),
         url:      get("URL"),
+        performer: unfold(get("X-PERFORMER")),
       });
     });
     events.sort((a, b) => a.start - b.start);
@@ -248,9 +249,10 @@
     }
 
     ul.innerHTML = upcoming.map(({e, i}) => `
-      <li class="concert-li" data-idx="${i}" tabindex="0" role="button" aria-label="${esc(e.title)} — ${shortDate(e.start)}">
+      <li class="concert-li" data-idx="${i}" tabindex="0" role="button" aria-label="${e.performer ? esc(e.performer) + " — " : ""}${esc(e.title)} — ${shortDate(e.start)}">
         <div class="concert-li-date">${shortDate(e.start)}</div>
         <div>
+          ${e.performer ? `<div class="concert-li-performer">${esc(e.performer)}</div>` : ""}
           <div class="concert-li-title">${esc(e.title)}</div>
           ${e.location ? `<div class="concert-li-location">${esc(e.location)}</div>` : ""}
         </div>
@@ -274,9 +276,10 @@
     }
 
     ul.innerHTML = past.map(({e, i}) => `
-      <li class="concert-li concert-li--past" data-idx="${i}" tabindex="0" role="button" aria-label="${esc(e.title)} — ${shortDate(e.start)}">
+      <li class="concert-li concert-li--past" data-idx="${i}" tabindex="0" role="button" aria-label="${e.performer ? esc(e.performer) + " — " : ""}${esc(e.title)} — ${shortDate(e.start)}">
         <div class="concert-li-date">${shortDate(e.start)}</div>
         <div>
+          ${e.performer ? `<div class="concert-li-performer">${esc(e.performer)}</div>` : ""}
           <div class="concert-li-title">${esc(e.title)}</div>
           ${e.location ? `<div class="concert-li-location">${esc(e.location)}</div>` : ""}
         </div>
@@ -321,6 +324,7 @@
     detail.removeAttribute("hidden");
     detail.innerHTML = `
       <div class="concert-detail-date">${dateStr}${timeStr}</div>
+      ${event.performer ? `<div class="concert-detail-performer">${esc(event.performer)}</div>` : ""}
       <h2 class="concert-detail-title">${esc(event.title)}</h2>
       ${event.location ? `<p class="concert-detail-location">📍 ${esc(event.location)}</p>` : ""}
       ${event.desc     ? `<p class="concert-detail-desc">${esc(event.desc)}</p>` : ""}

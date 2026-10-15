@@ -17,6 +17,12 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 - **Agenda**: afegit Bandsintown (Barcelona Big Blues Band, BGKO, Bratia). Bratia via Google iCal.
 - **Enllaços de plataforma per projecte**: `data/project-links.yaml` (Spotify/Apple/Bandcamp/YouTube/
   Bandsintown/web) renderitzats a `layouts/projects/single.html`.
+- **Gigs**: es mostra el projecte/banda (`X-PERFORMER`) a la llista i al detall.
+- **Cercador arreglat**: la ruta del bundle de Pagefind era absoluta (`/pagefind/…`) i trencava sota
+  subpath (staging/local); ara usa `relURL`. Pàgina de cerca exclosa de l'índex.
+- **Accessibilitat**: el menú mòbil tancat i la nav compacta oculta ja no són enfocables (`visibility`).
+- **Responsive**: tret el scroll horitzontal de la pàgina de gigs (`overflow-wrap` a la descripció).
+- **SEO**: el `SearchAction` de la home ara usa l'URL de cerca localitzat (cerca/buscar/pretraga).
 
 ## Pendent
 
@@ -32,6 +38,12 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
       Los Mambo Jambo 2008/2009, Lazy Jumpers 2003, The Nu Niles 1996).
 - [ ] **Traduccions CA/ES/SR** de la discografia (actualment buides o parcials).
 - [ ] **SR**: revisió per part de l'Ivan abans de publicar (`draft: false`).
+
+### Disseny (cal aprovació de Joan)
+- [ ] **Nav compacta en mòbil**: amb la barra visible (en scroll), les 3 últimes icones queden fora
+      de pantalla (390px). Opcions: amagar el logo compacte en mòbil (≤480px) o reduir mida d'icones.
+- [ ] **Discografia — línia temporal animada en scroll**: un cop hi hagi els anys, animar la línia
+      temporal segons l'scroll (entrada d'entrades, traçat de la línia, etc.).
 
 ### Tècnic
 - [ ] Secció `/admin/` (dashboard GoatCounter) — recrear contingut.
