@@ -8,7 +8,7 @@ type_release: "single"
 year: 2014
 spotify: ""
 spotify_embed: ""
-apple_music: ""
+apple_music: "https://music.apple.com/es/album/jackeline-single/1478765049"
 youtube: ""
 smartlink: ""
 ---

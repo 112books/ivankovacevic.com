@@ -4,11 +4,11 @@ type: "discography"
 translationKey: "b4-myriam-swanson"
 weight: 13
 cover: "/images/wp/discography/08-portada-Swanson.jpg"
-type_release: "single"
-year: 
+type_release: ep
+year: 2025
 spotify: ""
 spotify_embed: ""
-apple_music: ""
+apple_music: "https://music.apple.com/es/album/myriam-swanson-barcelona-big-blues-band-ep/1835838813"
 youtube: ""
 smartlink: ""
 ---

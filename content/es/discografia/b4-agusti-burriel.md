@@ -4,11 +4,11 @@ type: "discography"
 translationKey: "b4-agusti-burriel"
 weight: 14
 cover: "/images/wp/discography/09-portada-Agusti.jpg"
-type_release: "single"
-year: 
+type_release: ep
+year: 2025
 spotify: ""
 spotify_embed: ""
-apple_music: ""
+apple_music: "https://music.apple.com/es/album/agust%C3%AD-burriel-barcelona-big-blues-band-ep/1835829777"
 youtube: ""
 smartlink: ""
 ---

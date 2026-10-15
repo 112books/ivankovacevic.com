@@ -8,7 +8,7 @@ type_release: "album"
 year: 2013
 spotify: ""
 spotify_embed: ""
-apple_music: ""
+apple_music: "https://music.apple.com/es/album/impacto-inminente/1185962560"
 youtube: ""
 smartlink: ""
 ---

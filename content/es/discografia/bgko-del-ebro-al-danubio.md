@@ -8,7 +8,7 @@ type_release: "album"
 year: 2016
 spotify: ""
 spotify_embed: ""
-apple_music: ""
+apple_music: "https://music.apple.com/es/album/del-ebro-al-danubio/1139856958"
 youtube: ""
 smartlink: ""
 ---

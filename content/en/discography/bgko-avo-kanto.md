@@ -8,7 +8,7 @@ type_release: "album"
 year: 2018
 spotify: ""
 spotify_embed: ""
-apple_music: ""
+apple_music: "https://music.apple.com/es/album/avo-kanto/1348009028"
 youtube: ""
 smartlink: ""
 ---

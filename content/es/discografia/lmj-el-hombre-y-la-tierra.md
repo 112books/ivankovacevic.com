@@ -8,7 +8,7 @@ type_release: "album"
 year: 2016
 spotify: ""
 spotify_embed: ""
-apple_music: ""
+apple_music: "https://music.apple.com/es/album/el-hombre-y-la-tierra-single/1182915405"
 youtube: ""
 smartlink: ""
 ---

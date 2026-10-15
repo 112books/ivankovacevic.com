@@ -8,7 +8,7 @@ type_release: "album"
 year: 2015
 spotify: ""
 spotify_embed: ""
-apple_music: ""
+apple_music: "https://music.apple.com/es/album/balkan-reunion/1046085915"
 youtube: ""
 smartlink: ""
 ---
