@@ -11,10 +11,8 @@ bandsintown:
     id: 12971154
   - name: "Bratia"
     id: 15535670
-  # ATENCIÓ: l'id 190749 («mambo-jambo») NO és el grup de l'Ivan, és un duo folk
-  # del Regne Unit (Frankie & Pete). Comprova la URL correcta de Bandsintown.
-  # - name: "Los Mambo Jambo"
-  #   id: 190749
+  - name: "Los Mambo Jambo"
+    id: 5464733
 videos:
   - name: "Ivan Kovačević"
     channel: "UCG-CSJzP_90xHVhaDQj6PvA"

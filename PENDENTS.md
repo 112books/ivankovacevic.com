@@ -45,7 +45,4 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 - [ ] Ruta de fotografies a Google Photos per a la selecció.
 
 ## Decisions obertes / a confirmar
-- **Bandsintown Los Mambo Jambo**: la URL donada `a/190749-mambo-jambo` és d'un altre grup
-  (duo folk del Regne Unit). Pendent la URL correcta (o deixar-ho fora).
-- **`media-archive/`** (16 MB): conservar al repositori o només en local (afegir a `.gitignore`)?
 - Àmbit d'edició de l'Ivan al CMS (ES/EN; CA/SR per traducció?).

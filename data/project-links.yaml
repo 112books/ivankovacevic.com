@@ -17,8 +17,10 @@ barcelona-gipsy-balkan-orchestra:
   - { platform: "bandsintown", url: "https://www.bandsintown.com/a/12971154-bgko-barcelona-gipsy-balkan-orchestra" }
 
 los-mambo-jambo:
-  - { platform: "spotify",  url: "https://open.spotify.com/artist/4k1oj4XphotyHhFeQ4tWld" }
-  - { platform: "bandcamp", url: "https://losmambojambo.bandcamp.com" }
+  - { platform: "spotify",     url: "https://open.spotify.com/artist/4k1oj4XphotyHhFeQ4tWld" }
+  - { platform: "apple",       url: "https://music.apple.com/artist/455827672" }
+  - { platform: "bandcamp",    url: "https://losmambojambo.bandcamp.com" }
+  - { platform: "bandsintown", url: "https://www.bandsintown.com/a/5464733-los-mambo-jambo" }
 
 5-spots:
   - { platform: "spotify", url: "https://open.spotify.com/artist/2MJQyVu3avox7aLx6vwr92" }
