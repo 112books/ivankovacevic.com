@@ -10,16 +10,19 @@
     {{ if $galleries }}
     <div class="galleries-grid">
       {{ range $galleries }}
+      {{ $title := index .title $.Lang }}
+      {{ if not $title }}{{ $title = index .title "ca" }}{{ end }}
+      {{ if not $title }}{{ $title = index .title "en" }}{{ end }}
       <div class="gallery-card">
         <a class="gallery-card__link"
            href="{{ .url }}"
            target="_blank"
            rel="noopener"
-           aria-label="{{ index .title $.Lang }}">
+           aria-label="{{ $title }}">
 
           {{ if .cover }}
           <div class="gallery-card__thumb">
-            <img src="{{ .cover | relURL }}" alt="{{ index .title $.Lang }}" loading="lazy">
+            <img src="{{ .cover | relURL }}" alt="{{ $title }}" loading="lazy">
           </div>
           {{ else }}
           <div class="gallery-card__thumb gallery-card__thumb--placeholder">
@@ -30,9 +33,9 @@
           {{ end }}
 
           <div class="gallery-card__info">
-            <h2 class="gallery-card__title">{{ index .title $.Lang }}</h2>
+            <h2 class="gallery-card__title">{{ $title }}</h2>
             <p class="gallery-card__date">{{ .date }}</p>
-            <p class="gallery-card__cta">{{ i18n "view_on_google_photos" | default "View on Google Photos" }} ↗</p>
+            <p class="gallery-card__cta">{{ if eq .kind "chronicle" }}{{ i18n "view_chronicle" | default "Read the chronicle" }}{{ else }}{{ i18n "view_on_google_photos" | default "View on Google Photos" }}{{ end }} ↗</p>
           </div>
 
         </a>
