@@ -30,7 +30,7 @@
 - Gigs: https://ivankovacevic.com/en/gigs/
 - Videos: https://ivankovacevic.com/en/videos/
 - Photos: https://ivankovacevic.com/en/photos/
-- News: https://ivankovacevic.com/en/news/
+- Press: https://ivankovacevic.com/en/press/
 - Contact / Booking: https://ivankovacevic.com/en/contact/
 
 ## Streaming and social

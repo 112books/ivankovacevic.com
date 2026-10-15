@@ -183,3 +183,34 @@
   {{ end }}
   {{ end }}
 {{ end }}
+
+{{/* MusicGroup — pàgina de projecte */}}
+{{ if eq .Type "projects" }}
+{{- $all := index hugo.Data "project-links" -}}
+{{- $links := slice -}}
+{{- if $all }}{{ $links = index $all .Params.translationKey | default slice }}{{ end -}}
+{{- $sameAs := slice -}}
+{{- range $links }}{{ $sameAs = $sameAs | append .url }}{{ end -}}
+{{- $group := dict "@context" "https://schema.org" "@type" "MusicGroup" "name" .Title "url" .Permalink "sameAs" $sameAs -}}
+{{- with .Params.photo }}{{ $group = merge $group (dict "image" (. | absURL)) }}{{ end -}}
+{{- $group = merge $group (dict "member" (slice (dict "@type" "Person" "name" "Ivan Kovačević" "@id" (printf "%s#person" .Site.BaseURL)))) -}}
+<script type="application/ld+json">
+{{ $group | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}
+
+{{/* MusicAlbum — fitxa de disc */}}
+{{ if eq .Type "discography" }}
+{{- $artist := strings.TrimSpace (index (split (plainify .Content) ".") 0) -}}
+{{- $sameAs := slice -}}
+{{- range $k := slice "spotify" "apple_music" "youtube" "smartlink" -}}
+  {{- with index $.Params $k }}{{ $sameAs = $sameAs | append . }}{{ end -}}
+{{- end -}}
+{{- $album := dict "@context" "https://schema.org" "@type" "MusicAlbum" "name" .Title "url" .Permalink "sameAs" $sameAs -}}
+{{- with .Params.year }}{{ $album = merge $album (dict "datePublished" (printf "%v" .)) }}{{ end -}}
+{{- with .Params.cover }}{{ $album = merge $album (dict "image" (. | absURL)) }}{{ end -}}
+{{- if $artist }}{{ $album = merge $album (dict "byArtist" (dict "@type" "MusicGroup" "name" $artist)) }}{{ end -}}
+<script type="application/ld+json">
+{{ $album | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}

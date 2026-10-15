@@ -27,16 +27,30 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 - **Discografia — línia temporal**: per any (nou→vell) amb traçat de la línia en scroll, any
   «sticky» i revelat d'entrades (CSS + `static/js/timeline.js`, respecta `prefers-reduced-motion`);
   anys omplerts de 14 entrades, 11 al grup «Any desconegut».
+- **Fotografies**: 47 cròniques del blog de Joan Linux afegides a `data/galleries.yaml`,
+  amb portada pròpia a `static/images/wp/photos/`, ordenades de més nova a més vella, amb CTA
+  i18n propi (`view_chronicle`) i fallback de títol.
+- **Discografia**: BGKO (`Imbarca`, `Europa cierra la frontera`, `Nova Era`, `7`), anys de Bernat
+  Font Trio verificats (2011-2014), Lazy Jumpers, The Nu Niles i EPS de B4 (2021/2025); enllaços
+  Apple Music verificats via API d'iTunes; JSON-LD `MusicGroup`/`MusicAlbum`.
+- **Vídeos**: dates reals de YouTube (105/105) i ordre global més nou→més vell (`videos.json`,
+  `sync-videos.py`, `videos.js`).
+- **SEO/GEO**: `static/robots.txt` nou (bots d'IA permesos), `static/llms.txt` corregit i
+  redireccions 301 de l'antic WordPress ampliades a `static/.htaccess`. Pla a `PLA-SEO.md`.
 - **SEO**: el `SearchAction` de la home ara usa l'URL de cerca localitzat (cerca/buscar/pretraga).
 
 ## Pendent
 
 ### Contingut
-- [ ] **Discografia**: omplir `year:` de les 11 entrades que encara no en tenen
-      (`lmj-el-jaguar`, `lmj-mambo-7-baile`, `bgko-orquestra`, i 8 de B4/BBBB); queden al grup
-      «Any desconegut» de la línia temporal.
-- [ ] **Discografia**: omplir els enllaços de plataforma (`spotify`, `apple_music`, `youtube`,
-      `smartlink`…) — ara estan tots buits, així que les fitxes no mostren cap enllaç de compra.
+- [ ] **Discografia**: anys pendents (4): `b4-dani-nello-presents`, `b4-mike-sanchez`,
+      `lmj-el-jaguar`, `lmj-mambo-7-baile` (queden a «Any desconegut»).
+- [ ] **Discografia**: portades pendents (4): `lj-somebody-tell-that-woman`, `nn-haircut-boogie`,
+      `nn-el-tren-de-la-costa`, `nn-el-crujir-de-tus-rodillas`.
+- [ ] **Discografia**: enllaços `spotify` (i youtube/smartlink) pendents; Apple Music ja està
+      omplert on existeix. Odesli demana API key i MusicBrainz no és fiable per a aquests segells.
+- [ ] **Discografia**: confirmar si `lmj-mambo-jambo` (àlbum homònim 2012 a Apple) és una entrada
+      nova o la mateixa que `lmj-sonido-jambofonico`, i l'any de `bgko-cd` (debut).
+- [ ] **Discografia**: decidir si `b4-mike-sanchez` (Apple no el llista el 2025) és EP 2025 o single antic.
 - [ ] **Projectes**: línia temporal per any d'inici a `layouts/projects/list.html`.
 - [ ] **Projectes**: afegir enllaços de plataforma per a la resta de projectes
       (Down Home, Lazy Jumpers, The Nu Niles, BBBB) a `data/project-links.yaml`.
@@ -57,6 +71,7 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 - [ ] Renombrar workflow `fetch-concerts.yml` (ara «iCal» → «iCal + Bandsintown»).
 
 ### SEO
+> Pla complet (redireccions, GEO/IA, sitemaps) a `PLA-SEO.md`.
 - [ ] **Metes**: `title` i `meta description` únics i de longitud correcta per pàgina i idioma.
 - [ ] **Canonical + hreflang**: revisar canonical i `hreflang` (incloent `x-default`) a les 4 llengües.
 - [ ] **Open Graph / Twitter**: `og:image` real per pàgina (ara `images/wp/foto-background.png`);
