@@ -5,7 +5,7 @@ translationKey: "lmj-ep"
 weight: 38
 cover: "/images/wp/discography/09-ep-mambo-jambo-300x340.jpg"
 type_release: "ep"
-year: 
+year: 2012
 spotify: ""
 spotify_embed: ""
 apple_music: ""

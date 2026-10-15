@@ -5,7 +5,7 @@ translationKey: "bgko-del-ebro-al-danubio"
 weight: 21
 cover: "/images/wp/discography/02-Portada-del-ebro.jpg"
 type_release: "album"
-year: 
+year: 2016
 spotify: ""
 spotify_embed: ""
 apple_music: ""

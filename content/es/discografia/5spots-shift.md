@@ -5,7 +5,7 @@ translationKey: "5spots-shift"
 weight: 41
 cover: "/images/wp/discography/Ivan-Kovacevic-5-Spots.jpg"
 type_release: "album"
-year: 
+year: 2016
 spotify: ""
 spotify_embed: ""
 apple_music: ""

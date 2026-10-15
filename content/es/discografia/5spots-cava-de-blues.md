@@ -5,7 +5,7 @@ translationKey: "5spots-cava-de-blues"
 weight: 40
 cover: "/images/wp/discography/Cava-de-Blues.png"
 type_release: "album"
-year: 
+year: 2014
 spotify: ""
 spotify_embed: ""
 apple_music: ""

@@ -5,7 +5,7 @@ translationKey: "lmj-jambology"
 weight: 31
 cover: "/images/wp/discography/02-LPmambology-portada-300x340.jpg"
 type_release: "album"
-year: 
+year: 2016
 spotify: ""
 spotify_embed: ""
 apple_music: ""

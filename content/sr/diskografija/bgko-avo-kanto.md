@@ -5,7 +5,7 @@ translationKey: "bgko-avo-kanto"
 weight: 20
 cover: "/images/wp/discography/01-bgko_avo-kanto_portada_3000x3000.jpeg"
 type_release: "album"
-year: 
+year: 2018
 spotify: ""
 spotify_embed: ""
 apple_music: ""

@@ -5,7 +5,7 @@ translationKey: "bgko-cd"
 weight: 24
 cover: "/images/wp/discography/04-Portada-BGKO-CD-300x267.jpg"
 type_release: "album"
-year: 
+year: 2013
 spotify: ""
 spotify_embed: ""
 apple_music: ""

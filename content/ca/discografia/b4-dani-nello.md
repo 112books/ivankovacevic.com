@@ -5,7 +5,7 @@ translationKey: "b4-dani-nello"
 weight: 16
 cover: "/images/wp/discography/Portada-Nel.lo_.jpg"
 type_release: "album"
-year: 
+year: 2014
 spotify: ""
 spotify_embed: ""
 apple_music: ""

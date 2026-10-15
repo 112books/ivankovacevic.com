@@ -54,3 +54,7 @@ videos_cta_sub: "Subscribe to never miss a new video"
 photos_lead: "Captured moments. Music on and off stage."
 view_on_google_photos: "View on Google Photos"
 galleries_empty: "Photo galleries coming soon."
+
+# Discography timeline
+disc_year_unknown: "Year unknown"
+disc_all_platforms: "Available on all platforms →"

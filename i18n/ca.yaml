@@ -54,3 +54,7 @@ videos_cta_sub: "Subscriu-te per no perdre cap vídeo nou"
 photos_lead: "Moments capturats. Música dins i fora de l'escenari."
 view_on_google_photos: "Veure a Google Photos"
 galleries_empty: "Les galeries de fotos arribaran aviat."
+
+# Discografia · línia temporal
+disc_year_unknown: "Any desconegut"
+disc_all_platforms: "Disponible a totes les plataformes →"

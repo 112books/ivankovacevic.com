@@ -22,15 +22,21 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
   subpath (staging/local); ara usa `relURL`. Pàgina de cerca exclosa de l'índex.
 - **Accessibilitat**: el menú mòbil tancat i la nav compacta oculta ja no són enfocables (`visibility`).
 - **Responsive**: tret el scroll horitzontal de la pàgina de gigs (`overflow-wrap` a la descripció).
+- **Nav compacta mòbil**: logo ocult ≤480px i icones redistribuïdes (`space-evenly`).
+- **Gigs**: fons vertical propi (`static/images/wp/gigs-bg.jpg`) sobre el degradat fosc.
+- **Discografia — línia temporal**: per any (nou→vell) amb traçat de la línia en scroll, any
+  «sticky» i revelat d'entrades (CSS + `static/js/timeline.js`, respecta `prefers-reduced-motion`);
+  anys omplerts de 14 entrades, 11 al grup «Any desconegut».
 - **SEO**: el `SearchAction` de la home ara usa l'URL de cerca localitzat (cerca/buscar/pretraga).
 
 ## Pendent
 
 ### Contingut
-- [ ] **Discografia**: omplir `year:` de les 25 entrades (recerca feta, queden 4-5 dubtes:
-      senzills de Los Mambo Jambo «El Jaguar», «Mambo 7/Baile»; àlbums B4/BBBB).
-- [ ] **Discografia**: implementar línia temporal vertical per any (nou→vell) a
-      `layouts/discography/list.html`.
+- [ ] **Discografia**: omplir `year:` de les 11 entrades que encara no en tenen
+      (`lmj-el-jaguar`, `lmj-mambo-7-baile`, `bgko-orquestra`, i 8 de B4/BBBB); queden al grup
+      «Any desconegut» de la línia temporal.
+- [ ] **Discografia**: omplir els enllaços de plataforma (`spotify`, `apple_music`, `youtube`,
+      `smartlink`…) — ara estan tots buits, així que les fitxes no mostren cap enllaç de compra.
 - [ ] **Projectes**: línia temporal per any d'inici a `layouts/projects/list.html`.
 - [ ] **Projectes**: afegir enllaços de plataforma per a la resta de projectes
       (Down Home, Lazy Jumpers, The Nu Niles, BBBB) a `data/project-links.yaml`.
@@ -40,10 +46,7 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 - [ ] **SR**: revisió per part de l'Ivan abans de publicar (`draft: false`).
 
 ### Disseny (cal aprovació de Joan)
-- [ ] **Nav compacta en mòbil**: amb la barra visible (en scroll), les 3 últimes icones queden fora
-      de pantalla (390px). Opcions: amagar el logo compacte en mòbil (≤480px) o reduir mida d'icones.
-- [ ] **Discografia — línia temporal animada en scroll**: un cop hi hagi els anys, animar la línia
-      temporal segons l'scroll (entrada d'entrades, traçat de la línia, etc.).
+- [ ] Revisió visual d'Ivan del disseny C (dark folk) en conjunt.
 
 ### Tècnic
 - [ ] Secció `/admin/` (dashboard GoatCounter) — recrear contingut.
@@ -52,6 +55,27 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 - [ ] Redirects: completar amb la llista del `wp-sitemap.xml` antic.
 - [ ] Etiqueta de canal per vídeo a les targetes de `videos/list.html`.
 - [ ] Renombrar workflow `fetch-concerts.yml` (ara «iCal» → «iCal + Bandsintown»).
+
+### SEO
+- [ ] **Metes**: `title` i `meta description` únics i de longitud correcta per pàgina i idioma.
+- [ ] **Canonical + hreflang**: revisar canonical i `hreflang` (incloent `x-default`) a les 4 llengües.
+- [ ] **Open Graph / Twitter**: `og:image` real per pàgina (ara `images/wp/foto-background.png`);
+      `og:title`/`description`/`image`/`url` i `twitter:card`.
+- [ ] **Dades estructurades (JSON-LD)**: `Person` (Ivan), `MusicGroup` (bandes), `MusicAlbum`
+      (discografia), `MusicEvent` (agenda), `Organization`, `WebSite`+`SearchAction`.
+- [ ] **Redirects**: completar la llista del `wp-sitemap.xml` antic (301 → noves rutes per idioma).
+- [ ] **Sitemap**: dividir/actualitzar i enviar a Google Search Console + Bing; vigilar `noindex`.
+- [ ] **RSS/feed**: decidir si cal (ara no hi ha news).
+
+### SEO per IA (GEO)
+- [ ] **`llms.txt`** (i opcionalment `llms-full.txt`) amb resum del lloc i enllaços clau.
+- [ ] **Política per a bots d'IA** a `robots.txt`: permetre/bloquejar explícitament
+      (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot…).
+- [ ] **Entitats clares**: JSON-LD coherent Ivan ↔ bandes ↔ discos ↔ concerts (desambiguació).
+- [ ] **Contingut citable**: resum biogràfic, fitxes de disc amb any/formats i dades en text
+      (no només imatge), perquè siguin fàcilment extractables.
+- [ ] **Renderitzat sense JS**: comprovar que les pàgines clau tinguin contingut en HTML
+      (agenda i discografia carreguen via JS; valorar `noscript`/SSR parcial).
 
 ### Manual (Joan)
 - [ ] Host, usuari SSH i docroot de producció (LinuxBCN).

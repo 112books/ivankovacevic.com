@@ -5,7 +5,7 @@ translationKey: "lmj-impacto-inminente-alt"
 weight: 35
 cover: "/images/wp/discography/06-mambojamboimpactoinminente-300x340.jpg"
 type_release: "album"
-year: 
+year: 2013
 spotify: ""
 spotify_embed: ""
 apple_music: ""

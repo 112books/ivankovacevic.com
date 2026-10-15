@@ -5,7 +5,7 @@ translationKey: "lmj-barrence-whitfield"
 weight: 33
 cover: "/images/wp/discography/04-barrence-mb-300x340.jpg"
 type_release: "single"
-year: 
+year: 2014
 spotify: ""
 spotify_embed: ""
 apple_music: ""
