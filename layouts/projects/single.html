@@ -9,6 +9,16 @@
     </div>
     {{ end }}
     <div class="prose">{{ .Content }}</div>
+    {{ $links := index (index site.Data "project-links") .Params.translationKey }}
+    {{ with $links }}
+    <div class="project-links">
+      {{ range . }}
+      <a class="project-links__item" href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .platform }}">
+        {{ partial "icons/platform-icon.html" .platform }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
   </div>
 </div>
 {{ end }}

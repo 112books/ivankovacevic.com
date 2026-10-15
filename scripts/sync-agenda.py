@@ -11,7 +11,7 @@ import json
 import re
 import sys
 import unicodedata
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 try:
@@ -26,6 +26,7 @@ SOURCES = ROOT / "data" / "sources.yaml"
 ICAL_OUT = ROOT / "static" / "data" / "concerts.txt"
 SCHEMA_OUT = ROOT / "data" / "concerts-schema.json"
 BASE_URL = "https://ivankovacevic.com"
+BANDSINTOWN_APP_ID = "js_ivankovacevic.com"
 
 
 def slugify(text):
@@ -133,6 +134,63 @@ def fetch(url):
     return resp.text
 
 
+def fetch_bandsintown(artist_id):
+    url = f"https://rest.bandsintown.com/artists/id_{artist_id}/events?app_id={BANDSINTOWN_APP_ID}"
+    resp = requests.get(url, timeout=30, headers={"User-Agent": "ivankovacevic.com/1.0"})
+    resp.raise_for_status()
+    data = resp.json()
+    if isinstance(data, dict):
+        raise RuntimeError(data.get("Message", "resposta inesperada de Bandsintown"))
+    return data
+
+
+def bandsintown_to_event(ev, name):
+    """Converteix un esdeveniment de Bandsintown al format VEVENT intern."""
+    dt_raw = (ev.get("datetime") or "").strip()
+    if not dt_raw:
+        return None
+    try:
+        start = datetime.fromisoformat(dt_raw)
+    except ValueError:
+        return None
+    end = start + timedelta(hours=2)
+
+    venue = ev.get("venue") or {}
+    vname = (venue.get("name") or "").strip()
+    vcity = (venue.get("city") or "").strip()
+    vcountry = (venue.get("country") or "").strip()
+    location = ", ".join(x for x in (vname, vcity, vcountry) if x)
+
+    title = (ev.get("title") or "").strip()
+    if title and vname:
+        summary = f"{title}, {vname}"
+    else:
+        summary = title or vname or name
+
+    url = ""
+    for offer in ev.get("offers") or []:
+        if offer.get("url"):
+            url = offer["url"]
+            break
+    if not url:
+        url = ev.get("url") or ""
+
+    return {
+        "SUMMARY": summary,
+        "DTSTART": start.strftime("%Y%m%dT%H%M%S"),
+        "DTEND": end.strftime("%Y%m%dT%H%M%S"),
+        "LOCATION": location,
+        "DESCRIPTION": (ev.get("description") or "").strip(),
+        "URL": url,
+        "X-PERFORMER": name,
+    }
+
+
+def event_key(ev):
+    venue = (ev.get("LOCATION") or ev.get("SUMMARY") or "").split(",")[0].strip().lower()
+    return (ev.get("DTSTART", "")[:8], venue)
+
+
 def escape_ical(text):
     return text.replace("\\", "\\\\").replace(",", "\\,").replace(";", "\\;").replace("\n", "\\n")
 
@@ -146,7 +204,6 @@ def main():
 
     now = datetime.now(timezone.utc)
     vervevents = []
-    schema_events = []
     report = []
 
     for src in gigs:
@@ -174,11 +231,37 @@ def main():
                 pass
             ev["X-PERFORMER"] = name
             vervevents.append(ev)
-            schema_events.append(to_schema(ev, name))
             kept += 1
-        report.append(f"  {name}: {kept} esdeveniments propers")
+        report.append(f"  {name} (iCal): {kept} esdeveniments propers")
 
-    schema_events.sort(key=lambda x: x.get("startDate", ""))
+    bandsintown = sources.get("bandsintown") or []
+    for src in bandsintown:
+        name, artist_id = src.get("name", "?"), src.get("id")
+        if not artist_id:
+            continue
+        try:
+            raw_events = fetch_bandsintown(artist_id)
+        except Exception as e:
+            print(f"AVÍS: Bandsintown «{name}» ha fallat: {e}", file=sys.stderr)
+            continue
+        kept = 0
+        for raw in raw_events:
+            ev = bandsintown_to_event(raw, name)
+            if ev:
+                vervevents.append(ev)
+                kept += 1
+        report.append(f"  {name} (Bandsintown): {kept} esdeveniments propers")
+
+    deduped, seen = [], set()
+    for ev in sorted(vervevents, key=lambda e: e.get("DTSTART", "")):
+        key = event_key(ev)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(ev)
+    vervevents = deduped
+
+    schema_events = [to_schema(ev, ev.get("X-PERFORMER", "")) for ev in vervevents]
     SCHEMA_OUT.write_text(
         json.dumps({"generated": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "events": schema_events}, ensure_ascii=False, indent=2),
         encoding="utf-8",
@@ -203,7 +286,7 @@ def main():
 
     print("Agenda sincronitzada:")
     print("\n".join(report))
-    print(f"Total: {len(schema_events)} esdeveniments propers de {len(gigs)} fonts")
+    print(f"Total: {len(schema_events)} esdeveniments propers de {len(gigs) + len(bandsintown)} fonts")
 
 
 if __name__ == "__main__":

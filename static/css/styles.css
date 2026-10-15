@@ -714,6 +714,10 @@ footer {
 .page-title::after { content: ''; position: absolute; bottom: 0; left: 0; width: 3rem; height: 2px; background: var(--c-gold); }
 .back-link { display: inline-block; font-size: .8rem; letter-spacing: .05em; text-transform: uppercase; color: var(--c-text-muted); text-decoration: none; margin-bottom: 2rem; transition: color var(--dur); }
 .back-link:hover { color: var(--c-gold); }
+
+.project-links { display: flex; flex-wrap: wrap; gap: .75rem; margin: 2.5rem 0 0; }
+.project-links__item { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(200,168,75,.35); color: var(--c-ink-soft); text-decoration: none; transition: color var(--dur), border-color var(--dur), background var(--dur); }
+.project-links__item:hover { color: var(--c-gold); border-color: var(--c-gold); background: rgba(200,168,75,.12); }
 button.back-link { background: none; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
 
 .page-wrap--dark { background: var(--c-dark-2); color: var(--c-ink); }

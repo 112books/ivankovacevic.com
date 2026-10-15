@@ -4,40 +4,22 @@ PRODID:-//ivankovacevic.com//agenda//CA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Ivan Kovačević
 BEGIN:VEVENT
-SUMMARY:Bratia Extravaganza + JOC\, Teatre de Cerdanyola
-DTSTART:20261220T180000Z
-DTEND:20261220T200000Z
-LOCATION:Ateneu Cerdanyola\, Carrer de la Indústria\, 38\, 40\, 08290 Cerdanyola del Vallès\, Barcelona\, España
-DESCRIPTION:Bratia Extravaganza feat. La Jove Orquestra de Cerdanyola (JOC)\n\nJoin with Google Meet: https://meet.google.com/egp-tzqf-erb\n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282720
-X-PERFORMER:Bratia
+SUMMARY:Wiener Konzerthaus
+DTSTART:20261015T193000
+DTEND:20261015T213000
+LOCATION:Wiener Konzerthaus\, Wien\, Austria
+DESCRIPTION:Due to a passionate journey of fourteen years\, Barcelona Gipsy Balkan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has captured hearts and minds of audiences worldwide\, one which crosses all borders\, whether artistic or geopolitical.\n.\nIn timeless fashion\, the band has forged its path with the power of live performances\, carrying with it the essence of seven interwoven stories from various cultures and ways of life. In their seventh studio album\, alongside their artistic commitment to traditional music\, BGKO ventures into the vibrant journey of original compositions\, custom-crafted lyrics\, and melodies that have waited patiently for their day  to be shared.\n.\nBGKO invites the world to join them on this emotional journey\, promising a unique and authentic experience at each upcoming concert.\n.\nBarcelona Gipsy balKan Orchestra\n.\nMargherita Abita (voice\, Italy)\nJulien Chanal (guitar\, France)\nFernando Salinas (accordion\, Spain)\nXavi Pendón (clarinet \, Spain)\nPere Nolasc Turu (violin \, Spain)\nIvan Kovačević (double bass \, Serbia)\nAlbert Enkaminanko (percussions \, Spain)\n.\nWeb ……….  https://bgko.org\nYouTube ….   https://www.youtube.com/@bgko\nFaceBook …  https://www.facebook.com/BarcelonaGipsybalKanOrchestra\nInstagram …  https://www.instagram.com/bcngipsybalkanorchestra\nTikTok ........ https://www.tiktok.com/@bcngipsybalkanorchestra
+URL:https://www.bandsintown.com/t/108152927?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+X-PERFORMER:BGKO
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SKC\, Kragujevac\, Serbia
-DTSTART:20261022T180000Z
-DTEND:20261022T200000Z
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Can Met\, La Bisbal
-DTSTART:20261219T190000Z
-DTEND:20261219T210000Z
-LOCATION:Associació CAN MET\, Av. de les Voltes\, 10\, 17100 La Bisbal d'Empordà\, Girona\, España
-DESCRIPTION:Join with Google Meet: https://meet.google.com/cbh-epbt-qvp\n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282720
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Bratia Rendez•Vous feat. Adrian Cunningham
-DTSTART:20261218T180000Z
-DTEND:20261218T203000Z
-LOCATION:Jamboree Jazz & Dance Club\, Pl. Reial\, 17\, Ciutat Vella\, 08002Barcelona\, España
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Caixa Forum Zaragoza
-DTSTART:20261108T190000Z
-DTEND:20261108T210000Z
-LOCATION:CaixaForum Zaragoza\, Av. de José Anselmo Clavé\, 4\, Delicias\, 50004 Zaragoza\, España
-X-PERFORMER:Bratia
+SUMMARY:Tvornica Kulture
+DTSTART:20261016T210000
+DTEND:20261016T230000
+LOCATION:Tvornica Kulture\, Zagreb\, Croatia
+DESCRIPTION:Special Guests:  Duo Lume (Merima & Jelena) &  Nataša Mihajlović\n \nINCOGNITO AGENCY PRESENTS:  BARCELONA GIPSY BALKAN ORCHESTRA  ZAGREB - TVORNICA KULTURE PETAK\, 16.10.2026. OD 21 SAT ﻿Zahvaljujući strastvenom četrnaestogodišnjem glazbenom putovanju\, Barcelona Gipsy Balkan Orchestra (BGKO) etablirao se kao neupitna …\n.\nZahvaljujući 14 godina strastvene karijere\, bend Barselona Gipsy balKan Orchestra (BGKO) se pozicionirao kao neosporna referenca na svetskoj sceni balkanske muzike. Njihov način mešanja različitih muzičkih tradicija u jedinstvenu simfoniju osvojio je srca publike širom sveta\, prkoseći svim granicama\,  kako umetničkim\, tako i geopolitičkim.\n.\nKao vanvremenski svedok\, bend je iskovao svoj put snagom nastupa uživo\, noseći sa sobom suštinu sedam isprepletenih priča\, koje dolaze iz različitih kultura i načina života. Na svom sedmom studijskom albumu\, osim umetničke posvećenosti tradicionalnoj muzici\, BGKO se upušta u turbulentno nebo sopstvenih kompozicija\, po meri skrojenih tekstova i melodija koje su strpljivo čekale na svoj trenutak da se pojave u punom sjaju.\n.\nBGKO poziva svet da na svakom koncertu podeli ovo emotivno putovanje i jedinstveno iskustvo.\n\nBarcelona Gipsy balKan Orchestra\n.\nMargherita Abita (vokal\, Italija)\nJulien Chanal (gitara\, Francuska)\nFernando Salinas (harmonika\, Španija)\nXavi Pendón (klarinet\, Španija)\nPere Nolasc Turu (violina\, Španija)\nIvan Kovačević (kontrabas\, Srbija)\nAlbert Enkaminanko (perkusije\,Španija)\n.\nSpecial Guests:  Duo Lume (Merima & Jelena) &  Nataša Mihajlović\n.\nWeb ……….  https://bgko.org\nYouTube ….   https://www.youtube.com/@bgko\nFaceBook …  https://www.facebook.com/BarcelonaGipsybalKanOrchestra\nInstagram …  https://www.instagram.com/bcngipsybalkanorchestra\nTikTok ........ https://www.tiktok.com/@bcngipsybalkanorchestra
+URL:https://www.bandsintown.com/t/108213381?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+X-PERFORMER:BGKO
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scena Rogoz\, Varaždin\, Croacia
@@ -46,9 +28,9 @@ DTEND:20261017T200000Z
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Dom Kulture\, Užice\, Serbia
-DTSTART:20261023T180000Z
-DTEND:20261023T200000Z
+SUMMARY:Novosadašnji Jazz Club\, Novi Sad\, Serbia
+DTSTART:20261018T180000Z
+DTEND:20261018T200000Z
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
@@ -59,9 +41,15 @@ LOCATION:Bluz i Pivo\, Cetinjska 15\, Beograd 11000\, Serbia
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Novosadašnji Jazz Club\, Novi Sad\, Serbia
-DTSTART:20261018T180000Z
-DTEND:20261018T200000Z
+SUMMARY:SKC\, Kragujevac\, Serbia
+DTSTART:20261022T180000Z
+DTEND:20261022T200000Z
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dom Kulture\, Užice\, Serbia
+DTSTART:20261023T180000Z
+DTEND:20261023T200000Z
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
@@ -69,5 +57,43 @@ SUMMARY:Teatro Alartis\, Valdeolmos\, España
 DTSTART:20261107T190000Z
 DTEND:20261107T210000Z
 X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Caixa Forum Zaragoza
+DTSTART:20261108T190000Z
+DTEND:20261108T210000Z
+LOCATION:CaixaForum Zaragoza\, Av. de José Anselmo Clavé\, 4\, Delicias\, 50004 Zaragoza\, España
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bratia Rendez•Vous feat. Adrian Cunningham
+DTSTART:20261218T180000Z
+DTEND:20261218T203000Z
+LOCATION:Jamboree Jazz & Dance Club\, Pl. Reial\, 17\, Ciutat Vella\, 08002Barcelona\, España
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Can Met\, La Bisbal
+DTSTART:20261219T190000Z
+DTEND:20261219T210000Z
+LOCATION:Associació CAN MET\, Av. de les Voltes\, 10\, 17100 La Bisbal d'Empordà\, Girona\, España
+DESCRIPTION:Unirse con Google Meet: https://meet.google.com/cbh-epbt-qvp\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bratia Extravaganza + JOC\, Teatre de Cerdanyola
+DTSTART:20261220T180000Z
+DTEND:20261220T200000Z
+LOCATION:Ateneu Cerdanyola\, Carrer de la Indústria\, 38\, 40\, 08290 Cerdanyola del Vallès\, Barcelona\, España
+DESCRIPTION:Bratia Extravaganza feat. La Jove Orquestra de Cerdanyola (JOC)\n\nUnirse con Google Meet: https://meet.google.com/egp-tzqf-erb\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jamboree Jazz
+DTSTART:20261227T210000
+DTEND:20261227T230000
+LOCATION:Jamboree Jazz\, Barcelona\, Spain
+URL:https://www.bandsintown.com/t/1040382086?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+X-PERFORMER:Barcelona Big Blues Band
 END:VEVENT
 END:VCALENDAR

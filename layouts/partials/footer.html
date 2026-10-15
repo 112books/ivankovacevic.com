@@ -17,8 +17,12 @@
     <div class="footer-sponsor">
       {{ if .Site.Params.sponsors }}
         {{ range .Site.Params.sponsors }}
-          <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .name }}">
-            <img src="{{ .logo | absURL }}" alt="{{ .name }}">
+          {{ $link := .external | default "#" }}
+          {{ with .page }}
+            {{ with site.GetPage (printf "/%s" .) }}{{ $link = .RelPermalink }}{{ end }}
+          {{ end }}
+          <a href="{{ $link }}"{{ if hasPrefix $link "http" }} target="_blank" rel="noopener"{{ end }} aria-label="{{ .name }}">
+            <img src="{{ .logo | relURL }}" alt="{{ .name }}" loading="lazy">
           </a>
         {{ end }}
       {{ end }}

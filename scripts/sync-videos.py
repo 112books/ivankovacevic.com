@@ -77,6 +77,39 @@ def normalize(entry, channel_name):
     }
 
 
+FEATURED = Path(__file__).resolve().parent.parent / "data" / "videos-featured.yaml"
+
+
+def load_featured():
+    if not FEATURED.exists():
+        return []
+    data = yaml.safe_load(FEATURED.read_text(encoding="utf-8")) or {}
+    return data.get("featured") or []
+
+
+def merge_featured(merged):
+    """Insereix els vídeos destacats del web actual, sense perdre metadades."""
+    count = 0
+    for item in load_featured():
+        vid = item.get("id")
+        if not vid:
+            continue
+        entry = dict(merged.get(vid, {}))
+        entry["id"] = vid
+        entry["url"] = f"https://www.youtube.com/watch?v={vid}"
+        entry["embed"] = f"https://www.youtube.com/embed/{vid}?rel=0&modestbranding=1"
+        entry.setdefault("published", "")
+        entry.setdefault("thumb", f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg")
+        if item.get("title"):
+            entry["title"] = item["title"]
+        if item.get("channel"):
+            entry["channel"] = item["channel"]
+        entry["featured"] = True
+        merged[vid] = entry
+        count += 1
+    return count
+
+
 def main():
     sources = yaml.safe_load(SOURCES.read_text(encoding="utf-8")) or {}
     channels = sources.get("videos") or []
@@ -114,12 +147,18 @@ def main():
     for vid_id, v in existing.items():
         merged.setdefault(vid_id, v)
 
-    videos = sorted(merged.values(), key=lambda v: v.get("published", ""), reverse=True)
+    feat_count = merge_featured(merged)
+
+    featured = [v for v in merged.values() if v.get("featured")]
+    rest = [v for v in merged.values() if not v.get("featured")]
+    rest.sort(key=lambda v: v.get("published", ""), reverse=True)
+    videos = featured + rest
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(videos, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print("Vídeos sincronitzats:")
     print("\n".join(report))
+    print(f"  (destacats del web actual: {feat_count})")
     print(f"Total: {len(videos)} vídeos de {len(channels)} canals")
 
 
