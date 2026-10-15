@@ -36,7 +36,7 @@ def artist_of(p):
     t = open(p, encoding="utf-8").read()
     m = re.match(r"^---\n.*?\n---\n?(.*)$", t, re.S)
     body = m.group(1) if m else ""
-    first = re.split(r"(?<=[.!?])\s+", body.strip(), 1)[0]
+    first = re.split(r"(?<=[.!?])\s+", body.strip(), maxsplit=1)[0]
     return clean(first).rstrip(".")
 
 lines = []

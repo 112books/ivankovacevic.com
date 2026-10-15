@@ -33,6 +33,28 @@
 
     </div>
 
+    {{ $videos := slice }}
+    {{ with os.ReadFile "static/data/videos.json" }}{{ $videos = . | transform.Unmarshal }}{{ end }}
+    {{ if $videos }}
+    <noscript>
+      <div class="videos-noscript" style="max-width:var(--max-w);margin:2rem auto 0;padding:0 var(--gap)">
+        <h2>{{ i18n "videos_cta" | default "Videos" }}</h2>
+        <ul>
+          {{ range first 30 $videos }}
+          <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>{{ with .published }} — {{ . }}{{ end }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </noscript>
+    {{ $graph := slice }}
+    {{ range first 30 $videos }}
+      {{ $graph = $graph | append (dict "@type" "VideoObject" "name" .title "thumbnailUrl" (.thumb | absURL) "uploadDate" .published "url" .url "embedUrl" .embed) }}
+    {{ end }}
+    <script type="application/ld+json">
+    {{ dict "@context" "https://schema.org" "@graph" $graph | jsonify (dict "indent" "  ") | safeJS }}
+    </script>
+    {{ end }}
+
     {{/* CTA YouTube */}}
     <div class="videos-cta">
       <a href="https://www.youtube.com/channel/UCG-CSJzP_90xHVhaDQj6PvA" target="_blank" rel="noopener" class="videos-cta__link">
