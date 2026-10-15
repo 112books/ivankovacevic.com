@@ -35,7 +35,7 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
   Apple Music verificats via API d'iTunes; JSON-LD `MusicGroup`/`MusicAlbum`.
 - **Vídeos**: dates reals de YouTube (105/105) i ordre global més nou→més vell (`videos.json`,
   `sync-videos.py`, `videos.js`).
-- **SEO/GEO**: `static/robots.txt` nou (bots d'IA permesos), `static/llms.txt` corregit i
+- **SEO/GEO**: `layouts/robots.txt` ampliat (bots d'IA permesos), `static/llms.txt` corregit i
   redireccions 301 de l'antic WordPress ampliades a `static/.htaccess`. Pla a `PLA-SEO.md`.
 - **SEO**: el `SearchAction` de la home ara usa l'URL de cerca localitzat (cerca/buscar/pretraga).
 

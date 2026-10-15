@@ -12,7 +12,7 @@ Ja implementat:
   `WebSite`+`SearchAction` i `MusicEvent` (agenda).
 - Afegit en aquesta tanda: JSON-LD `MusicGroup` (pàgines de projecte) i `MusicAlbum` (fitxes de disc).
 - `static/llms.txt` (resum per a IA) — corregit (secció News eliminada; afegida Press).
-- `static/robots.txt` **nou**: indexació oberta, `/admin/` i `/daddario/` exclosos,
+- `layouts/robots.txt` **ampliat**: indexació oberta a producció, `/admin/` i `/daddario/` exclosos,
   bots d'IA permesos explícitament, sitemap declarat.
 - `static/.htaccess`: redireccions 301 de l'antic WordPress ampliades, 410 per endpoints WP,
   i capçaleres de seguretat (HSTS, CSP, X-Frame-Options, COOP…).
