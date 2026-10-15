@@ -4,9 +4,8 @@ type: "projects"
 translationKey: "the-nu-niles"
 weight: 8
 layout: "single"
+photo: "/images/wp/projects/Nu-Niles-Nu-Niles.jpg"
 ---
-![the-nu-niles](/images/wp/projects/Nu-Niles-Nu-Niles.jpg)
-
 The Nu Niles formirani su 1996. godine i od tada ne prestaju da stvaraju muziku. Karijeru su započeli kao rockabilly bend u svom najčistijem obliku, u vreme kada je taj stil bio u suprotnosti sa većinom muzičkih pravaca i bio jedan od najundergroundnijih žanrova tada. Danas se u njihovom stilu prepliću elementi čistog rock and roll-a, rockabilly-ja, surf-a, punk-a, ska-a, tex-mex-a i špageti vesterna, što je rezultiralo njihovim prepoznatljivim, autentičnim zvukom.
 
 Bend čine Mario Cobo (gitara i vokal), Ivan Kovačević (kontrabas) i Blas Picón (bubanj).

@@ -4,8 +4,9 @@ type: "projects"
 translationKey: "5-spots"
 weight: 6
 layout: "single"
+photo: "/images/wp/Sofa.jpg"
 ---
-![5 spots - Al Milano Jazz Club](/images/wp/Sofa.jpg)Nekada je džez plamteo iz grla, ispunjavao atmosferu dimom i plesao uz zveket kockica u alkoholnim pićima koja su pržila jetru.
+Nekada je džez plamteo iz grla, ispunjavao atmosferu dimom i plesao uz zveket kockica u alkoholnim pićima koja su pržila jetru.
 
 Više od muzike, bio je to udarac ustaljenom poretku, čežnja za životom i slobodom koja se izražavala bez ikakvih kompromisa.
 

@@ -4,8 +4,9 @@ type: "projects"
 translationKey: "5-spots"
 weight: 6
 layout: "single"
+photo: "/images/wp/Sofa.jpg"
 ---
-![5 spots - Al Milano Jazz Club](/images/wp/Sofa.jpg)Hi havia un temps en què el jazz escopia foc per la boca, carregava de fum l'atmosfera i ballava amb el clink dels glaçons banyats en destil·lats que foradaven el fetge.
+Hi havia un temps en què el jazz escopia foc per la boca, carregava de fum l'atmosfera i ballava amb el clink dels glaçons banyats en destil·lats que foradaven el fetge.
 
 Més que música era un cop de puny a l'ordre establert, un anhel de vida i llibertat que s'expressava sense concessions de cap mena.
 

@@ -4,9 +4,8 @@ type: "projects"
 translationKey: "los-mambo-jambo"
 weight: 5
 layout: "single"
+photo: "/images/wp/projects/jambologyOK3.jpg"
 ---
-![los-mambo-jambo](/images/wp/projects/jambologyOK3.jpg)
-
 Los Mambo Jambo je instrumentalni bend koji je stvorio "Jambofonski zvuk" - divlju mešavinu rock&roll-a, rhythm&blues-a, surf-a i svinga interpretiranu kroz savremenu perspektivu. Njihov stil je proizvod zajedničkog stvaralaštva četiri člana, emblematičnih figura rock&roll i džez scene u Španiji: Dani Nel·lo (saksofon), Dani Baraldés (gitara), Ivan Kovačević (kontrabas) i Anton Jarl (bubanj).
 
 Kvartet je nastao krajem 2009. godine u Barseloni. Instrumentalna muzika je univerzalni jezik, a Los Mambo Jambo su se ujedinili s ciljem da ponude direktnu i vanvremensku muziku - poziv koji povezuje ljude bilo gde u svetu. Danas Los Mambo Jambo imaju objavljena tri albuma i četiri 7-inch singla, od kojih je jedan snimljen u saradnji sa američkim pevačem Barrenceom Withfieldom.

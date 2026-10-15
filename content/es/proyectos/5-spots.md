@@ -4,8 +4,9 @@ type: "projects"
 translationKey: "5-spots"
 weight: 6
 layout: "single"
+photo: "/images/wp/Sofa.jpg"
 ---
-![5 spots - Al Milano Jazz Club](/images/wp/Sofa.jpg)Había un tiempo en que el Jazz escupía fuego por la boca, cargaba de humo la atmosfera y bailaba con el clink de los cubitos bañados en destilados que perfo­raban el hígado.
+Había un tiempo en que el Jazz escupía fuego por la boca, cargaba de humo la atmosfera y bailaba con el clink de los cubitos bañados en destilados que perfo­raban el hígado.
 
 Más que música era un puñetazo al orden establecido, un anhelo de vida y libertad que se expresaba sin concesiones de ningún tipo.
 

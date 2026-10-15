@@ -4,9 +4,8 @@ type: "projects"
 translationKey: "lazy-jumpers"
 weight: 7
 layout: "single"
+photo: "/images/wp/projects/LAIZY-JUMPERS.jpg"
 ---
-![lazy-jumpers](/images/wp/projects/LAIZY-JUMPERS.jpg)
-
 Lazy Jumpers és un quartet resident a Barcelona de blues i rhythm&blues reconegut internacionalment com una de les millors bandes de blues i rhythm&blues actuals. Avalen el seu nom, la seva discografia i la seva experiència en directe.
 
 - **Veu i harmònica** BLAS PICÓN

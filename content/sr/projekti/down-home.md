@@ -4,9 +4,8 @@ type: "projects"
 translationKey: "down-home"
 weight: 9
 layout: "single"
+photo: "/images/wp/projects/shapeimage_1.jpg"
 ---
-![down-home](/images/wp/projects/shapeimage_1.jpg)
-
 ### Žanr
 
 neo swing, crazy bluesin’, shaky rhythm, groovy boogie

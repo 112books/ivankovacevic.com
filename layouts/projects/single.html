@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="page-wrap">
+  <div class="page-inner page-inner--narrow">
+    <button type="button" class="back-link" data-back>← {{ i18n "back" | default "Tornar" }}</button>
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Params.photo }}
+    <div class="prose">
+      <img src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Params.name | default $.Title }}">
+    </div>
+    {{ end }}
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</div>
+{{ end }}

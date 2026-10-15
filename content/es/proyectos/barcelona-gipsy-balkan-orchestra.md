@@ -4,6 +4,7 @@ type: "projects"
 translationKey: "barcelona-gipsy-balkan-orchestra"
 weight: 3
 layout: "single"
+photo: "/images/wp/projects/bgko-live-novisad.jpg"
 ---
 Después de tres años de conciertos increíbles, encuentros musicales inspiradores, numerosas giras y 21 países visitados, la BGKO evoluciona y, a partir de Noviembre 2015, se transforma en la Barcelona Gipsy balKan Orchestra. Tras estos años de trabajo y descubierta sentimos la necesidad de expandir el horizonte de nuestra dirección artística. No obstante seguimos muy interesados en la música Klezmer, queremos dirigir nuestra inspiración a un género musical más amplio. La música balcánica es, para nosotros, un conjunto de tradiciones musicales y una cultura multiétnica que van más allá de sus confines geográficos, que se nutre de todas aquellas tradiciones históricas que han habitado alguna vez esas tierras: judíos ashkenazi y sefardíes, gitanos, otomanos, árabes…
 

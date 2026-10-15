@@ -4,6 +4,7 @@ type: "projects"
 translationKey: "barcelona-gipsy-balkan-orchestra"
 weight: 3
 layout: "single"
+photo: "/images/wp/projects/bgko-live-novisad.jpg"
 ---
 Starting from November 2015, BGKO evolves: after so much intense work and growth, we are responding to the urge to expand our artistic horizons. While we remain very interested in Klezmer music, we also want to gather inspiration from a wider spectrum of genres. Balkan music is, for us, a set of musical traditions and multiethnic cultures that surpass geographical confines, drawing on the historical traditions that have forever inhabited these lands: Ashkenazi and Sephardic Jews, Gypsies, Ottomans, Arabs…
 

@@ -4,9 +4,8 @@ type: "projects"
 translationKey: "bratia"
 weight: 1
 layout: "single"
+photo: "/images/wp/BRATIA-LETTERS-WEB.png"
 ---
-![Bratia](/images/wp/BRATIA-LETTERS-WEB.png)
-
 Bratia, la banda Barcelonesa, nace de la necesidad del contrabajista serbio afincado en Barcelona, <a href="https://ivankovacevic.com/" target="_blank" rel="noreferrer noopener">Ivan Kovacevic</a>, de unir dos mundos musicales en una trepidante propuesta. El infinito mundo sonoro de los países balcánicos y la energía, sobriedad y  precisión del jazz manouche unificados por el nomadismo de la música gitana crea un cóctel explosivo que no deja a nadie indiferente…
 
 Como uno de los pilares de la emblemática banda <a href="https://bgko.org/" target="_blank" rel="noreferrer noopener">Barcelona Gipsy Balkan Orchestra</a>, Kovacevic, con la experiencia acumulada durante años en más de 35 países, junto con sus dos compañeros de batalla, el percusionista griego Stelios Togias y el violinista tarraconense Pere Nolasc Turu, se embarca en esta aventura formando un quinteto con dos guitarristas curtidos en el legado de Django Reinhardt. El mallorquín Biel Ballester, artista que lleva años arrasando escenarios en todo el mundo con el trío bajo su nombre y Victor Paradis,  de procedencia canadiense, joven promesa que en poco tiempo se ha convertido en un imprescindible de la música en la capital catalana.

@@ -10,7 +10,7 @@
       <article class="band-card">
         {{ with .Params.photo }}
         <div class="band-card__photo-wrap">
-          <img class="band-card__photo" src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy">
+          <img class="band-card__photo" src="{{ strings.TrimPrefix "/" . | relURL }}" alt="{{ $.Title }}" loading="lazy">
         </div>
         {{ end }}
         <div class="band-card__body">

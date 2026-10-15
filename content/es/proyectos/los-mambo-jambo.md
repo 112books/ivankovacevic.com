@@ -4,9 +4,8 @@ type: "projects"
 translationKey: "los-mambo-jambo"
 weight: 5
 layout: "single"
+photo: "/images/wp/projects/jambologyOK3.jpg"
 ---
-![los-mambo-jambo](/images/wp/projects/jambologyOK3.jpg)
-
 Los Mambo Jambo es la banda instrumental creadora del ‘Sonido Jambofónico’, una mezcla salvaje de rock&roll, rhythm&blues, surf y swing interpretada bajo una perspectiva contemporánea. Su estilo es producto de la conjura de sus cuatro componentes, figuras emblemáticas de la escena del rock&roll y el jazz en España: Dani Nel·lo (saxo), Dani Baraldés (guitarra), Ivan Kovacevic (contrabajo) y Anton Jarl (batería).
 
 El cuarteto nace a finales del 2009 en Barcelona. La música instrumental es un lenguaje universal y Los Mambo Jambo se unen con la vocación de lanzar una propuesta directa e intemporal, una invitación que conecte con cualquier persona en cualquier lugar del mundo. A día de hoy, Los Mambo Jambo tienen publicados tres álbumes y cuatro 7’’, uno de ellos en colaboración con el cantante estadounidense Barrence Withfield.
