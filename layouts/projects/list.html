@@ -1,5 +1,8 @@
 {{ define "main" }}
-<div class="page-wrap">
+<div class="page-wrap page-wrap--projects">
+  <div class="projects-hero-full">
+    <img src="{{ "images/wp/projects-hero.jpg" | absURL }}" alt="{{ .Title }}" loading="eager">
+  </div>
   <div class="page-inner">
     <h1 class="page-title">{{ .Title }}</h1>
     {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}

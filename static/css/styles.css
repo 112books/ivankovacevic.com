@@ -427,6 +427,19 @@ a   { color: inherit; }
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem; margin-top: .5rem;
 }
+
+/* Projectes: imatge de capçalera a tot l'ample */
+.page-wrap--projects { padding-top: 0; }
+.projects-hero-full { margin: 0 calc(-1 * var(--gap)); }
+.projects-hero-full img { width: 100%; height: clamp(220px, 40vw, 520px); object-fit: cover; }
+.page-wrap--projects .page-inner { padding-top: var(--section-v); }
+
+/* Legals: fons atenuat per mantenir la llegibilitat */
+.page-wrap--legal {
+  background:
+    linear-gradient(rgba(13,10,8,0.86), rgba(13,10,8,0.93)),
+    var(--legal-bg, none) center center / cover no-repeat;
+}
 .band-card--leader {
   grid-column: 1 / -1;
   max-width: 100%; margin: 0 auto; width: 100%;
@@ -1302,6 +1315,9 @@ button.back-link { background: none; border: 0; padding: 0; cursor: pointer; fon
 
 .search-wrap {
   min-height: calc(100vh - var(--compact-h));
+  background:
+    linear-gradient(rgba(0,0,0,0.82), rgba(0,0,0,0.90)),
+    var(--search-bg, none) center center / cover no-repeat;
 }
 
 .search-container {
