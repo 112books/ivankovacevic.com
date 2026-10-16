@@ -13,4 +13,4 @@ apple_music: "\"https://music.apple.com/es/album/7/1741318056\""
 youtube: ""
 smartlink: ""
 ---
-Barcelona Gipsy balKan Orchestra. Featuring Ivan Kovačević on double bass.
+Barcelona Gipsy balKan Orchestra. Con Ivan Kovačević al contrabajo.

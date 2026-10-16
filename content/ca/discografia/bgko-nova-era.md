@@ -13,4 +13,4 @@ apple_music: "\"https://music.apple.com/es/album/nova-era/1535802337\""
 youtube: ""
 smartlink: ""
 ---
-Barcelona Gipsy balKan Orchestra. Featuring Ivan Kovačević on double bass.
+Barcelona Gipsy balKan Orchestra. Amb Ivan Kovačević al contrabaix.

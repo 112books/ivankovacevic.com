@@ -13,4 +13,4 @@ apple_music: "\"https://music.apple.com/es/album/europe-closes-the-border-origin
 youtube: ""
 smartlink: ""
 ---
-Barcelona Gipsy balKan Orchestra. Featuring Ivan Kovačević on double bass.
+Barcelona Gipsy balKan Orchestra. Ivan Kovačević na kontrabasu.

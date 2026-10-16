@@ -13,4 +13,4 @@ apple_music: "https://music.apple.com/es/album/1835823253"
 youtube: ""
 smartlink: ""
 ---
-Barcelona Big Blues Band. Featuring Ivan Kovačević on double bass.
+Barcelona Big Blues Band. Amb Ivan Kovačević al contrabaix.

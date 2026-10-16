@@ -66,7 +66,7 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
       Lazy Jumpers (data/project-links.yaml). Down Home sense enllaços verificats.
 - [ ] **Discografia/projectes**: `year` d'inici de cada projecte (BGKO 2012, Bernat Font 2009,
       Los Mambo Jambo 2008/2009, Lazy Jumpers 2003, The Nu Niles 1996).
-- [ ] **Traduccions CA/ES/SR** de la discografia (actualment buides o parcials).
+- [x] **Traduccions CA/ES/SR** de la discografia: cossos i metes localitzats (18 cossos completats).
 - [ ] **SR**: revisió per part de l'Ivan abans de publicar (`draft: false`).
 
 ### Disseny (cal aprovació de Joan)
