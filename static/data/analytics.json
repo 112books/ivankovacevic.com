@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T05:55:44Z",
-  "generated": "2026-10-16T05:55:44Z",
+  "generated_at": "2026-10-16T08:45:18Z",
+  "generated": "2026-10-16T08:45:18Z",
   "period": {
     "start": "2026-09-16",
     "end": "2026-10-16"
@@ -24104,41 +24104,46 @@
     {
       "id": "Chrome",
       "name": "Chrome",
-      "count": 55
+      "count": 108
     },
     {
       "id": "Firefox",
       "name": "Firefox",
-      "count": 33
+      "count": 51
     },
     {
       "id": "Safari",
       "name": "Safari",
-      "count": 4
+      "count": 14
     }
   ],
   "systems": [
     {
       "id": "Windows",
       "name": "Windows",
-      "count": 64
+      "count": 111
     },
     {
       "id": "macOS",
       "name": "macOS",
-      "count": 24
+      "count": 57
     },
     {
       "id": "iOS",
       "name": "iOS",
       "count": 4
+    },
+    {
+      "id": "Android",
+      "name": "Android",
+      "count": 1
     }
   ],
   "sizes": [
     {
       "id": "phone",
       "name": "phone",
-      "count": 4
+      "count": 5
     },
     {
       "id": "tablet",
@@ -24148,7 +24153,7 @@
     {
       "id": "desktop",
       "name": "desktop",
-      "count": 88
+      "count": 168
     },
     {
       "id": "desktophd",
@@ -24165,52 +24170,52 @@
     {
       "id": "SC",
       "name": "Seychelles",
-      "count": 27
+      "count": 46
     },
     {
       "id": "BR",
       "name": "Brazil",
-      "count": 12
-    },
-    {
-      "id": "PK",
-      "name": "Pakistan",
-      "count": 7
+      "count": 16
     },
     {
       "id": "ES",
       "name": "Spain",
-      "count": 4
+      "count": 14
+    },
+    {
+      "id": "PK",
+      "name": "Pakistan",
+      "count": 10
+    },
+    {
+      "id": "IN",
+      "name": "India",
+      "count": 9
+    },
+    {
+      "id": "US",
+      "name": "United States",
+      "count": 7
     },
     {
       "id": "AR",
       "name": "Argentina",
-      "count": 3
+      "count": 6
     },
     {
       "id": "BD",
       "name": "Bangladesh",
-      "count": 3
-    },
-    {
-      "id": "CL",
-      "name": "Chile",
-      "count": 3
+      "count": 6
     },
     {
       "id": "CO",
       "name": "Colombia",
-      "count": 3
+      "count": 6
     },
     {
-      "id": "MX",
-      "name": "Mexico",
-      "count": 3
-    },
-    {
-      "id": "DZ",
-      "name": "Algeria",
-      "count": 2
+      "id": "CL",
+      "name": "Chile",
+      "count": 5
     }
   ]
 }
