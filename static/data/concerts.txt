@@ -77,7 +77,7 @@ SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Can Met\, La Bisbal
 DTSTART:20261219T190000Z
 DTEND:20261219T210000Z
 LOCATION:Associació CAN MET\, Av. de les Voltes\, 10\, 17100 La Bisbal d'Empordà\, Girona\, España
-DESCRIPTION:Unirse con Google Meet: https://meet.google.com/cbh-epbt-qvp\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
+DESCRIPTION:Join with Google Meet: https://meet.google.com/cbh-epbt-qvp\n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282720
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
@@ -85,7 +85,7 @@ SUMMARY:Bratia Extravaganza + JOC\, Teatre de Cerdanyola
 DTSTART:20261220T180000Z
 DTEND:20261220T200000Z
 LOCATION:Ateneu Cerdanyola\, Carrer de la Indústria\, 38\, 40\, 08290 Cerdanyola del Vallès\, Barcelona\, España
-DESCRIPTION:Bratia Extravaganza feat. La Jove Orquestra de Cerdanyola (JOC)\n\nUnirse con Google Meet: https://meet.google.com/egp-tzqf-erb\n\nMás información sobre Meet: https://support.google.com/a/users/answer/9282720
+DESCRIPTION:Bratia Extravaganza feat. La Jove Orquestra de Cerdanyola (JOC)\n\nJoin with Google Meet: https://meet.google.com/egp-tzqf-erb\n\nLearn more about Meet at: https://support.google.com/a/users/answer/9282720
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
