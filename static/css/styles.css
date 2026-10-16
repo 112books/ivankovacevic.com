@@ -1102,8 +1102,9 @@ button.back-link { background: none; border: 0; padding: 0; cursor: pointer; fon
 
 
 /* ── 17. CONTACTE ────────────────────────────────────────── */
-.contact-wrap { min-height: calc(100vh - var(--compact-h)); position: relative; background: var(--contact-bg, none) center center / cover no-repeat; display: flex; align-items: stretch; }
-.contact-overlay { flex: 1; background: linear-gradient(105deg, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.75) 55%, rgba(0,0,0,0.3) 100%); display: flex; align-items: flex-start; }
+.contact-wrap { min-height: calc(100vh - var(--compact-h)); position: relative; display: flex; align-items: stretch; }
+.contact-wrap::before { content: ''; position: absolute; inset: 0; background: var(--contact-bg, none) center center / cover no-repeat; filter: grayscale(100%); z-index: 0; }
+.contact-overlay { position: relative; z-index: 1; flex: 1; background: linear-gradient(105deg, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.75) 55%, rgba(0,0,0,0.3) 100%); display: flex; align-items: flex-start; }
 .contact-inner { max-width: var(--max-w); width: 100%; margin: 0 auto; padding: var(--section-v) var(--gap); }
 .contact-text { max-width: 560px; }
 .contact-title { font-family: var(--f-display); font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 400; color: var(--c-gold); margin-bottom: 1.5rem; position: relative; padding-bottom: 1rem; }
