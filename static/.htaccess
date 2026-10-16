@@ -106,7 +106,7 @@ RedirectMatch 410 ^/author(/.*)?$
     Header always set Cross-Origin-Opener-Policy "same-origin-allow-popups"
 
     # CSP — sense 'unsafe-inline' a script-src (tot el JS és extern)
-    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'wasm-unsafe-eval' gc.zgo.at unpkg.com; style-src 'self' 'unsafe-inline' unpkg.com; font-src 'self' unpkg.com; img-src 'self' data: https:; connect-src 'self' gc.zgo.at ivankovacevic.goatcounter.com api.github.com https://cms-oauth-bratia-y855.vercel.app unpkg.com; frame-src open.spotify.com www.youtube.com www.youtube-nocookie.com player.vimeo.com; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'; upgrade-insecure-requests"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'wasm-unsafe-eval' gc.zgo.at unpkg.com; style-src 'self' 'unsafe-inline' unpkg.com; font-src 'self' unpkg.com; img-src 'self' data: https:; connect-src 'self' gc.zgo.at ivankovacevic.goatcounter.com api.github.com https://raw.githubusercontent.com https://cms-oauth-bratia-y855.vercel.app unpkg.com; frame-src open.spotify.com www.youtube.com www.youtube-nocookie.com player.vimeo.com; object-src 'none'; base-uri 'self'; frame-ancestors 'self'; form-action 'self'; upgrade-insecure-requests"
 </IfModule>
 
 # ── Compressió ────────────────────────────────────────────
