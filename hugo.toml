@@ -45,8 +45,8 @@ defaultContentLanguageInSubdir = true
   weight = 4
 
 [[languages.en.menu.main]]
-  name = "Gigs"
-  url = "/en/gigs/"
+  name = "Concerts"
+  url = "/en/concerts/"
   identifier = "gigs"
   weight = 5
 

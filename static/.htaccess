@@ -18,7 +18,8 @@ RedirectMatch 301 ^/contacto/?$                  /es/contacto/
 RedirectMatch 301 ^/ivan-kovacevic-sobre-daddario/?$ /es/proyectos/
 
 # EN
-RedirectMatch 301 ^/en/next-shows-2/?$ /en/gigs/
+RedirectMatch 301 ^/en/next-shows-2/?$ /en/concerts/
+RedirectMatch 301 ^/en/gigs/?$          /en/concerts/
 RedirectMatch 301 ^/en/next-shows/?$   /en/projects/
 RedirectMatch 301 ^/en/videos-2/?$     /en/videos/
 

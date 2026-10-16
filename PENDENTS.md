@@ -102,7 +102,8 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 
 ### Manual (Joan)
 - [x] Host, usuari SSH i docroot de producció (LinuxBCN) — migració feta el 2026-10-15.
-- [ ] Forçar 301 http -> https i canonicalitzar www -> sense www (cal panell de hosting).
+- [x] Forçar 301 http -> https (activat al panell el 2026-10-16).
+- [ ] Canonicalitzar www -> sense www (pendent, panell de hosting).
 - [ ] Ruta de fotografies a Google Photos per a la selecció.
 
 ## Decisions obertes / a confirmar
