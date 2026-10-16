@@ -62,8 +62,8 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
       nova o la mateixa que `lmj-sonido-jambofonico`, i l'any de `bgko-cd` (debut).
 - [ ] **Discografia**: decidir si `b4-mike-sanchez` (Apple no el llista el 2025) és EP 2025 o single antic.
 - [ ] **Projectes**: línia temporal per any d'inici a `layouts/projects/list.html`.
-- [ ] **Projectes**: afegir enllaços de plataforma per a la resta de projectes
-      (Down Home, Lazy Jumpers, The Nu Niles, BBBB) a `data/project-links.yaml`.
+- [x] **Projectes**: enllaços Apple afegits a Bernat Font Trio, BBBB, The Nu Niles i
+      Lazy Jumpers (data/project-links.yaml). Down Home sense enllaços verificats.
 - [ ] **Discografia/projectes**: `year` d'inici de cada projecte (BGKO 2012, Bernat Font 2009,
       Los Mambo Jambo 2008/2009, Lazy Jumpers 2003, The Nu Niles 1996).
 - [ ] **Traduccions CA/ES/SR** de la discografia (actualment buides o parcials).

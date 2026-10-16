@@ -29,6 +29,14 @@ los-mambo-jambo:
 
 bernat-font-trio:
   - { platform: "spotify", url: "https://open.spotify.com/artist/5SjpDKb3QOX4tKue1CbJys" }
+  - { platform: "apple",   url: "https://music.apple.com/es/artist/bernat-font-trio/439546769" }
 
 barcelona-big-blues-band:
+  - { platform: "apple",       url: "https://music.apple.com/es/artist/barcelona-big-blues-band/905808123" }
   - { platform: "bandsintown", url: "https://www.bandsintown.com/a/3540917-barcelona-big-blues-band" }
+
+the-nu-niles:
+  - { platform: "apple", url: "https://music.apple.com/es/artist/the-nu-niles/205742774" }
+
+lazy-jumpers:
+  - { platform: "apple", url: "https://music.apple.com/es/artist/the-lazy-jumpers/155799583" }
