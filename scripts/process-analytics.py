@@ -85,6 +85,17 @@ def main():
         "locations":    locations,
     }
 
+    # Guarda: no sobreescriure dades bones amb un resultat buit (fallada transitòria)
+    if total == 0:
+        try:
+            with open(output_file) as f:
+                prev = json.load(f)
+            if (prev.get("total") or 0) > 0:
+                print("WARN: resultat buit; es conserva analytics.json anterior")
+                return
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
+
     with open(output_file, "w") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 

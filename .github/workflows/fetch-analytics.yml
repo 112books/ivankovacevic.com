@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      WINDOW_DAYS: 400
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
@@ -20,14 +22,14 @@ jobs:
         run: |
           END=$(date +%Y-%m-%d)
           # Finestra ~13 mesos per agrupar per dia/setmana/mes/trimestre/any
-          START=$(date -d '400 days ago' +%Y-%m-%d)
+          START=$(date -d "${WINDOW_DAYS} days ago" +%Y-%m-%d)
           BASE="https://${GC_ACCOUNT}.goatcounter.com/api/v0"
           AUTH="Authorization: Bearer ${GC_TOKEN}"
 
           fetch_json() {
             local url="$1"
             local result
-            result=$(curl -s --max-time 15 -H "${AUTH}" "${url}")
+            result=$(curl -s --max-time 60 --retry 2 --retry-delay 3 -H "${AUTH}" "${url}")
             if echo "${result}" | python3 -c "import sys,json; json.load(sys.stdin)" 2>/dev/null; then
               echo "${result}"
             else
@@ -49,10 +51,11 @@ jobs:
 
       - name: Process analytics
         run: |
+          START=$(date -d "${WINDOW_DAYS} days ago" +%Y-%m-%d)
           python3 scripts/process-analytics.py \
             /tmp/raw_all.json \
             static/data/analytics.json \
-            "$(date -d '30 days ago' +%Y-%m-%d)" \
+            "$START" \
             "$(date +%Y-%m-%d)"
 
       - name: Commit analytics data
