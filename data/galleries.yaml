@@ -7,7 +7,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2026/07/26/2026-07-25-una-jornada-amb-els-barcelona-gipsy-balkan-orchestra/
-  cover: images/wp/photos/2026-07-25-una-jornada-amb-els-barcelona-gipsy-balkan-orchestra.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2026/07/IMG_1796.jpg
 - id: 2026-06-22a25-barcelona-big-blues-band-al-beatgarden-studios
   kind: chronicle
   title:
@@ -16,7 +16,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2026/06/27/2026-06-22a25-barcelona-big-blues-band-al-beatgarden-studios/
-  cover: images/wp/photos/2026-06-22a25-barcelona-big-blues-band-al-beatgarden-studios.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2026/06/L1560008.jpg
 - id: 2026-06-26-elvis-amb-barcelona-big-blues-band-agusti-burriel-the-velved-candels-noa-vd
   kind: chronicle
   title:
@@ -25,7 +25,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2026/06/27/2026-06-26-elvis-amb-barcelona-big-blues-band-agusti-burriel-the-velved-candels-noa-vd/
-  cover: images/wp/photos/2026-06-26-elvis-amb-barcelona-big-blues-band-agusti-burriel-the-velved-candels-noa-vd.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2026/06/IMG_8902.jpg
 - id: 2026-01-22-inauguracio-sax-o-rama-2026
   kind: chronicle
   title:
@@ -34,7 +34,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2026/01/23/2026-01-22-inauguracio-sax-o-rama-2026/
-  cover: images/wp/photos/2026-01-22-inauguracio-sax-o-rama-2026.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2026/01/IMG_4392.jpg
 - id: 2025-04-06-barcelona-big-blues-band-feat-noa-vd
   kind: chronicle
   title:
@@ -43,7 +43,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2025/04/07/2025-04-06-barcelona-big-blues-band-feat-noa-vd/
-  cover: images/wp/photos/2025-04-06-barcelona-big-blues-band-feat-noa-vd.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2025/04/2025-04-06-LM6-APX400@3200-BBBB-Noa-A-0033.jpg
 - id: 2023-11-25-barcelona-gipsy-balkan-orchestra-bgko-a-tarantos
   kind: chronicle
   title:
@@ -52,7 +52,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2023/11/28/2023-11-25-barcelona-gipsy-balkan-orchestra-bgko-a-tarantos/
-  cover: images/wp/photos/2023-11-25-barcelona-gipsy-balkan-orchestra-bgko-a-tarantos.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2023/11/2023-11-25-BGKO-al-Tarantos-Lm6-0020.jpg
 - id: 2023-04-30-barcelona-big-blues-band-martin-burguez-al-jamboree
   kind: chronicle
   title:
@@ -61,7 +61,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2023/04/30/2023-04-30-barcelona-big-blues-band-martin-burguez-al-jamboree/
-  cover: images/wp/photos/2023-04-30-barcelona-big-blues-band-martin-burguez-al-jamboree.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2023/05/DSF9026.jpg
 - id: sol-de-sants-2022
   title:
     ca: Bratia a l'estudi Sol de Sants
@@ -75,12 +75,13 @@ galleries:
 - id: 2022-07-09-20e-festival-de-blues-de-barcelona-barcelona-big-blues-band-ft-lluis-coloma
   kind: chronicle
   title:
-    ca: 2022-07-09 – 20è Festival de Blues de Barcelona – Barcelona Big Blues Band ft Lluís Coloma
+    ca: 2022-07-09 – 20è Festival de Blues de Barcelona – Barcelona Big Blues Band
+      ft Lluís Coloma
   date: '2022-07-13'
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2022/07/13/2022-07-09-20e-festival-de-blues-de-barcelona-barcelona-big-blues-band-ft-lluis-coloma/
-  cover: images/wp/photos/2022-07-09-20e-festival-de-blues-de-barcelona-barcelona-big-blues-band-ft-lluis-coloma.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2022/07/2022-07-09-BBBB-2-0044.jpg
 - id: bratia-xavi-almirall-2022
   title:
     ca: Bratia per Xavi Almirall
@@ -103,12 +104,13 @@ galleries:
 - id: 2021-07-11-19e-festival-de-blues-de-barcelona-barcelona-big-blues-band-ft-spencer-evoy
   kind: chronicle
   title:
-    ca: 2021-07-11 - 19è Festival de Blues de Barcelona - Barcelona Big Blues Band ft Spencer Evoy
+    ca: 2021-07-11 - 19è Festival de Blues de Barcelona - Barcelona Big Blues Band
+      ft Spencer Evoy
   date: '2021-07-12'
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2021/07/12/2021-07-11-19e-festival-de-blues-de-barcelona-barcelona-big-blues-band-ft-spencer-evoy/
-  cover: images/wp/photos/2021-07-11-19e-festival-de-blues-de-barcelona-barcelona-big-blues-band-ft-spencer-evoy.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2021/07/2021-07-11-B4SEvoy-102.jpg
 - id: can-deu-2021
   title:
     ca: Bratia a Can Deu
@@ -147,7 +149,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2020/08/15/ivan-kovacevic-5spots-campari-milano-bcn/
-  cover: images/wp/photos/ivan-kovacevic-5spots-campari-milano-bcn.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2020/08/2020-87-14-A-033.jpg
 - id: festival-de-blues-de-barcelona-barcelona-big-blues-band-amb-dani-nello
   kind: chronicle
   title:
@@ -156,7 +158,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2020/07/12/festival-de-blues-de-barcelona-barcelona-big-blues-band-amb-dani-nello/
-  cover: images/wp/photos/festival-de-blues-de-barcelona-barcelona-big-blues-band-amb-dani-nello.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2020/07/L1260594-1024x576-1.jpg
 - id: festival-de-blues-de-barcelona-barcelona-big-blues-band-amb-dani-nello-2
   kind: chronicle
   title:
@@ -165,16 +167,17 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2020/07/12/festival-de-blues-de-barcelona-barcelona-big-blues-band-amb-dani-nello-2/
-  cover: images/wp/photos/festival-de-blues-de-barcelona-barcelona-big-blues-band-amb-dani-nello-2.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2020/07/2020-07-11-C-027.jpg
 - id: festival-de-blues-de-barcelona-los-brillantes-amb-chino-swingslide-albert-bello-ivan-kovasevic-i-bernat-font
   kind: chronicle
   title:
-    ca: Festival de Blues de Barcelona – Los Brillantes amb Chino Swingslide, Albert Bello, Ivan Kovasevic i Bernat Font
+    ca: Festival de Blues de Barcelona – Los Brillantes amb Chino Swingslide, Albert
+      Bello, Ivan Kovasevic i Bernat Font
   date: '2020-07-11'
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2020/07/11/festival-de-blues-de-barcelona-los-brillantes-amb-chino-swingslide-albert-bello-ivan-kovasevic-i-bernat-font/
-  cover: images/wp/photos/festival-de-blues-de-barcelona-los-brillantes-amb-chino-swingslide-albert-bello-ivan-kovasevic-i-bernat-font.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2020/07/2020-07-10-A-014.jpg
 - id: festival-de-blues-de-barcelona-chino-the-big-bet-sax-attack
   kind: chronicle
   title:
@@ -183,7 +186,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2020/07/05/festival-de-blues-de-barcelona-chino-the-big-bet-sax-attack/
-  cover: images/wp/photos/festival-de-blues-de-barcelona-chino-the-big-bet-sax-attack.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2020/07/L1250102.jpg
 - id: festival-de-blues-de-barcelona-chino-the-big-bet-sax-attack-2
   kind: chronicle
   title:
@@ -192,7 +195,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2020/07/05/festival-de-blues-de-barcelona-chino-the-big-bet-sax-attack-2/
-  cover: images/wp/photos/festival-de-blues-de-barcelona-chino-the-big-bet-sax-attack-2.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2020/07/2020-07-04-A-028.jpg
 - id: barcelona-big-blues-band-rock-a-bell-cristmas-party-amb-miriam-swanson
   kind: chronicle
   title:
@@ -201,7 +204,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2019/12/21/barcelona-big-blues-band-rock-a-bell-cristmas-party-amb-miriam-swanson/
-  cover: images/wp/photos/barcelona-big-blues-band-rock-a-bell-cristmas-party-amb-miriam-swanson.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2019/12/hd489-019-1980x1175-1.jpg
 - id: 10e-aniversari-de-los-mambo-jambo
   kind: chronicle
   title:
@@ -210,7 +213,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2019/11/30/10e-aniversari-de-los-mambo-jambo/
-  cover: images/wp/photos/10e-aniversari-de-los-mambo-jambo.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2019/11/hc473-008-1980x1400-1.jpg
 - id: big-dani-perez-mario-cobo-amb-blas-picon-i-ivan-kovacevic
   kind: chronicle
   title:
@@ -219,25 +222,27 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2019/07/15/big-dani-perez-mario-cobo-amb-blas-picon-i-ivan-kovacevic/
-  cover: images/wp/photos/big-dani-perez-mario-cobo-amb-blas-picon-i-ivan-kovacevic.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2019/07/HD407-021.jpg
 - id: 15e-festival-de-blues-de-barcelona-victor-puertas-the-mellow-tones-enma-fernandez-band-barcelona-big-blues-band-jonathan-herrero-dani-nello
   kind: chronicle
   title:
-    ca: 15è Festival de Blues de Barcelona – Víctor Puertas & The Mellow Tones, Enma Fernández Band, Barcelona Big Blues Band + Jonathan Herrero + Dani Nel·lo
+    ca: 15è Festival de Blues de Barcelona – Víctor Puertas & The Mellow Tones, Enma
+      Fernández Band, Barcelona Big Blues Band + Jonathan Herrero + Dani Nel·lo
   date: '2017-07-16'
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2017/07/16/15e-festival-de-blues-de-barcelona-victor-puertas-the-mellow-tones-enma-fernandez-band-barcelona-big-blues-band-jonathan-herrero-dani-nello/
-  cover: images/wp/photos/15e-festival-de-blues-de-barcelona-victor-puertas-the-mellow-tones-enma-fernandez-band-barcelona-big-blues-band-jonathan-herrero-dani-nello.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2017/07/IMG_5183.jpg
 - id: picnik-de-blues-2017-amb-big-band-de-la-escola-taller-de-blues-de-barcelona-simews-shocks-i-enma-fernandez
   kind: chronicle
   title:
-    ca: 'Picnik de blues 2017 amb: Big Band de la Escola-Taller de Blues de Barcelona, Simews Shocks i Enma Fernández'
+    ca: 'Picnik de blues 2017 amb: Big Band de la Escola-Taller de Blues de Barcelona,
+      Simews Shocks i Enma Fernández'
   date: '2017-05-15'
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2017/05/15/picnik-de-blues-2017-amb-big-band-de-la-escola-taller-de-blues-de-barcelona-simews-shocks-i-enma-fernandez/
-  cover: images/wp/photos/picnik-de-blues-2017-amb-big-band-de-la-escola-taller-de-blues-de-barcelona-simews-shocks-i-enma-fernandez.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2017/05/IMG_0820.jpg
 - id: vijazz-2015-barcelona-big-blues-band-dani-nel-c2-b7lo
   kind: chronicle
   title:
@@ -246,7 +251,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2015/07/05/vijazz-2015-barcelona-big-blues-band-dani-nel%C2%B7lo/
-  cover: images/wp/photos/vijazz-2015-barcelona-big-blues-band-dani-nel-c2-b7lo.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2015/07/IMG_8613-1.jpg
 - id: bgko-barcelona-gipsy-klezmer-orchestra
   kind: chronicle
   title:
@@ -255,7 +260,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2015/03/06/bgko-barcelona-gipsy-klezmer-orchestra/
-  cover: images/wp/photos/bgko-barcelona-gipsy-klezmer-orchestra.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2015/03/IMG_3335.jpg
 - id: ivan-kovacevic-5spots-shift-presentacio-al-jamboree
   kind: chronicle
   title:
@@ -264,7 +269,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2015/02/09/ivan-kovacevic-5spots-shift-presentacio-al-jamboree/
-  cover: images/wp/photos/ivan-kovacevic-5spots-shift-presentacio-al-jamboree.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2015/02/IMG_0184.jpg
 - id: taboo-a-lapolo-amb-la-barcelona-big-blues-band
   kind: chronicle
   title:
@@ -273,7 +278,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2014/12/24/taboo-a-lapolo-amb-la-barcelona-big-blues-band/
-  cover: images/wp/photos/taboo-a-lapolo-amb-la-barcelona-big-blues-band.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2014/12/IMG_8187.jpg
 - id: barcelona-big-blues-band-amb-drew-davies
   kind: chronicle
   title:
@@ -282,7 +287,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2014/10/29/barcelona-big-blues-band-amb-drew-davies/
-  cover: images/wp/photos/barcelona-big-blues-band-amb-drew-davies.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2014/10/IMG_5157.jpg
 - id: barcelona-big-blues-band-enregistrament-nou-disc
   kind: chronicle
   title:
@@ -291,7 +296,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2014/05/01/barcelona-big-blues-band-enregistrament-nou-disc/
-  cover: images/wp/photos/barcelona-big-blues-band-enregistrament-nou-disc.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2014/05/IMG_4584.jpg
 - id: barcelona-big-blues-band-tercer-dia-a-lestudi
   kind: chronicle
   title:
@@ -300,7 +305,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2014/05/01/barcelona-big-blues-band-tercer-dia-a-lestudi/
-  cover: images/wp/photos/barcelona-big-blues-band-tercer-dia-a-lestudi.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2014/05/IMG_4767.jpg
 - id: barcelona-big-blues-band-enregistrament-disc
   kind: chronicle
   title:
@@ -309,7 +314,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2014/04/30/barcelona-big-blues-band-enregistrament-disc/
-  cover: images/wp/photos/barcelona-big-blues-band-enregistrament-disc.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2014/04/IMG_7516.jpg
 - id: zenza-bronica-etrs-ivan-kovacevic-5-spots-2
   kind: chronicle
   title:
@@ -318,7 +323,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2014/04/26/zenza-bronica-etrs-ivan-kovacevic-5-spots-2/
-  cover: images/wp/photos/zenza-bronica-etrs-ivan-kovacevic-5-spots-2.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2014/04/7705-Bronica-CN400-014.jpg
 - id: zenza-bronica-etrs-ivan-kovacevic-5-spots
   kind: chronicle
   title:
@@ -327,7 +332,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2014/04/25/zenza-bronica-etrs-ivan-kovacevic-5-spots/
-  cover: images/wp/photos/zenza-bronica-etrs-ivan-kovacevic-5-spots.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2014/04/7706-Bronica-CN400-014.jpg
 - id: ivan-kovacevic-5-spots-en-campari-milano
   kind: chronicle
   title:
@@ -336,7 +341,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2014/04/21/ivan-kovacevic-5-spots-en-campari-milano/
-  cover: images/wp/photos/ivan-kovacevic-5-spots-en-campari-milano.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2014/04/IMG_7134.jpg
 - id: barcelona-big-blues-band-ray-gelato
   kind: chronicle
   title:
@@ -345,7 +350,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2014/01/20/barcelona-big-blues-band-ray-gelato/
-  cover: images/wp/photos/barcelona-big-blues-band-ray-gelato.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2014/01/IMG_3050.jpg
 - id: barcelona-big-blues-band-amb-mike-sanchez
   kind: chronicle
   title:
@@ -354,16 +359,17 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2013/08/05/barcelona-big-blues-band-amb-mike-sanchez/
-  cover: images/wp/photos/barcelona-big-blues-band-amb-mike-sanchez.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2013/08/MG_7009.jpg
 - id: 11e-festival-de-blues-de-barcelona-dani-nel-c2-b7lo-barcelona-big-blues-band-barbara-clifford
   kind: chronicle
   title:
-    ca: 11è Festival de Blues de Barcelona - Dani Nel·lo, Barcelona Big Blues Band & Barbara Clifford
+    ca: 11è Festival de Blues de Barcelona - Dani Nel·lo, Barcelona Big Blues Band
+      & Barbara Clifford
   date: '2013-07-21'
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2013/07/21/11e-festival-de-blues-de-barcelona-dani-nel%C2%B7lo-barcelona-big-blues-band-barbara-clifford/
-  cover: images/wp/photos/11e-festival-de-blues-de-barcelona-dani-nel-c2-b7lo-barcelona-big-blues-band-barbara-clifford.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2013/07/MG_6118.jpg
 - id: barcelona-big-blues-band-backstage
   kind: chronicle
   title:
@@ -372,7 +378,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2013/07/11/barcelona-big-blues-band-backstage/
-  cover: images/wp/photos/barcelona-big-blues-band-backstage.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2013/07/0498-LC-A-Lomo-100-022.jpg
 - id: barcelona-big-blues-band-al-vijazz-2013-a-vilafranca-del-penedes
   kind: chronicle
   title:
@@ -381,7 +387,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2013/07/05/barcelona-big-blues-band-al-vijazz-2013-a-vilafranca-del-penedes/
-  cover: images/wp/photos/barcelona-big-blues-band-al-vijazz-2013-a-vilafranca-del-penedes.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2013/07/Captura-de-pantalla-2024-11-28-a-les-14.14.36.png
 - id: barcelona-big-blues-band-al-vijazz
   kind: chronicle
   title:
@@ -390,7 +396,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2013/07/05/barcelona-big-blues-band-al-vijazz/
-  cover: images/wp/photos/barcelona-big-blues-band-al-vijazz.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2013/07/IMG_2008.jpg
 - id: barcelona-big-band-blues-amb-dani-nel-c2-b7lo-al-jamboree-barcelona
   kind: chronicle
   title:
@@ -399,7 +405,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2013/03/27/barcelona-big-band-blues-amb-dani-nel%C2%B7lo-al-jamboree-barcelona/
-  cover: images/wp/photos/barcelona-big-band-blues-amb-dani-nel-c2-b7lo-al-jamboree-barcelona.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2013/03/IMG_0165.jpg
 - id: los-mambo-jambo-presenten-disc-a-lapolo
   kind: chronicle
   title:
@@ -408,7 +414,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2012/06/29/los-mambo-jambo-presenten-disc-a-lapolo/
-  cover: images/wp/photos/los-mambo-jambo-presenten-disc-a-lapolo.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2012/06/IMG_4271.jpg
 - id: 9binblack-diumenge-amb-la-barcelona-big-blues
   kind: chronicle
   title:
@@ -417,7 +423,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2012/02/27/9binblack-diumenge-amb-la-barcelona-big-blues/
-  cover: images/wp/photos/9binblack-diumenge-amb-la-barcelona-big-blues.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2012/02/IMG_7661.jpg
 - id: 8e-festival-de-blues-de-barcelona-barcelona-b
   kind: chronicle
   title:
@@ -426,7 +432,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2012/01/28/8e-festival-de-blues-de-barcelona-barcelona-b/
-  cover: images/wp/photos/8e-festival-de-blues-de-barcelona-barcelona-b.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2012/01/IMG_2325.jpg
 - id: barcelona-big-blues-band-amb-mark-tortorici
   kind: chronicle
   title:
@@ -435,7 +441,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2012/01/28/barcelona-big-blues-band-amb-mark-tortorici/
-  cover: images/wp/photos/barcelona-big-blues-band-amb-mark-tortorici.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2012/01/IMG_0742-1.jpg
 - id: barcelona-blues-big-band-a-la-placa-reial
   kind: chronicle
   title:
@@ -444,7 +450,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2012/01/28/barcelona-blues-big-band-a-la-placa-reial/
-  cover: images/wp/photos/barcelona-blues-big-band-a-la-placa-reial.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2012/01/IMG_8743-1.jpg
 - id: video-assaig-de-la-barcelona-big-blues-band
   kind: chronicle
   title:
@@ -453,7 +459,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2011/05/06/video-assaig-de-la-barcelona-big-blues-band/
-  cover: images/wp/photos/video-assaig-de-la-barcelona-big-blues-band.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2011/05/Captura-de-pantalla-2024-12-09-a-les-16.46.16.png
 - id: assaig-de-la-barcelona-big-blues-band
   kind: chronicle
   title:
@@ -462,7 +468,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2011/04/07/assaig-de-la-barcelona-big-blues-band/
-  cover: images/wp/photos/assaig-de-la-barcelona-big-blues-band.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2011/04/IMG_4433-1.jpg
 - id: sessio-fotografica-amb-barcelona-big-blues-ba
   kind: chronicle
   title:
@@ -471,7 +477,7 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2011/02/08/sessio-fotografica-amb-barcelona-big-blues-ba/
-  cover: images/wp/photos/sessio-fotografica-amb-barcelona-big-blues-ba.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2011/02/img_9503-scaled1000.jpg
 - id: 9binblack-barcelona-big-blues-band-amb-mark-t
   kind: chronicle
   title:
@@ -480,4 +486,4 @@ galleries:
   author: Joan Linux
   author_url: https://blog.pocallum.cat/
   url: https://blog.pocallum.cat/2011/02/07/9binblack-barcelona-big-blues-band-amb-mark-t/
-  cover: images/wp/photos/9binblack-barcelona-big-blues-band-amb-mark-t.jpg
+  cover: https://blog.pocallum.cat/wp-content/uploads/2011/02/IMG_9456-1.jpg
