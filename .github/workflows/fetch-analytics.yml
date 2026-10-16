@@ -19,7 +19,8 @@ jobs:
           GC_ACCOUNT: ivankovacevic
         run: |
           END=$(date +%Y-%m-%d)
-          START=$(date -d '30 days ago' +%Y-%m-%d)
+          # Finestra ~13 mesos per agrupar per dia/setmana/mes/trimestre/any
+          START=$(date -d '400 days ago' +%Y-%m-%d)
           BASE="https://${GC_ACCOUNT}.goatcounter.com/api/v0"
           AUTH="Authorization: Bearer ${GC_TOKEN}"
 

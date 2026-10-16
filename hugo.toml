@@ -334,6 +334,7 @@ google_calendar_ical = ""
 [params.analytics]
 goatcounter = "ivankovacevic"
 enabled     = true
+since       = "2026-10-15"   # inici del seguiment (producció)
 
 [markup]
   [markup.goldmark]

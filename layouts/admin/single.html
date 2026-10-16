@@ -2,27 +2,31 @@
 <style>
   .admin-wrap { max-width: var(--max-w); margin: 0 auto; }
   .admin-sub { color: var(--c-muted); font-size: .9rem; margin-top: .35rem; }
-  .period-wrap { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; margin: 1.75rem 0 0; }
+  .admin-since { color: var(--c-accent-2); font-size: .85rem; margin-top: .25rem; }
+  .admin-tabs { display: flex; gap: .25rem; flex-wrap: wrap; margin: 1.75rem 0 1.5rem; border-bottom: 1px solid var(--c-border); }
+  .admin-tab { font-family: var(--f-display); text-transform: uppercase; letter-spacing: .05em; font-size: .8rem; color: var(--c-muted); background: transparent; border: 0; border-bottom: 2px solid transparent; padding: .6rem .95rem; cursor: pointer; transition: color var(--dur) var(--ease); }
+  .admin-tab:hover { color: var(--c-ink); }
+  .admin-tab.is-active { color: var(--c-ink); border-bottom-color: var(--c-accent); }
+  .period-wrap { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; margin: 0 0 1rem; }
   .period-label { color: var(--c-muted); font-size: .72rem; text-transform: uppercase; letter-spacing: .14em; }
-  #period-selector { display: flex; gap: .4rem; flex-wrap: wrap; }
+  #group-selector, #period-selector { display: flex; gap: .4rem; flex-wrap: wrap; }
   .period-btn { font-family: var(--f-body); font-size: .8rem; color: var(--c-ink-soft); background: transparent; border: 1px solid var(--c-border); padding: .35rem .85rem; border-radius: 999px; cursor: pointer; transition: all var(--dur) var(--ease); }
   .period-btn:hover { border-color: var(--c-accent); color: var(--c-ink); }
   .period-btn.active { background: var(--c-accent); border-color: var(--c-accent); color: #fff; }
-  .stats-total { font-family: var(--f-display); text-transform: uppercase; letter-spacing: .06em; color: var(--c-muted); font-size: .82rem; margin: 2rem 0 .5rem; }
+  .stats-total { font-family: var(--f-display); text-transform: uppercase; letter-spacing: .06em; color: var(--c-muted); font-size: .82rem; margin: .5rem 0 .5rem; }
   .stats-total strong { display: block; font-size: clamp(2.2rem, 6vw, 3rem); color: var(--c-ink); line-height: 1.1; }
   .section-title { font-family: var(--f-display); text-transform: uppercase; letter-spacing: .07em; font-size: .92rem; color: var(--c-accent-2); margin: 2rem 0 .8rem; padding-bottom: .4rem; border-bottom: 1px solid var(--c-border); }
-  .period-range { font-size: .85rem; color: var(--c-muted); }
-  .period-note { color: var(--c-accent-2); }
+  .series { overflow-x: auto; padding: .5rem 0 .25rem; }
+  .series-inner { display: flex; align-items: flex-end; gap: 3px; height: 190px; min-width: 100%; border-bottom: 1px solid var(--c-border); }
+  .series-col { flex: 1 0 auto; min-width: 14px; max-width: 46px; height: 100%; display: flex; align-items: flex-end; }
+  .series-bar { width: 100%; background: var(--c-accent); border-radius: 2px 2px 0 0; min-height: 2px; transition: height .6s var(--ease); }
+  .series-axis { display: flex; justify-content: space-between; font-size: .7rem; color: var(--c-muted); margin-top: .35rem; }
   .chart { display: flex; flex-direction: column; gap: .5rem; }
-  .chart-row { display: grid; grid-template-columns: 150px 1fr 52px; gap: .75rem; align-items: center; }
+  .chart-row { display: grid; grid-template-columns: 190px 1fr 52px; gap: .75rem; align-items: center; }
   .chart-label { font-size: .82rem; color: var(--c-ink-soft); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .chart-value { font-size: .82rem; color: var(--c-muted); text-align: right; font-variant-numeric: tabular-nums; }
   .chart-bar-wrap { background: rgba(255,255,255,.05); border-radius: 3px; overflow: hidden; height: 20px; }
   .chart-bar { height: 100%; width: 0; background: var(--c-accent); border-radius: 3px; transition: width .9s var(--ease); display: flex; align-items: center; justify-content: flex-end; }
-  .chart-bar--lang-ca { background: var(--c-accent); }
-  .chart-bar--lang-es { background: var(--c-accent-2); }
-  .chart-bar--lang-en { background: #8a6b4f; }
-  .chart-bar--lang-sr { background: #6b5744; }
   .chart-bar--section, .chart-bar--browser, .chart-bar--system, .chart-bar--size, .chart-bar--location { background: var(--c-accent-2); }
   .chart-pct { font-size: .68rem; color: #fff; padding-right: .45rem; }
   .icon-row { display: flex; gap: 1.25rem; flex-wrap: wrap; padding: .75rem 0; }
@@ -30,33 +34,23 @@
   .icon-item__pct { font-size: .7rem; color: var(--c-muted); }
   .icon-item__name { font-size: .72rem; color: var(--c-ink-soft); }
   .icon-item__count { font-size: .7rem; color: var(--c-muted); }
-  .insight-box, .standards-box { border: 1px solid var(--c-border); background: var(--c-surface); padding: 1.25rem 1.5rem; margin-top: 2rem; border-radius: 4px; }
-  .label { display: block; font-family: var(--f-display); text-transform: uppercase; letter-spacing: .09em; font-size: .78rem; color: var(--c-accent-2); margin-bottom: .8rem; }
-  .insight-item { font-size: .9rem; color: var(--c-ink-soft); padding: .4rem 0; border-bottom: 1px dashed rgba(255,255,255,.06); }
-  .insight-item:last-child { border-bottom: 0; }
-  .standards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: .75rem; }
-  .standard-badge { border: 1px solid var(--c-border); padding: .75rem; border-radius: 4px; }
-  .standard-icon { color: var(--c-accent-2); margin-right: .35rem; }
-  .standard-name { font-family: var(--f-display); font-size: .85rem; color: var(--c-ink); }
-  .standard-desc { display: block; font-size: .75rem; color: var(--c-muted); margin-top: .2rem; }
-  .dash-footer { margin-top: 2rem; font-size: .75rem; color: var(--c-muted); }
   .loading { color: var(--c-muted); padding: 1rem 0; }
-  .blink { animation: admin-blink 1s steps(1) infinite; }
-  @keyframes admin-blink { 50% { opacity: 0; } }
-  @media (max-width: 640px) { .chart-row { grid-template-columns: 110px 1fr 44px; } }
+  @media (max-width: 640px) { .chart-row { grid-template-columns: 120px 1fr 44px; } }
 </style>
 <div class="page-wrap page-wrap--dark" data-pagefind-ignore>
   <div class="page-inner admin-wrap">
     <h1 class="page-title">Analytics</h1>
     <p class="admin-sub">GoatCounter · Ivan Kovačević</p>
-    <div class="period-wrap">
-      <span class="period-label">Període</span>
-      <div id="period-selector"></div>
+    <p class="admin-since">Seguiment des del <span id="admin-since">—</span></p>
+    <div class="admin-tabs">
+      <button class="admin-tab is-active" type="button" data-tab="resum">Resum</button>
+      <button class="admin-tab" type="button" data-tab="pagines">Pàgines i seccions</button>
+      <button class="admin-tab" type="button" data-tab="tecnologia">Navegadors i dispositius</button>
     </div>
     <div id="dashboard">
-      <div id="dash-content" class="loading">Carregant dades<span class="blink">_</span></div>
+      <div id="dash-content" class="loading">Carregant dades...</div>
     </div>
-    <span id="analytics-data-url" data-url="{{ "data/analytics.json" | absURL }}" style="display:none"></span>
+    <span id="analytics-data-url" data-url="{{ "data/analytics.json" | absURL }}" data-since="{{ .Site.Params.analytics.since }}" style="display:none"></span>
   </div>
 </div>
 <script src="{{ "js/admin-dashboard.js" | absURL }}?v={{ now.Unix }}"></script>
