@@ -44,6 +44,7 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
   `/ca/admin/` i `/ca/admin/insights/` operatius; accés a CMS i estadístiques a `ACCES.md`.
 - **Seguretat**: auditoria de producció (`SEGURETAT.md`); restes WP (`wp-content`) eliminades i
   bloquejades amb 410; IndexNow afegit al desplegament.
+- **Analytics**: dashboard /ca/admin/insights/ amb pestanyes (resum per dia/setmana/mes/trimestre/any + idiomes; pàgines i seccions; navegadors/SO/dispositius) i data d'inici del seguiment.
 - **PRODUCCIÓ migrada a Hugo** (2026-10-15): `./sync-web.sh publish` completat (86,5 MB, rsync);
   301 antics verificats, `robots.txt`/`llms.txt`/`llms-full.txt`/`sitemap.xml` en línia.
 - **SEO**: el `SearchAction` de la home ara usa l'URL de cerca localitzat (cerca/buscar/pretraga).
