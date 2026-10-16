@@ -1,4 +1,4 @@
-name: Fetch concerts iCal
+name: Fetch concerts (iCal + Bandsintown)
 
 on:
   schedule:
