@@ -13,12 +13,13 @@
 
 ## Estadístiques (GoatCounter)
 - Panell privat complet: https://ivankovacevic.goatcounter.com (compte de GoatCounter).
-- Token API: https://ivankovacevic.goatcounter.com/user/api-token
 - Dashboard intern: https://ivankovacevic.com/ca/admin/ i /ca/admin/insights/
-  - Demana el token de GoatCounter; es desa a sessionStorage (no s'envia enlloc).
-  - Mostra dades públiques agregades de static/data/analytics.json (actualitzat cada hora).
-- El token també viu al secret de GitHub GOATCOUNTER_TOKEN (workflow fetch-analytics.yml).
-  NO posar-lo al repositori ni al xat.
+  - NO demana cap token: mostra dades agregades i públiques de static/data/analytics.json
+    (actualitzat cada hora pel workflow fetch-analytics.yml).
+  - El secret de GitHub GOATCOUNTER_TOKEN només l'usa el workflow; el navegador no pot llegir
+    secrets de GitHub, per això el panell no el necessita.
+- Token API (per al workflow o per a ús manual): https://ivankovacevic.goatcounter.com/user/api-token
+  No posar-lo al repositori ni al xat.
 
 ## Desplegament
 - Staging (automàtic): push a main -> GitHub Actions pages.yml.

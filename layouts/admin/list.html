@@ -1,62 +1,27 @@
 {{ define "main" }}
 <style>
-  .admin-index {
-    padding: 3rem 2rem;
-    max-width: 600px;
-    margin: 0 auto;
-    font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
-  }
-  .admin-index h1 {
-    color: #00ff41;
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid #1a3320;
-    padding-bottom: 1rem;
-  }
-  .admin-menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    background: #1a3320;
-  }
-  .admin-menu li { background: #111; }
-  .admin-menu a {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem 1.5rem;
-    color: #c8ffd4;
-    text-decoration: none;
-    font-size: 0.85rem;
-    transition: background 0.15s;
-  }
-  .admin-menu a:hover { background: #003310; color: #00ff41; }
-  .admin-menu .menu-icon { color: #00cc33; }
-  .admin-menu .menu-desc { font-size: 0.7rem; color: #4a7a54; margin-left: auto; }
+  .admin-wrap { max-width: var(--max-w); margin: 0 auto; }
+  .admin-sub { color: var(--c-muted); margin-top: .35rem; }
+  .admin-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+  .admin-card { display: block; border: 1px solid var(--c-border); background: var(--c-surface); padding: 1.5rem; border-radius: 4px; text-decoration: none; transition: border-color var(--dur) var(--ease), transform var(--dur) var(--ease); }
+  .admin-card:hover { border-color: var(--c-accent); transform: translateY(-2px); }
+  .admin-card__title { display: block; font-family: var(--f-display); text-transform: uppercase; letter-spacing: .05em; color: var(--c-ink); font-size: 1.05rem; }
+  .admin-card__desc { display: block; color: var(--c-muted); font-size: .85rem; margin-top: .45rem; }
 </style>
-
-<div class="admin-index">
-  <h1>// Admin · Ivan Kovačević</h1>
-  <ul class="admin-menu">
-    <li>
-      <a href="{{ "ca/admin/insights/" | absURL }}">
-        <span class="menu-icon">▸</span>
-        analytics_console
-        <span class="menu-desc">GoatCounter insights</span>
+<div class="page-wrap page-wrap--dark" data-pagefind-ignore>
+  <div class="page-inner admin-wrap">
+    <h1 class="page-title">Admin</h1>
+    <p class="admin-sub">Eines internes · Ivan Kovačević</p>
+    <div class="admin-cards">
+      <a class="admin-card" href="{{ "ca/admin/insights/" | absURL }}">
+        <span class="admin-card__title">Estadístiques</span>
+        <span class="admin-card__desc">GoatCounter · visites, idiomes, dispositius i ubicacions</span>
       </a>
-    </li>
-    <li>
-      <a href="{{ "cms/" | absURL }}">
-        <span class="menu-icon">▸</span>
-        content_manager
-        <span class="menu-desc">Decap CMS backend</span>
+      <a class="admin-card" href="{{ "cms/" | absURL }}">
+        <span class="admin-card__title">Gestor de contingut</span>
+        <span class="admin-card__desc">Decap CMS · editar textos, projectes, discografia i agenda</span>
       </a>
-    </li>
-  </ul>
+    </div>
+  </div>
 </div>
 {{ end }}

@@ -17,24 +17,11 @@ var PERIODS = [
 ];
 var activePeriod = '30d';
 
-/* ── Auth ─────────────────────────────────────────────────────── */
-function connect() {
-  var token = document.getElementById('token-input').value.trim();
-  if (!token) return;
-  sessionStorage.setItem('gc_token', token);
-  showDashboard();
-}
-
-function logout() {
-  sessionStorage.removeItem('gc_token');
-  document.getElementById('dashboard').style.display = 'none';
-  document.getElementById('login-screen').style.display = 'flex';
-  document.getElementById('token-input').value = '';
-}
-
+/* ── Inici ────────────────────────────────────────────────────────
+   Les dades són agregades i públiques (analytics.json). El secret de
+   GitHub GOATCOUNTER_TOKEN només l'usa el workflow horari, no el navegador,
+   per això no cal cap token aquí. */
 function showDashboard() {
-  document.getElementById('login-screen').style.display = 'none';
-  document.getElementById('dashboard').style.display = 'block';
   renderPeriodSelector();
   loadData();
 }
@@ -403,15 +390,4 @@ function renderDashboard(data) {
 }
 
 /* ── Init ─────────────────────────────────────────────────────── */
-window.addEventListener('DOMContentLoaded', function() {
-  if (sessionStorage.getItem('gc_token')) showDashboard();
-  var btnConnect = document.getElementById('btn-connect');
-  var btnLogout  = document.getElementById('btn-logout');
-  if (btnConnect) btnConnect.addEventListener('click', connect);
-  if (btnLogout)  btnLogout.addEventListener('click', logout);
-});
-
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Enter' &&
-      document.getElementById('login-screen').style.display !== 'none') connect();
-});
+window.addEventListener('DOMContentLoaded', showDashboard);
