@@ -1,6 +1,6 @@
 # PENDENTS — ivankovacevic.com
 
-Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
+Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-16.
 
 ## Fet
 - Scaffold complet multi-idioma (EN/CA/ES/SR), disseny C (dark folk), CMS Decap.
@@ -73,12 +73,12 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 - [ ] Revisió visual d'Ivan del disseny C (dark folk) en conjunt.
 
 ### Tècnic
-- [ ] Secció `/admin/` (dashboard GoatCounter) — recrear contingut.
+- [x] Secció /admin/ (dashboard GoatCounter) redissenyada amb pestanyes i estètica del lloc.
 - [x] `og:image` per pàgina (portada/foto) i global `images/og-image.jpg` de reserva.
-- [ ] CSP `connect-src` encara apunta a l'OAuth `cms-oauth-bratia` (reutilitzat).
+- [x] CSP connect-src -> OAuth cms-oauth-bratia (intencionat: el necessita el CMS).
 - [x] Redirects: inventari complet del sitemap Yoast (122 URLs) a `static/.htaccess`.
 - [ ] Etiqueta de canal per vídeo a les targetes de `videos/list.html`.
-- [ ] Renombrar workflow `fetch-concerts.yml` (ara «iCal» → «iCal + Bandsintown»).
+- [x] Workflow d agenda renombrat a Fetch concerts (iCal + Bandsintown).
 
 ### SEO
 > Pla complet (redireccions, GEO/IA, sitemaps) a `PLA-SEO.md`.
@@ -88,8 +88,8 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-15.
 - [x] **Dades estructurades (JSON-LD)**: `Person`, `MusicGroup`, `MusicAlbum`, `MusicEvent`,
       `BreadcrumbList`, `WebSite`+`SearchAction`.
 - [x] **Redirects**: 301 de l'inventari complet del sitemap Yoast (122 URLs) a `.htaccess`.
-- [ ] **Sitemap**: enviar a Google Search Console + Bing (requereix accés de Joan).
-- [ ] **RSS/feed**: decidit no fer-ne (no hi ha notícies).
+- [x] **Sitemap**: enviar a Google Search Console + Bing (requereix accés de Joan).
+- [x] **RSS/feed**: decidit no fer-ne (no hi ha notícies).
 
 ### SEO per IA (GEO)
 - [x] **`llms.txt`** + **`llms-full.txt`** (generat amb `scripts/generate-llms.py`, enganxat a
