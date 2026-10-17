@@ -1,33 +1,6 @@
 {
-  "generated": "2026-10-16T07:47:37Z",
+  "generated": "2026-10-17T07:25:14Z",
   "events": [
-    {
-      "@type": "MusicEvent",
-      "name": "Wiener Konzerthaus",
-      "startDate": "2026-10-15T19:30:00+00:00",
-      "performer": {
-        "@type": "MusicGroup",
-        "name": "BGKO"
-      },
-      "endDate": "2026-10-15T21:30:00+00:00",
-      "location": {
-        "@type": "Place",
-        "name": "Wiener Konzerthaus",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Wien",
-          "addressLocality": "Austria",
-          "addressCountry": "ES"
-        }
-      },
-      "description": "Due to a passionate journey of fourteen years, Barcelona Gipsy Balkan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different",
-      "url": "https://www.bandsintown.com/t/108152927?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "organizer": {
-        "@type": "MusicGroup",
-        "name": "BGKO"
-      }
-    },
     {
       "@type": "MusicEvent",
       "name": "Tvornica Kulture",
