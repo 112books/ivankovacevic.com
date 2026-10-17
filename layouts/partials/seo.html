@@ -177,9 +177,19 @@
   {{ with index hugo.Data "concerts-schema" }}
   {{ with .events }}
     {{ range . }}
-    {{- $ev := dict "@context" "https://schema.org" "@type" "MusicEvent" "name" .name "startDate" .startDate "location" .location "performer" .performer "organizer" .organizer "eventStatus" .eventStatus -}}
+    {{- $orgName := "" -}}
+    {{- with .organizer }}{{ $orgName = .name }}{{ end -}}
+    {{- if not $orgName }}{{ with .performer }}{{ $orgName = .name }}{{ end }}{{ end -}}
+    {{- $locName := "" -}}
+    {{- with .location }}{{ $locName = .name }}{{ end -}}
+    {{- $evURL := .url | default $.Permalink -}}
+    {{- $img := "images/og-image.jpg" | absURL -}}
+    {{- $desc := .description -}}
+    {{- if not $desc }}{{ $desc = printf "%s — %s" $orgName $locName }}{{ end -}}
+    {{- $org := dict "@type" "MusicGroup" "name" $orgName "url" $.Site.BaseURL -}}
+    {{- $offers := dict "@type" "Offer" "url" $evURL "availability" "https://schema.org/InStock" -}}
+    {{- $ev := dict "@context" "https://schema.org" "@type" "MusicEvent" "name" .name "startDate" .startDate "location" .location "performer" .performer "organizer" $org "eventStatus" .eventStatus "url" $evURL "image" $img "description" $desc "offers" $offers -}}
     {{- with .endDate }}{{ $ev = merge $ev (dict "endDate" .) }}{{ end -}}
-    {{- with .description }}{{ $ev = merge $ev (dict "description" .) }}{{ end -}}
 <script type="application/ld+json">
 {{ $ev | jsonify (dict "indent" "  ") | safeJS }}
 </script>
