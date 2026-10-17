@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T08:15:45Z",
-  "generated": "2026-10-17T08:15:45Z",
+  "generated_at": "2026-10-17T12:41:48Z",
+  "generated": "2026-10-17T12:41:48Z",
   "period": {
     "start": "2025-09-12",
     "end": "2026-10-17"
@@ -156579,29 +156579,29 @@
     {
       "id": "Chrome",
       "name": "Chrome",
-      "count": 169
+      "count": 173
     },
     {
       "id": "Firefox",
       "name": "Firefox",
-      "count": 68
+      "count": 69
     },
     {
       "id": "Safari",
       "name": "Safari",
-      "count": 19
+      "count": 20
     }
   ],
   "systems": [
     {
       "id": "Windows",
       "name": "Windows",
-      "count": 157
+      "count": 161
     },
     {
       "id": "macOS",
       "name": "macOS",
-      "count": 72
+      "count": 73
     },
     {
       "id": "Android",
@@ -156611,14 +156611,14 @@
     {
       "id": "iOS",
       "name": "iOS",
-      "count": 9
+      "count": 10
     }
   ],
   "sizes": [
     {
       "id": "phone",
       "name": "phone",
-      "count": 27
+      "count": 28
     },
     {
       "id": "tablet",
@@ -156628,7 +156628,7 @@
     {
       "id": "desktop",
       "name": "desktop",
-      "count": 229
+      "count": 234
     },
     {
       "id": "desktophd",
@@ -156645,7 +156645,7 @@
     {
       "id": "SC",
       "name": "Seychelles",
-      "count": 71
+      "count": 74
     },
     {
       "id": "BR",
@@ -156655,7 +156655,7 @@
     {
       "id": "ES",
       "name": "Spain",
-      "count": 20
+      "count": 21
     },
     {
       "id": "HR",
@@ -156673,14 +156673,14 @@
       "count": 10
     },
     {
-      "id": "PK",
-      "name": "Pakistan",
+      "id": "IN",
+      "name": "India",
       "count": 10
     },
     {
-      "id": "IN",
-      "name": "India",
-      "count": 9
+      "id": "PK",
+      "name": "Pakistan",
+      "count": 10
     },
     {
       "id": "AR",
