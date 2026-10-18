@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "data" / "sources.yaml"
 ICAL_OUT = ROOT / "static" / "data" / "concerts.txt"
 SCHEMA_OUT = ROOT / "data" / "concerts-schema.json"
+PRICES = ROOT / "data" / "concert-prices.yaml"
 BASE_URL = "https://ivankovacevic.com"
 BANDSINTOWN_APP_ID = "js_ivankovacevic.com"
 
@@ -32,6 +33,33 @@ BANDSINTOWN_APP_ID = "js_ivankovacevic.com"
 def slugify(text):
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+AVAILABILITY = {
+    "in-stock": "https://schema.org/InStock",
+    "sold-out": "https://schema.org/SoldOut",
+    "pre-order": "https://schema.org/PreOrder",
+    "presale": "https://schema.org/PreSale",
+}
+
+
+def parse_price(value):
+    """Retorna el preu com a número o None si no és vàlid."""
+    try:
+        price = float(str(value).replace("€", "").replace(",", ".").strip())
+    except (TypeError, ValueError):
+        return None
+    return int(price) if price.is_integer() else price
+
+
+def to_schema_date(value):
+    """Accepta data iCal (20260901T100000) o ISO 8601 i retorna ISO 8601."""
+    value = (value or "").strip()
+    if not value:
+        return ""
+    if re.fullmatch(r"\d{8}(T\d{6}Z?)?", value):
+        return parse_ical_date(value)
+    return value
 
 
 def unescape_ical(text):
@@ -125,6 +153,23 @@ def to_schema(event, performer, base_url=BASE_URL):
         schema["url"] = url
     schema["eventStatus"] = "https://schema.org/EventScheduled"
     schema["organizer"] = {"@type": "MusicGroup", "name": performer}
+
+    # Oferta d'entrades: només si el preu és conegut. Google Validation
+    # (Search Console) exigeix price i priceCurrency dins d'«offers».
+    price = parse_price(event.get("X-PRICE", ""))
+    if price is not None:
+        offer = {"@type": "Offer", "price": price}
+        offer["priceCurrency"] = (event.get("X-PRICE-CURRENCY") or "EUR").strip().upper() or "EUR"
+        ticket_url = event.get("URL", "")
+        if ticket_url and ticket_url != base_url:
+            offer["url"] = ticket_url
+        availability = (event.get("X-AVAILABILITY") or "").strip().lower()
+        if availability:
+            offer["availability"] = AVAILABILITY.get(availability, availability)
+        valid_from = to_schema_date(event.get("X-VALID-FROM", ""))
+        if valid_from:
+            offer["validFrom"] = valid_from
+        schema["offers"] = offer
     return schema
 
 
@@ -175,7 +220,7 @@ def bandsintown_to_event(ev, name):
     if not url:
         url = ev.get("url") or ""
 
-    return {
+    internal = {
         "SUMMARY": summary,
         "DTSTART": start.strftime("%Y%m%dT%H%M%S"),
         "DTEND": end.strftime("%Y%m%dT%H%M%S"),
@@ -184,6 +229,26 @@ def bandsintown_to_event(ev, name):
         "URL": url,
         "X-PERFORMER": name,
     }
+
+    # Dades de l'oferta que Bandsintown sí que publica (preu no).
+    if ev.get("free"):
+        internal["X-PRICE"] = "0"
+        internal["X-PRICE-CURRENCY"] = "EUR"
+    if ev.get("sold_out"):
+        internal["X-AVAILABILITY"] = "sold-out"
+    on_sale = (ev.get("on_sale_datetime") or "").strip()
+    if on_sale:
+        internal["X-VALID-FROM"] = on_sale
+    return internal
+
+
+def price_key(ev):
+    """Clau de data/concert-prices.yaml: YYYY-MM-DD + slug del lloc."""
+    day = ev.get("DTSTART", "")[:8]
+    if len(day) == 8:
+        day = f"{day[:4]}-{day[4:6]}-{day[6:8]}"
+    venue = (ev.get("LOCATION") or ev.get("SUMMARY") or "").split(",")[0].strip()
+    return f"{day}-{slugify(venue)}"
 
 
 def event_key(ev):
@@ -260,6 +325,22 @@ def main():
         seen.add(key)
         deduped.append(ev)
     vervevents = deduped
+
+    # Preus manuals (data/concert-prices.yaml), per als esdeveniments en què
+    # ni l'iCal ni Bandsintown no publiquen l'import de l'entrada.
+    overrides = {}
+    if PRICES.exists():
+        overrides = yaml.safe_load(PRICES.read_text(encoding="utf-8")) or {}
+    for ev in vervevents:
+        override = overrides.get(price_key(ev)) or {}
+        if override.get("price") is not None:
+            ev["X-PRICE"] = str(override["price"])
+        if override.get("priceCurrency"):
+            ev["X-PRICE-CURRENCY"] = str(override["priceCurrency"])
+        if override.get("availability"):
+            ev["X-AVAILABILITY"] = str(override["availability"])
+        if override.get("validFrom"):
+            ev["X-VALID-FROM"] = str(override["validFrom"])
 
     schema_events = [to_schema(ev, ev.get("X-PERFORMER", "")) for ev in vervevents]
     SCHEMA_OUT.write_text(

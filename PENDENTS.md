@@ -44,7 +44,8 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-16.
   `/ca/admin/` i `/ca/admin/insights/` operatius; accés a CMS i estadístiques a `ACCES.md`.
 - **Seguretat**: auditoria de producció (`SEGURETAT.md`); restes WP (`wp-content`) eliminades i
   bloquejades amb 410; IndexNow afegit al desplegament.
-- **SEO/GEO**: JSON-LD MusicEvent completat (url, image, offers i organizer amb URL) per resoldre els avisos de Google Search Console.
+- **SEO/GEO**: JSON-LD MusicEvent: `offers` només s'emet quan es coneix el preu (Google exigeix
+  `price`, `priceCurrency` i `validFrom`); preus manuals a `data/concert-prices.yaml`.
 - **Analytics**: dashboard /ca/admin/insights/ amb pestanyes (resum per dia/setmana/mes/trimestre/any + idiomes; pàgines i seccions; navegadors/SO/dispositius) i data d'inici del seguiment.
 - **PRODUCCIÓ migrada a Hugo** (2026-10-15): `./sync-web.sh publish` completat (86,5 MB, rsync);
   301 antics verificats, `robots.txt`/`llms.txt`/`llms-full.txt`/`sitemap.xml` en línia.
@@ -88,6 +89,9 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-16.
 - [x] **Open Graph / Twitter**: `og:image` per pàgina (portada/foto; global de reserva) + OG/Twitter.
 - [x] **Dades estructurades (JSON-LD)**: `Person`, `MusicGroup`, `MusicAlbum`, `MusicEvent`,
       `BreadcrumbList`, `WebSite`+`SearchAction`.
+- [ ] **Dades estructurades — preus**: omplir `data/concert-prices.yaml` (clau `YYYY-MM-DD-lloc`,
+      camps `price`/`priceCurrency`/`validFrom`) perquè els `MusicEvent` tornin a dur `offers`
+      vàlides i Google no assenyali cap camp.
 - [x] **Redirects**: 301 de l'inventari complet del sitemap Yoast (122 URLs) a `.htaccess`.
 - [x] **Sitemap**: enviar a Google Search Console + Bing (requereix accés de Joan).
 - [x] **RSS/feed**: decidit no fer-ne (no hi ha notícies).
