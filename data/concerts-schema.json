@@ -1,33 +1,6 @@
 {
-  "generated": "2026-10-17T07:25:14Z",
+  "generated": "2026-10-18T07:39:59Z",
   "events": [
-    {
-      "@type": "MusicEvent",
-      "name": "Tvornica Kulture",
-      "startDate": "2026-10-16T21:00:00+00:00",
-      "performer": {
-        "@type": "MusicGroup",
-        "name": "BGKO"
-      },
-      "endDate": "2026-10-16T23:00:00+00:00",
-      "location": {
-        "@type": "Place",
-        "name": "Tvornica Kulture",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Zagreb",
-          "addressLocality": "Croatia",
-          "addressCountry": "ES"
-        }
-      },
-      "description": "Special Guests:  Duo Lume (Merima & Jelena) &  Nataša Mihajlović\n \nINCOGNITO AGENCY PRESENTS:  BARCELONA GIPSY BALKAN ORCHESTRA  ZAGREB - TVORNICA KULTURE PETAK, 16.10.2026. OD 21 SAT ﻿Zahvaljujući st",
-      "url": "https://www.bandsintown.com/t/108213381?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "organizer": {
-        "@type": "MusicGroup",
-        "name": "BGKO"
-      }
-    },
     {
       "@type": "MusicEvent",
       "name": "Scena Rogoz, Varaždin, Croacia",
@@ -278,12 +251,12 @@
     {
       "@type": "MusicEvent",
       "name": "Jamboree Jazz",
-      "startDate": "2026-12-27T21:00:00+00:00",
+      "startDate": "2026-12-27T19:00:00+00:00",
       "performer": {
         "@type": "MusicGroup",
         "name": "Barcelona Big Blues Band"
       },
-      "endDate": "2026-12-27T23:00:00+00:00",
+      "endDate": "2026-12-27T21:00:00+00:00",
       "location": {
         "@type": "Place",
         "name": "Jamboree Jazz",

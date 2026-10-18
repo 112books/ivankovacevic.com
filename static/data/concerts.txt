@@ -4,15 +4,6 @@ PRODID:-//ivankovacevic.com//agenda//CA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Ivan Kovačević
 BEGIN:VEVENT
-SUMMARY:Tvornica Kulture
-DTSTART:20261016T210000
-DTEND:20261016T230000
-LOCATION:Tvornica Kulture\, Zagreb\, Croatia
-DESCRIPTION:Special Guests:  Duo Lume (Merima & Jelena) &  Nataša Mihajlović\n \nINCOGNITO AGENCY PRESENTS:  BARCELONA GIPSY BALKAN ORCHESTRA  ZAGREB - TVORNICA KULTURE PETAK\, 16.10.2026. OD 21 SAT ﻿Zahvaljujući strastvenom četrnaestogodišnjem glazbenom putovanju\, Barcelona Gipsy Balkan Orchestra (BGKO) etablirao se kao neupitna …\n.\nZahvaljujući 14 godina strastvene karijere\, bend Barselona Gipsy balKan Orchestra (BGKO) se pozicionirao kao neosporna referenca na svetskoj sceni balkanske muzike. Njihov način mešanja različitih muzičkih tradicija u jedinstvenu simfoniju osvojio je srca publike širom sveta\, prkoseći svim granicama\,  kako umetničkim\, tako i geopolitičkim.\n.\nKao vanvremenski svedok\, bend je iskovao svoj put snagom nastupa uživo\, noseći sa sobom suštinu sedam isprepletenih priča\, koje dolaze iz različitih kultura i načina života. Na svom sedmom studijskom albumu\, osim umetničke posvećenosti tradicionalnoj muzici\, BGKO se upušta u turbulentno nebo sopstvenih kompozicija\, po meri skrojenih tekstova i melodija koje su strpljivo čekale na svoj trenutak da se pojave u punom sjaju.\n.\nBGKO poziva svet da na svakom koncertu podeli ovo emotivno putovanje i jedinstveno iskustvo.\n\nBarcelona Gipsy balKan Orchestra\n.\nMargherita Abita (vokal\, Italija)\nJulien Chanal (gitara\, Francuska)\nFernando Salinas (harmonika\, Španija)\nXavi Pendón (klarinet\, Španija)\nPere Nolasc Turu (violina\, Španija)\nIvan Kovačević (kontrabas\, Srbija)\nAlbert Enkaminanko (perkusije\,Španija)\n.\nSpecial Guests:  Duo Lume (Merima & Jelena) &  Nataša Mihajlović\n.\nWeb ……….  https://bgko.org\nYouTube ….   https://www.youtube.com/@bgko\nFaceBook …  https://www.facebook.com/BarcelonaGipsybalKanOrchestra\nInstagram …  https://www.instagram.com/bcngipsybalkanorchestra\nTikTok ........ https://www.tiktok.com/@bcngipsybalkanorchestra
-URL:https://www.bandsintown.com/t/108213381?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
-X-PERFORMER:BGKO
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Scena Rogoz\, Varaždin\, Croacia
 DTSTART:20261017T180000Z
 DTEND:20261017T200000Z
@@ -81,8 +72,8 @@ X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jamboree Jazz
-DTSTART:20261227T210000
-DTEND:20261227T230000
+DTSTART:20261227T190000
+DTEND:20261227T210000
 LOCATION:Jamboree Jazz\, Barcelona\, Spain
 URL:https://www.bandsintown.com/t/1040382086?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
 X-PERFORMER:Barcelona Big Blues Band
