@@ -9,7 +9,7 @@ A selection of interviews, reviews and features about Ivan Kovačević and his p
 
 ## Barcelona Big Blues Band
 
-- [El Teatro Juan Bravo de Segovia acoge este domingo el concierto de la Barcelona Big Blues Band](https://www.europapress.es/castilla-y-leon/noticia-teatro-juan-bravo-segovia-acoge-domingo-concierto-barcelona-big-blues-band-20260530123456.html) — *Europa Press* (ES)
+- [El Teatro Juan Bravo de Segovia acoge este domingo el concierto de la Barcelona Big Blues Band](https://www.europapress.es/castilla-y-leon/noticia-teatro-juan-bravo-segovia-acoge-domingo-concierto-barcelona-big-blues-band-20260530142849.html) — *Europa Press* (ES)
 - [Feliç fora mida](https://www.segre.com/ca/opinio/critica-musica/241205/felic-fora-mida_656877.html) — *Segre* (CA)
 - [Feliz a más no poder](https://www.segre.com/es/opinion/critica-musica/241205/feliz-a-mas-no-poder_656877.html) — *Segre* (ES)
 
