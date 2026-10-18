@@ -17,6 +17,9 @@ Ja implementat:
 - `static/.htaccess`: redireccions 301 de l'antic WordPress ampliades, 410 per endpoints WP,
   i capçaleres de seguretat (HSTS, CSP, X-Frame-Options, COOP…).
 - Sitemap: `/sitemap.xml` (índex) + `/en|ca|es|sr/sitemap.xml`. L'arrel `/` redirigeix a `/en/`.
+- `MusicEvent`: l'`offers` només s'emet si es coneix el preu (Google exigeix `price`,
+  `priceCurrency` i `validFrom`). Bandsintown aporta `free`, `sold_out` i `on_sale_datetime`
+  automàticament; la resta, a mà a `data/concert-prices.yaml`.
 
 ## 2. Redireccions 301 (WordPress → Hugo)
 

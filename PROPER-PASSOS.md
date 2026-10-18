@@ -37,8 +37,14 @@
 - [ ] Línia temporal de projectes (és disseny; cal el teu OK).
 - [ ] Etiqueta de canal als vídeos (abans cal decidir com etiquetar els projectes: sources.yaml té 8 entrades al mateix canal).
 
+## 7. Preus d'entrada (per a l'agenda)
+- [ ] Passar els imports dels propers concerts per omplir `data/concert-prices.yaml`
+      (clau `YYYY-MM-DD-lloc`, camps `price`/`validFrom`) i que el JSON-LD `MusicEvent`
+      torni a dur `offers` vàlides.
+
 ## Comprovacions ràpides
 - curl -sI https://www.ivankovacevic.com/        (ha de ser 301)
 - curl -sI http://ivankovacevic.com/             (ha de ser 301)
 - curl -s  https://ivankovacevic.com/robots.txt
 - curl -s  https://ivankovacevic.com/sitemap.xml | head
+- curl -s  https://ivankovacevic.com/en/concerts/ | grep -c '"offers"'   (0 = sense preus; vegeu data/concert-prices.yaml)
