@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T03:04:05Z",
-  "generated": "2026-10-18T03:04:05Z",
+  "generated_at": "2026-10-18T08:32:55Z",
+  "generated": "2026-10-18T08:32:55Z",
   "period": {
     "start": "2025-09-13",
     "end": "2026-10-18"
@@ -252928,29 +252928,29 @@
     {
       "id": "Chrome",
       "name": "Chrome",
-      "count": 182
+      "count": 198
     },
     {
       "id": "Firefox",
       "name": "Firefox",
-      "count": 69
+      "count": 72
     },
     {
       "id": "Safari",
       "name": "Safari",
-      "count": 22
+      "count": 23
     }
   ],
   "systems": [
     {
       "id": "Windows",
       "name": "Windows",
-      "count": 166
+      "count": 176
     },
     {
       "id": "macOS",
       "name": "macOS",
-      "count": 75
+      "count": 84
     },
     {
       "id": "Android",
@@ -252961,6 +252961,11 @@
       "id": "iOS",
       "name": "iOS",
       "count": 12
+    },
+    {
+      "id": "Linux",
+      "name": "Linux",
+      "count": 1
     }
   ],
   "sizes": [
@@ -252972,12 +252977,12 @@
     {
       "id": "tablet",
       "name": "tablet",
-      "count": 0
+      "count": 1
     },
     {
       "id": "desktop",
       "name": "desktop",
-      "count": 241
+      "count": 260
     },
     {
       "id": "desktophd",
@@ -252994,12 +252999,12 @@
     {
       "id": "SC",
       "name": "Seychelles",
-      "count": 75
+      "count": 83
     },
     {
       "id": "BR",
       "name": "Brazil",
-      "count": 22
+      "count": 24
     },
     {
       "id": "ES",
@@ -253014,16 +253019,16 @@
     {
       "id": "US",
       "name": "United States",
+      "count": 13
+    },
+    {
+      "id": "IN",
+      "name": "India",
       "count": 11
     },
     {
       "id": "BD",
       "name": "Bangladesh",
-      "count": 10
-    },
-    {
-      "id": "IN",
-      "name": "India",
       "count": 10
     },
     {
@@ -253034,12 +253039,12 @@
     {
       "id": "AR",
       "name": "Argentina",
-      "count": 8
+      "count": 9
     },
     {
       "id": "AT",
       "name": "Austria",
-      "count": 7
+      "count": 8
     }
   ]
 }
