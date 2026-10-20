@@ -20,7 +20,7 @@
         {{ if strings.HasPrefix . "http" }}
           {{ $cover = . }}
         {{ else if os.FileExists (path.Join "static" .) }}
-          {{ $cover = . | relURL }}
+          {{ $cover = strings.TrimPrefix "/" . | relURL }}
         {{ end }}
       {{ end }}
       <div class="gallery-card">
