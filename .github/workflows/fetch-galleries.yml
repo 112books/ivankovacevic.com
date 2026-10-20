@@ -18,56 +18,17 @@ jobs:
       - name: Instal·la dependències Python
         run: pip install -r requirements.txt --break-system-packages
 
-      - name: Extreu portades de Google Photos
-        run: |
-          python3 << 'PYEOF'
-          import requests
-          import yaml
-          import re
-          import sys
-
-          HEADERS = {
-              'User-Agent': 'Mozilla/5.0 (compatible; LinuxBCNBot/1.0)'
-          }
-
-          with open('data/galleries.yaml', 'r', encoding='utf-8') as f:
-              data = yaml.safe_load(f)
-
-          changed = False
-          for gallery in data.get('galleries', []):
-              url = gallery.get('url', '')
-              if not url:
-                  continue
-              try:
-                  r = requests.get(url, headers=HEADERS, timeout=10)
-                  # Extreu og:image
-                  match = re.search(r'<meta\s+property=["\']og:image["\']\s+content=["\'](https://[^"\']+)["\']', r.text)
-                  if not match:
-                      match = re.search(r'<meta\s+content=["\'](https://lh3\.googleusercontent[^"\']+)["\']\s+property=["\']og:image["\']', r.text)
-                  if match:
-                      cover = match.group(1)
-                      if gallery.get('cover') != cover:
-                          gallery['cover'] = cover
-                          changed = True
-                          print(f"✓ {gallery['id']}: portada actualitzada")
-                  else:
-                      print(f"⚠ {gallery['id']}: og:image no trobada")
-              except Exception as e:
-                  print(f"✗ {gallery['id']}: error — {e}")
-
-          if changed:
-              with open('data/galleries.yaml', 'w', encoding='utf-8') as f:
-                  yaml.dump(data, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
-              print("YAML actualitzat")
-          else:
-              print("Sense canvis")
-          PYEOF
+      # Autoallotja les portades a static/images/galleries/ i reescriu 'cover'.
+      # Imprescindible: blog.pocallum.cat envia Cross-Origin-Resource-Policy:
+      # same-site i el navegador bloqueja les miniatures enllaçades en calent.
+      - name: Desa les portades en local
+        run: python3 scripts/fetch-gallery-covers.py
 
       - name: Commit si hi ha canvis
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/galleries.yaml
+          git add data/galleries.yaml static/images/galleries
           git diff --staged --quiet || (
             git commit -m "chore: actualitzar portades galeries [skip ci]" &&
             git pull --rebase &&

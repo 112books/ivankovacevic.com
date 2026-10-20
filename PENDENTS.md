@@ -27,9 +27,12 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-16.
 - **Discografia — línia temporal**: per any (nou→vell) amb traçat de la línia en scroll, any
   «sticky» i revelat d'entrades (CSS + `static/js/timeline.js`, respecta `prefers-reduced-motion`);
   anys omplerts de 14 entrades, 11 al grup «Any desconegut».
-- **Fotografies**: 47 cròniques del blog de Joan Linux afegides a `data/galleries.yaml`,
-  amb portada pròpia a `static/images/wp/photos/`, ordenades de més nova a més vella, amb CTA
-  i18n propi (`view_chronicle`) i fallback de títol.
+- **Fotografies**: 53 galeries/cròniques del blog de Joan Linux a `data/galleries.yaml`,
+  amb portada autoallotjada a `static/images/galleries/` (`scripts/fetch-gallery-covers.py`,
+  800 px JPEG), ordenades de més nova a més vella, amb CTA i18n propi (`view_chronicle`) i
+  fallback de títol. Les portades **no** s'enllacen en calent: blog.pocallum.cat envia
+  `Cross-Origin-Resource-Policy: same-site` i el navegador bloquejava les miniatures
+  (`ERR_BLOCKED_BY_RESPONSE.NotSameSite`).
 - **Discografia**: BGKO (`Imbarca`, `Europa cierra la frontera`, `Nova Era`, `7`), anys de Bernat
   Font Trio verificats (2011-2014), Lazy Jumpers, The Nu Niles i EPS de B4 (2021/2025); enllaços
   Apple Music verificats via API d'iTunes; JSON-LD `MusicGroup`/`MusicAlbum`.

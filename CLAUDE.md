@@ -37,7 +37,10 @@ rm -rf public && hugo --minify --environment staging && npx pagefind --site publ
   perquè els fills hereten el tipus. **No** usar `permalinks` (genera `/es/es/`).
 - Menús: iterar sempre `site.Menus.main` (mai URLs hardcoded), per respectar els slugs per idioma.
 - Enllaços interns: `relURL`/`absURL` o `.RelPermalink`. Mai rutes absolutes escrites a mà.
-- Imatges de contingut: `static/images/...`; les importades del WP a `static/images/wp/`.
+- Imatges de contingut: `static/images/...`; les importades del WP a `static/images/wp/`;
+  les portades de galeria, a `static/images/galleries/` (`scripts/fetch-gallery-covers.py`).
+  **Mai** enllaçar imatges en calent des de `blog.pocallum.cat`: respon amb
+  `Cross-Origin-Resource-Policy: same-site` i el navegador les bloqueja.
 - Sense secrets al repositori. Cap credencial als `.md`.
 - Commits petits, convenció `feat:` / `fix:` / `chore:` / `docs:`. **Mai** `push --force`.
 - `rm -rf public` abans d'un build de producció.
