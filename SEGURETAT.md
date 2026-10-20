@@ -16,7 +16,8 @@ Abast: https://ivankovacevic.com (Hugo estàtic, Apache+proxy a LinuxBCN).
 
 ## Pendent / recomanat
 - [ ] Canonicalitzar www.ivankovacevic.com -> ivankovacevic.com (301). Ara www respon 200.
-- [ ] CSP: style-src 'unsafe-inline' (necessari pel disseny) i img-src https: (portades externes).
+- [ ] CSP: style-src 'unsafe-inline' (necessari pel disseny) i img-src https: (miniatures de
+      YouTube a `i.ytimg.com`; les portades de galeria ja són locals a `/images/galleries/`).
 - [ ] /cms/config.yml és públic (només repo i URL OAuth, sense secrets); opcional bloquejar.
 
 ## Verificació

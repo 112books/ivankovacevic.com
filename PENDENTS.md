@@ -1,6 +1,6 @@
 # PENDENTS — ivankovacevic.com
 
-Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-16.
+Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-20.
 
 ## Fet
 - Scaffold complet multi-idioma (EN/CA/ES/SR), disseny C (dark folk), CMS Decap.
@@ -32,7 +32,15 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-16.
   800 px JPEG), ordenades de més nova a més vella, amb CTA i18n propi (`view_chronicle`) i
   fallback de títol. Les portades **no** s'enllacen en calent: blog.pocallum.cat envia
   `Cross-Origin-Resource-Policy: same-site` i el navegador bloquejava les miniatures
-  (`ERR_BLOCKED_BY_RESPONSE.NotSameSite`).
+  (`ERR_BLOCKED_BY_RESPONSE.NotSameSite`). El workflow nocturn `fetch-galleries.yml` ara
+  executa l'script (abans hi tornava a posar URLs externes cada nit).
+- **Fonts**: `static/css/fonts.css` i `fonts-c.css` tenien `/ivankovacevic.com/fonts/…`
+  hardcodejat — funcionava a staging però donava **404 a producció** (es perdien Oswald i
+  Source Serif 4). Ara `../fonts/`, que resol bé als dos entorns.
+- **Repàs complet (2026-10-20)**: 302 enllaços interns i 113 imatges (0 errors), 17 pàgines
+  auditades al navegador (0 imatges trencades, 0 errors de consola, 0 respostes 4xx), galeria
+  a 390 px sense scroll horitzontal, sitemap/robots/llms/RSS, 404 i les 47 redireccions 301
+  antigues verificades.
 - **Discografia**: BGKO (`Imbarca`, `Europa cierra la frontera`, `Nova Era`, `7`), anys de Bernat
   Font Trio verificats (2011-2014), Lazy Jumpers, The Nu Niles i EPS de B4 (2021/2025); enllaços
   Apple Music verificats via API d'iTunes; JSON-LD `MusicGroup`/`MusicAlbum`.
@@ -83,6 +91,9 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-16.
 - [x] CSP connect-src -> OAuth cms-oauth-bratia (intencionat: el necessita el CMS).
 - [x] Redirects: inventari complet del sitemap Yoast (122 URLs) a `static/.htaccess`.
 - [ ] Etiqueta de canal per vídeo a les targetes de `videos/list.html`.
+- [ ] **Portades de galeria**: les de Google Photos no exposen `og:image` (pàgina renderitzada
+      amb JS), així que si es perd un fitxer de `static/images/galleries/` l'script no el pot
+      regenerar sol: cal `git checkout -- static/images/galleries` o tornar-lo a baixar a mà.
 - [x] Workflow d agenda renombrat a Fetch concerts (iCal + Bandsintown).
 
 ### SEO

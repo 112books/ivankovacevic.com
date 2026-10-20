@@ -31,7 +31,8 @@ npx pagefind --site public
 - `layouts/` — plantilles Hugo
 - `data/` — dades (contacte, xarxes, discografia)
 - `config/` — configuració per entorn (local / staging / production)
-- `scripts/` — importació WP, processament de concerts/vídeos
+- `scripts/` — importació WP, processament de concerts/vídeos i portades de galeria
+  (`fetch-gallery-covers.py`; autoallotja les imatges de `data/galleries.yaml`)
 - `.github/workflows/` — CI i feines nocturnes (concerts, vídeos, analytics)
 
 Consulta `PLA-MIGRACIO.md` (pla complet) i `PENDENTS.md` (backlog viu).
