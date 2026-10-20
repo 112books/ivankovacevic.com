@@ -155,10 +155,12 @@ def main():
                 stats["locals"] += 1
                 continue
             # Falta el fitxer local: el tornem a baixar des de la font original
-            cover = og_image(url) if url else None
+            cover = og_image(url)
             if not cover:
                 stats["errors"] += 1
-                print(f"  FAIL  {gid}: falta la imatge local i no hi ha font externa",
+                print(f"  FAIL  {gid}: falta static{URL_PREFIX}{slug(gid)}.jpg i la font "
+                      "externa no en dona cap (les de Google Photos no exposen og:image; "
+                      "recupera-la amb 'git checkout -- static/images/galleries')",
                       file=sys.stderr)
                 continue
 
