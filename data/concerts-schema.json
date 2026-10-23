@@ -1,31 +1,6 @@
 {
-  "generated": "2026-10-22T08:12:47Z",
+  "generated": "2026-10-23T08:09:53Z",
   "events": [
-    {
-      "@type": "MusicEvent",
-      "name": "Bluz i Pivo, Belgrado, Serbia",
-      "startDate": "2026-10-21T18:30:00+00:00",
-      "performer": {
-        "@type": "MusicGroup",
-        "name": "Bratia"
-      },
-      "endDate": "2026-10-21T20:30:00+00:00",
-      "location": {
-        "@type": "Place",
-        "name": "Bluz i Pivo",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Cetinjska 15",
-          "addressLocality": "Serbia",
-          "addressCountry": "ES"
-        }
-      },
-      "eventStatus": "https://schema.org/EventScheduled",
-      "organizer": {
-        "@type": "MusicGroup",
-        "name": "Bratia"
-      }
-    },
     {
       "@type": "MusicEvent",
       "name": "SKC, Kragujevac, Serbia",
@@ -203,12 +178,12 @@
     {
       "@type": "MusicEvent",
       "name": "Jamboree Jazz",
-      "startDate": "2026-12-27T21:00:00+00:00",
+      "startDate": "2026-12-27T19:00:00+00:00",
       "performer": {
         "@type": "MusicGroup",
         "name": "Barcelona Big Blues Band"
       },
-      "endDate": "2026-12-27T23:00:00+00:00",
+      "endDate": "2026-12-27T21:00:00+00:00",
       "location": {
         "@type": "Place",
         "name": "Jamboree Jazz",
