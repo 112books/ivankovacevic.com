@@ -1,30 +1,6 @@
 {
-  "generated": "2026-10-23T08:09:53Z",
+  "generated": "2026-10-24T07:48:51Z",
   "events": [
-    {
-      "@type": "MusicEvent",
-      "name": "SKC, Kragujevac, Serbia",
-      "startDate": "2026-10-22T18:00:00+00:00",
-      "performer": {
-        "@type": "MusicGroup",
-        "name": "Bratia"
-      },
-      "endDate": "2026-10-22T20:00:00+00:00",
-      "location": {
-        "@type": "Place",
-        "name": "Barcelona",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Barcelona",
-          "addressCountry": "ES"
-        }
-      },
-      "eventStatus": "https://schema.org/EventScheduled",
-      "organizer": {
-        "@type": "MusicGroup",
-        "name": "Bratia"
-      }
-    },
     {
       "@type": "MusicEvent",
       "name": "Dom Kulture, Užice, Serbia",
