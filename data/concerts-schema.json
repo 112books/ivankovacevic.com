@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T10:17:26Z",
+  "generated": "2026-11-05T10:11:13Z",
   "events": [
     {
       "@type": "MusicEvent",
@@ -48,6 +48,33 @@
       "organizer": {
         "@type": "MusicGroup",
         "name": "Bratia"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert), Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)",
+      "startDate": "2026-12-13T17:00:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2026-12-13T19:00:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Chiasso",
+          "addressLocality": "Switzerland",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Gracias a más de 14 años de apasionada trayectoria, la Barcelona Gipsy balKan Orchestra (BGKO) se ha consolidado como un referente indiscutible en la escena mundial de la música balcánica. Su manera d",
+      "url": "https://www.bandsintown.com/t/109050925?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
       }
     },
     {
@@ -130,12 +157,12 @@
     {
       "@type": "MusicEvent",
       "name": "Jamboree Jazz",
-      "startDate": "2026-12-27T21:00:00+00:00",
+      "startDate": "2026-12-27T19:00:00+00:00",
       "performer": {
         "@type": "MusicGroup",
         "name": "Barcelona Big Blues Band"
       },
-      "endDate": "2026-12-27T23:00:00+00:00",
+      "endDate": "2026-12-27T21:00:00+00:00",
       "location": {
         "@type": "Place",
         "name": "Jamboree Jazz",

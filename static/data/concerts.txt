@@ -17,6 +17,15 @@ LOCATION:CaixaForum Zaragoza\, Av. de José Anselmo Clavé\, 4\, Delicias\, 5000
 X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)\, Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)
+DTSTART:20261213T170000
+DTEND:20261213T190000
+LOCATION:Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)\, Chiasso\, Switzerland
+DESCRIPTION:Gracias a más de 14 años de apasionada trayectoria\, la Barcelona Gipsy balKan Orchestra (BGKO) se ha consolidado como un referente indiscutible en la escena mundial de la música balcánica. Su manera de mezclar distintas tradiciones musicales en una sinfonía única ha conquistado corazones del público de todo el mundo\, desafiando cualquier frontera\, ya sea artística o geopolítica.\n\nEsta vez\, en formato instrumental\, llegan a Chiasso para aportar su visión adaptada a nuestros tiempos del folklore tradicional. Una velada única de fuego\, ritmo y fiesta!\n\nBarcelona Gipsy balKan Orchestra (Set instrumental)\n\nXavi Pendón (clarinete \, España)\nPere Nolasc Turu (violín \, España)\nFernando Salinas (acordeón\, España)\nJulien Chanal (guitarra\, Francia)\nIvan Kovačević (contrabajo \, Serbia)\nAlbert Enkaminanko (percusiones \, España)\n\n\nWeb ……….   https://bgko.org\nYouTube ….   https://www.youtube.com/@bgko \nFaceBook …  https://www.facebook.com/BarcelonaGipsybalKanOrchestra\nInstagram …  https://www.instagram.com/bcngipsybalkanorchestra\nTik Tok ……..  https://www.tiktok.com/@bcngipsybalkanorchestra
+URL:https://www.bandsintown.com/t/109050925?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+X-PERFORMER:BGKO
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Bratia Rendez•Vous feat. Adrian Cunningham
 DTSTART:20261218T180000Z
 DTEND:20261218T203000Z
@@ -41,8 +50,8 @@ X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jamboree Jazz
-DTSTART:20261227T210000
-DTEND:20261227T230000
+DTSTART:20261227T190000
+DTEND:20261227T210000
 LOCATION:Jamboree Jazz\, Barcelona\, Spain
 URL:https://www.bandsintown.com/t/1040382086?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
 X-PERFORMER:Barcelona Big Blues Band
