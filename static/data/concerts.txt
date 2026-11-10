@@ -4,13 +4,6 @@ PRODID:-//ivankovacevic.com//agenda//CA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Ivan Kovačević
 BEGIN:VEVENT
-SUMMARY:Caixa Forum Zaragoza
-DTSTART:20261108T190000Z
-DTEND:20261108T210000Z
-LOCATION:CaixaForum Zaragoza\, Av. de José Anselmo Clavé\, 4\, Delicias\, 50004 Zaragoza\, España
-X-PERFORMER:Bratia
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)\, Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)
 DTSTART:20261213T170000
 DTEND:20261213T190000
@@ -44,8 +37,8 @@ X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jamboree Jazz
-DTSTART:20261227T190000
-DTEND:20261227T210000
+DTSTART:20261227T210000
+DTEND:20261227T230000
 LOCATION:Jamboree Jazz\, Barcelona\, Spain
 URL:https://www.bandsintown.com/t/1040382086?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
 X-PERFORMER:Barcelona Big Blues Band

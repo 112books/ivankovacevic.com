@@ -1,31 +1,6 @@
 {
-  "generated": "2026-11-09T10:45:46Z",
+  "generated": "2026-11-10T10:40:10Z",
   "events": [
-    {
-      "@type": "MusicEvent",
-      "name": "Caixa Forum Zaragoza",
-      "startDate": "2026-11-08T19:00:00+00:00",
-      "performer": {
-        "@type": "MusicGroup",
-        "name": "Bratia"
-      },
-      "endDate": "2026-11-08T21:00:00+00:00",
-      "location": {
-        "@type": "Place",
-        "name": "CaixaForum Zaragoza",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Av. de José Anselmo Clavé",
-          "addressLocality": "España",
-          "addressCountry": "ES"
-        }
-      },
-      "eventStatus": "https://schema.org/EventScheduled",
-      "organizer": {
-        "@type": "MusicGroup",
-        "name": "Bratia"
-      }
-    },
     {
       "@type": "MusicEvent",
       "name": "Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert), Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)",
@@ -133,12 +108,12 @@
     {
       "@type": "MusicEvent",
       "name": "Jamboree Jazz",
-      "startDate": "2026-12-27T19:00:00+00:00",
+      "startDate": "2026-12-27T21:00:00+00:00",
       "performer": {
         "@type": "MusicGroup",
         "name": "Barcelona Big Blues Band"
       },
-      "endDate": "2026-12-27T21:00:00+00:00",
+      "endDate": "2026-12-27T23:00:00+00:00",
       "location": {
         "@type": "Place",
         "name": "Jamboree Jazz",
