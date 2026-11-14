@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T11:58:52Z",
-  "generated": "2026-11-14T11:58:52Z",
+  "generated_at": "2026-11-14T17:54:42Z",
+  "generated": "2026-11-14T17:54:42Z",
   "period": {
     "start": "2025-10-10",
     "end": "2026-11-14"
@@ -1023725,7 +1023725,7 @@
     {
       "id": "Safari",
       "name": "Safari",
-      "count": 78
+      "count": 79
     }
   ],
   "systems": [
@@ -1023747,7 +1023747,7 @@
     {
       "id": "iOS",
       "name": "iOS",
-      "count": 56
+      "count": 57
     },
     {
       "id": "Linux",
@@ -1023759,7 +1023759,7 @@
     {
       "id": "phone",
       "name": "phone",
-      "count": 149
+      "count": 150
     },
     {
       "id": "tablet",
@@ -1023796,7 +1023796,7 @@
     {
       "id": "RS",
       "name": "Serbia",
-      "count": 43
+      "count": 44
     },
     {
       "id": "US",
