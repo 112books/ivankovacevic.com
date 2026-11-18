@@ -37,10 +37,22 @@ X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jamboree Jazz
-DTSTART:20261227T190000
-DTEND:20261227T210000
+DTSTART:20261227T210000
+DTEND:20261227T230000
 LOCATION:Jamboree Jazz\, Barcelona\, Spain
 URL:https://www.bandsintown.com/t/1040382086?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
 X-PERFORMER:Barcelona Big Blues Band
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Sunset Jazz Club\, Girona\, sábado\, 10 de abril · 21:00–23:30
+DTSTART:20270410T190000Z
+DTEND:20270410T210000Z
+X-PERFORMER:Bratia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Nova Jazz Cava\, Terrassa\, sábado\, 24 abril · 20:30–22:30
+DTSTART:20270424T183000Z
+DTEND:20270424T203000Z
+X-PERFORMER:Bratia
 END:VEVENT
 END:VCALENDAR

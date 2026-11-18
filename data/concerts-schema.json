@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T11:24:23Z",
+  "generated": "2026-11-18T10:57:42Z",
   "events": [
     {
       "@type": "MusicEvent",
@@ -108,12 +108,12 @@
     {
       "@type": "MusicEvent",
       "name": "Jamboree Jazz",
-      "startDate": "2026-12-27T19:00:00+00:00",
+      "startDate": "2026-12-27T21:00:00+00:00",
       "performer": {
         "@type": "MusicGroup",
         "name": "Barcelona Big Blues Band"
       },
-      "endDate": "2026-12-27T21:00:00+00:00",
+      "endDate": "2026-12-27T23:00:00+00:00",
       "location": {
         "@type": "Place",
         "name": "Jamboree Jazz",
@@ -129,6 +129,54 @@
       "organizer": {
         "@type": "MusicGroup",
         "name": "Barcelona Big Blues Band"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Bratia Rendez•Vous feat Adrian Cunningham, Sunset Jazz Club, Girona, sábado, 10 de abril · 21:00–23:30",
+      "startDate": "2027-04-10T19:00:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "Bratia"
+      },
+      "endDate": "2027-04-10T21:00:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Barcelona",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Barcelona",
+          "addressCountry": "ES"
+        }
+      },
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "Bratia"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Bratia Rendez•Vous feat Adrian Cunningham, Nova Jazz Cava, Terrassa, sábado, 24 abril · 20:30–22:30",
+      "startDate": "2027-04-24T18:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "Bratia"
+      },
+      "endDate": "2027-04-24T20:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Barcelona",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Barcelona",
+          "addressCountry": "ES"
+        }
+      },
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "Bratia"
       }
     }
   ]
