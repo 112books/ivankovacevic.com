@@ -4,10 +4,10 @@ PRODID:-//ivankovacevic.com//agenda//CA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Ivan Kovačević
 BEGIN:VEVENT
-SUMMARY:Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)\, Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)
+SUMMARY:BGKO Special INSTRUMENTAL Concert\, BGKO Special INSTRUMENTAL Concert
 DTSTART:20261213T170000
 DTEND:20261213T190000
-LOCATION:Fuego! - Barcelona Gipsy balKan Orchestra (Special Instrumental Concert)\, Chiasso\, Switzerland
+LOCATION:BGKO Special INSTRUMENTAL Concert\, Chiasso\, Switzerland
 DESCRIPTION:Gracias a más de 14 años de apasionada trayectoria\, la Barcelona Gipsy balKan Orchestra (BGKO) se ha consolidado como un referente indiscutible en la escena mundial de la música balcánica. Su manera de mezclar distintas tradiciones musicales en una sinfonía única ha conquistado corazones del público de todo el mundo\, desafiando cualquier frontera\, ya sea artística o geopolítica.\n\nEsta vez\, en formato instrumental\, llegan a Chiasso para aportar su visión adaptada a nuestros tiempos del folklore tradicional. Una velada única de fuego\, ritmo y fiesta!\n\nBarcelona Gipsy balKan Orchestra (Set instrumental)\n\nXavi Pendón (clarinete \, España)\nPere Nolasc Turu (violín \, España)\nFernando Salinas (acordeón\, España)\nJulien Chanal (guitarra\, Francia)\nIvan Kovačević (contrabajo \, Serbia)\nAlbert Enkaminanko (percusiones \, España)\n\n\nWeb ……….   https://bgko.org\nYouTube ….   https://www.youtube.com/@bgko \nFaceBook …  https://www.facebook.com/BarcelonaGipsybalKanOrchestra\nInstagram …  https://www.instagram.com/bcngipsybalkanorchestra\nTik Tok ……..  https://www.tiktok.com/@bcngipsybalkanorchestra
 URL:https://www.bandsintown.com/t/109050925?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
 X-PERFORMER:BGKO
@@ -37,11 +37,20 @@ X-PERFORMER:Bratia
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jamboree Jazz
-DTSTART:20261227T190000
-DTEND:20261227T210000
+DTSTART:20261227T210000
+DTEND:20261227T230000
 LOCATION:Jamboree Jazz\, Barcelona\, Spain
 URL:https://www.bandsintown.com/t/1040382086?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
 X-PERFORMER:Barcelona Big Blues Band
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Macedonian Philharmonic
+DTSTART:20270223T200000
+DTEND:20270223T220000
+LOCATION:Macedonian Philharmonic\, Skopje\, North Macedonia
+DESCRIPTION:Barcelona Gipsy balKan Orchestra (BGKO) низ годините се етаблира како неоспорен репер во светската балканска музичка сцена. Нивниот уникатен спој на различни музички традиции создава препознатлив звук кој ги освојува срцата и умовите на публиката ширум светот\, надминувајќи ги сите граници\, без разлика дали се уметнички или геополитички.\n\nBGKO е музика што допира директно до срцето.\n\nСедум години по разделбата\, се враќа гласот со кој започна сè.\n\nВо 2027 година\, оригиналната пејачка Сандра Санџиао (Sandra Sangiao) повторно му се приклучува на BGKO\, токму во годината кога бендот го прославува својот 15-годишен јубилеј и за првпат настапува во Австралија.\n\nВо музиката\, збогувањата ретко значат крај. По годините поминати на балканските патишта\, со ромски песни и ноќи што завршуваа со танцување на целата публика\, приказната продолжува таму каде што започна – на сцената\, заедно.\n\nСе надеваме дека ова ќе биде прослава и за сите вас. Придружете ни се\, каде и да нè одведе музиката.\n\nBarcelona Gipsy balKan Orchestra\n\nSandra Sangiao (voice\, Spain)\nJulien Chanal (guitar\, France)\nFernando Salinas (accordion\, Spain)\nXavi Pendón (clarinet \, Spain)\nPere Nolasc Turu (violin \, Spain)\nIvan Kovačević (double bass \, Serbia)\nAlbert Enkaminanko (percussions \, Spain)\n\n\n\nBGKO - More Information\n\nWebsite:  https://bgko.org\nBandCamp:  https://bgko.bandcamp.com/ \n\nYouTube:  https://www.youtube.com/@BGKO \nSpotify (Balkan): https://open.spotify.com/intl-es/artist/6iASQf0WvN8Ci5oZ2O2Z9b \nSpotify (Klezmer): https://open.spotify.com/intl-es/artist/3PTfq1DY4qdmJaIySsHinw \n\nFaceBook:  https://www.facebook.com/BarcelonaGipsybalKanOrchestra/ \nInstagram: https://www.instagram.com/bcngipsybalkanorchestra/ \nTikTok:  https://www.tiktok.com/@bcngipsybalkanorchestra
+URL:https://www.bandsintown.com/t/109021241?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket
+X-PERFORMER:BGKO
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bratia Rendez•Vous feat Adrian Cunningham\, Sunset Jazz Club\, Girona\, sábado\, 10 de abril · 21:00–23:30
