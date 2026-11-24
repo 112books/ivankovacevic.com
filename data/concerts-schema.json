@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T11:38:17Z",
+  "generated": "2026-11-24T13:10:24Z",
   "events": [
     {
       "@type": "MusicEvent",
@@ -108,12 +108,12 @@
     {
       "@type": "MusicEvent",
       "name": "Jamboree Jazz",
-      "startDate": "2026-12-27T19:00:00+00:00",
+      "startDate": "2026-12-27T21:00:00+00:00",
       "performer": {
         "@type": "MusicGroup",
         "name": "Barcelona Big Blues Band"
       },
-      "endDate": "2026-12-27T21:00:00+00:00",
+      "endDate": "2026-12-27T23:00:00+00:00",
       "location": {
         "@type": "Place",
         "name": "Jamboree Jazz",
@@ -152,6 +152,330 @@
       },
       "description": "Barcelona Gipsy balKan Orchestra (BGKO) низ годините се етаблира како неоспорен репер во светската балканска музичка сцена. Нивниот уникатен спој на различни музички традиции создава препознатлив звук",
       "url": "https://www.bandsintown.com/t/109021241?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Perth · Taryn Fiebig Concert Hall, Perth · Taryn Fiebig Concert Hall",
+      "startDate": "2027-03-10T20:00:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-10T22:00:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Perth · Taryn Fiebig Concert Hall",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Churchlands",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021196?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Geelong Arts Centre",
+      "startDate": "2027-03-11T19:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-11T21:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Geelong Arts Centre",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Geelong",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021202?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Melbourne · Darebin Arts Centre, Melbourne · Darebin Arts Centre",
+      "startDate": "2027-03-12T19:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-12T21:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Melbourne · Darebin Arts Centre",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Preston",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/e/109021206?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=event",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Melbourne · Drum Theatre, Melbourne · Drum Theatre",
+      "startDate": "2027-03-13T19:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-13T21:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Melbourne · Drum Theatre",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Dandenong",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021216?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Adelaide · Brighton Performing Arts Centre, Adelaide · Brighton Performing Arts Centre",
+      "startDate": "2027-03-14T20:00:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-14T22:00:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Adelaide · Brighton Performing Arts Centre",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "North Brighton",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021217?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Blue Mountains Theatre And Community Hub",
+      "startDate": "2027-03-18T19:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-18T21:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Blue Mountains Theatre And Community Hub",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Springwood",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021219?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Sydney · Liverpool Powerhouse, Sydney · Liverpool Powerhouse",
+      "startDate": "2027-03-19T19:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-19T21:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Sydney · Liverpool Powerhouse",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Casula",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021223?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Sydney · Science Theatre, Sydney · Science Theatre",
+      "startDate": "2027-03-20T20:00:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-20T22:00:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Sydney · Science Theatre",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Kensington",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021225?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Anita's Theatre Thirroul",
+      "startDate": "2027-03-21T19:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-21T21:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Anita's Theatre Thirroul",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Thirroul",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021232?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Gold Coast · Robina Auditorium, Gold Coast · Robina Auditorium",
+      "startDate": "2027-03-23T20:00:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-23T22:00:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Gold Coast · Robina Auditorium",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Robina",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021235?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Byron Theatre",
+      "startDate": "2027-03-24T19:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-24T21:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Byron Theatre",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Byron Bay",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021237?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "organizer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      }
+    },
+    {
+      "@type": "MusicEvent",
+      "name": "Brisbane Powerhouse",
+      "startDate": "2027-03-25T19:30:00+00:00",
+      "performer": {
+        "@type": "MusicGroup",
+        "name": "BGKO"
+      },
+      "endDate": "2027-03-25T21:30:00+00:00",
+      "location": {
+        "@type": "Place",
+        "name": "Brisbane Powerhouse",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Brisbane",
+          "addressLocality": "Australia",
+          "addressCountry": "ES"
+        }
+      },
+      "description": "Barcelona Gipsy balKan Orchestra (BGKO) has established itself as an undisputed reference in the global Balkan music scene. Its unique blend of different musical traditions into a unique sound has cap",
+      "url": "https://www.bandsintown.com/t/109021239?app_id=js_ivankovacevic.com&came_from=267&utm_medium=api&utm_source=public_api&utm_campaign=ticket",
       "eventStatus": "https://schema.org/EventScheduled",
       "organizer": {
         "@type": "MusicGroup",
