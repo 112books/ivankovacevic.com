@@ -1,0 +1,503 @@
+{
+ "images/og-image.jpg": {
+  "url": "images/og-image.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": false
+ },
+ "images/wp/BRATIA-LETTERS-WEB.png": {
+  "url": "images/wp/BRATIA-LETTERS-WEB.png",
+  "w": 500,
+  "h": 309,
+  "type": "image/png",
+  "generated": false
+ },
+ "images/wp/Sofa-1.jpg": {
+  "url": "images/og/images-wp-sofa-1.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/Sofa-1.jpg",
+  "sourceBytes": 7288144,
+  "outBytes": 144068
+ },
+ "images/wp/Sofa.jpg": {
+  "url": "images/og/images-wp-sofa.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/Sofa.jpg",
+  "sourceBytes": 7288144,
+  "outBytes": 144068
+ },
+ "images/wp/discography/01-2el_hombre_y_la_tierra_portada_2400x2400-300x340.jpg": {
+  "url": "images/og/images-wp-discography-01-2el-hombre-y-la-tierra-portada-2400x2400-300x340.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/01-2el_hombre_y_la_tierra_portada_2400x2400-300x340.jpg",
+  "sourceBytes": 50309,
+  "outBytes": 89774
+ },
+ "images/wp/discography/01-bgko_avo-kanto_portada_3000x3000.jpeg": {
+  "url": "images/og/images-wp-discography-01-bgko-avo-kanto-portada-3000x3000.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/01-bgko_avo-kanto_portada_3000x3000.jpeg",
+  "sourceBytes": 8263293,
+  "outBytes": 97406
+ },
+ "images/wp/discography/02-LPmambology-portada-300x340.jpg": {
+  "url": "images/og/images-wp-discography-02-lpmambology-portada-300x340.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/02-LPmambology-portada-300x340.jpg",
+  "sourceBytes": 42317,
+  "outBytes": 76169
+ },
+ "images/wp/discography/02-Portada-del-ebro.jpg": {
+  "url": "images/og/images-wp-discography-02-portada-del-ebro.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/02-Portada-del-ebro.jpg",
+  "sourceBytes": 64368,
+  "outBytes": 86460
+ },
+ "images/wp/discography/02-portada_balkan_reunion-293x300.jpg": {
+  "url": "images/og/images-wp-discography-02-portada-balkan-reunion-293x300.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/02-portada_balkan_reunion-293x300.jpg",
+  "sourceBytes": 35715,
+  "outBytes": 75288
+ },
+ "images/wp/discography/03-barcelonaGIPSYBALKANORQUESTRA-300x300.jpg": {
+  "url": "images/og/images-wp-discography-03-barcelonagipsybalkanorquestra-300x300.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/03-barcelonaGIPSYBALKANORQUESTRA-300x300.jpg",
+  "sourceBytes": 21822,
+  "outBytes": 48785
+ },
+ "images/wp/discography/03-jaguardefi-300x340.jpg": {
+  "url": "images/og/images-wp-discography-03-jaguardefi-300x340.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/03-jaguardefi-300x340.jpg",
+  "sourceBytes": 23476,
+  "outBytes": 41512
+ },
+ "images/wp/discography/04-Portada-BGKO-CD-300x267.jpg": {
+  "url": "images/og/images-wp-discography-04-portada-bgko-cd-300x267.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/04-Portada-BGKO-CD-300x267.jpg",
+  "sourceBytes": 28492,
+  "outBytes": 71446
+ },
+ "images/wp/discography/04-barrence-mb-300x340.jpg": {
+  "url": "images/og/images-wp-discography-04-barrence-mb-300x340.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/04-barrence-mb-300x340.jpg",
+  "sourceBytes": 34181,
+  "outBytes": 63137
+ },
+ "images/wp/discography/05-portada-disco.jpg": {
+  "url": "images/og/images-wp-discography-05-portada-disco.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/05-portada-disco.jpg",
+  "sourceBytes": 42853,
+  "outBytes": 58238
+ },
+ "images/wp/discography/05-portada_impacto_inminente-300x340-1.jpg": {
+  "url": "images/og/images-wp-discography-05-portada-impacto-inminente-300x340-1.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/05-portada_impacto_inminente-300x340-1.jpg",
+  "sourceBytes": 41870,
+  "outBytes": 74224
+ },
+ "images/wp/discography/06-B4-feat-mike-sanchez-2.jpg": {
+  "url": "images/og/images-wp-discography-06-b4-feat-mike-sanchez-2.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/06-B4-feat-mike-sanchez-2.jpg",
+  "sourceBytes": 70053,
+  "outBytes": 86711
+ },
+ "images/wp/discography/06-mambojamboimpactoinminente-300x340.jpg": {
+  "url": "images/og/images-wp-discography-06-mambojamboimpactoinminente-300x340.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/06-mambojamboimpactoinminente-300x340.jpg",
+  "sourceBytes": 63933,
+  "outBytes": 110414
+ },
+ "images/wp/discography/07-drew.jpg": {
+  "url": "images/og/images-wp-discography-07-drew.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/07-drew.jpg",
+  "sourceBytes": 74807,
+  "outBytes": 88083
+ },
+ "images/wp/discography/07-portada_mambo_7_baile-300x340.jpg": {
+  "url": "images/og/images-wp-discography-07-portada-mambo-7-baile-300x340.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/07-portada_mambo_7_baile-300x340.jpg",
+  "sourceBytes": 45640,
+  "outBytes": 84284
+ },
+ "images/wp/discography/08-Sonido_Jambofonico-300x340.jpg": {
+  "url": "images/og/images-wp-discography-08-sonido-jambofonico-300x340.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/08-Sonido_Jambofonico-300x340.jpg",
+  "sourceBytes": 48438,
+  "outBytes": 89532
+ },
+ "images/wp/discography/08-portada-Swanson.jpg": {
+  "url": "images/og/images-wp-discography-08-portada-swanson.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/08-portada-Swanson.jpg",
+  "sourceBytes": 498403,
+  "outBytes": 97224
+ },
+ "images/wp/discography/09-ep-mambo-jambo-300x340.jpg": {
+  "url": "images/og/images-wp-discography-09-ep-mambo-jambo-300x340.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/09-ep-mambo-jambo-300x340.jpg",
+  "sourceBytes": 46446,
+  "outBytes": 88670
+ },
+ "images/wp/discography/09-portada-Agusti.jpg": {
+  "url": "images/og/images-wp-discography-09-portada-agusti.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/09-portada-Agusti.jpg",
+  "sourceBytes": 1296531,
+  "outBytes": 106793
+ },
+ "images/wp/discography/Cava-de-Blues.png": {
+  "url": "images/og/images-wp-discography-cava-de-blues.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/Cava-de-Blues.png",
+  "sourceBytes": 89677,
+  "outBytes": 49544
+ },
+ "images/wp/discography/Ivan-Kovacevic-5-Spots.jpg": {
+  "url": "images/og/images-wp-discography-ivan-kovacevic-5-spots.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/Ivan-Kovacevic-5-Spots.jpg",
+  "sourceBytes": 144056,
+  "outBytes": 57355
+ },
+ "images/wp/discography/Portada-Nel.lo_.jpg": {
+  "url": "images/og/images-wp-discography-portada-nel-lo.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/Portada-Nel.lo_.jpg",
+  "sourceBytes": 800978,
+  "outBytes": 110672
+ },
+ "images/wp/discography/bft-blues-a-lestudi.jpg": {
+  "url": "images/og/images-wp-discography-bft-blues-a-lestudi.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/bft-blues-a-lestudi.jpg",
+  "sourceBytes": 60557,
+  "outBytes": 49470
+ },
+ "images/wp/discography/bft-out-for-a-while.jpg": {
+  "url": "images/og/images-wp-discography-bft-out-for-a-while.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/bft-out-for-a-while.jpg",
+  "sourceBytes": 110799,
+  "outBytes": 82492
+ },
+ "images/wp/discography/bft-the-sand-live.jpg": {
+  "url": "images/og/images-wp-discography-bft-the-sand-live.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/bft-the-sand-live.jpg",
+  "sourceBytes": 140380,
+  "outBytes": 98611
+ },
+ "images/wp/discography/bft-the-shout.jpg": {
+  "url": "images/og/images-wp-discography-bft-the-shout.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/bft-the-shout.jpg",
+  "sourceBytes": 96474,
+  "outBytes": 64091
+ },
+ "images/wp/discography/caratula-b4-jonathan-herrero.jpg": {
+  "url": "images/og/images-wp-discography-caratula-b4-jonathan-herrero.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/caratula-b4-jonathan-herrero.jpg",
+  "sourceBytes": 11738299,
+  "outBytes": 95833
+ },
+ "images/wp/discography/lj-bad-luck.jpg": {
+  "url": "images/og/images-wp-discography-lj-bad-luck.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/lj-bad-luck.jpg",
+  "sourceBytes": 101253,
+  "outBytes": 63384
+ },
+ "images/wp/discography/lj-comin-on-like-gangbusters.jpg": {
+  "url": "images/og/images-wp-discography-lj-comin-on-like-gangbusters.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/lj-comin-on-like-gangbusters.jpg",
+  "sourceBytes": 192718,
+  "outBytes": 123702
+ },
+ "images/wp/discography/lj-theres-a-new-miss-rhythm.jpg": {
+  "url": "images/og/images-wp-discography-lj-theres-a-new-miss-rhythm.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/lj-theres-a-new-miss-rhythm.jpg",
+  "sourceBytes": 200951,
+  "outBytes": 127852
+ },
+ "images/wp/discography/nn-codigo-rocker.jpg": {
+  "url": "images/og/images-wp-discography-nn-codigo-rocker.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/nn-codigo-rocker.jpg",
+  "sourceBytes": 183014,
+  "outBytes": 126188
+ },
+ "images/wp/discography/nn-destination-now.jpg": {
+  "url": "images/og/images-wp-discography-nn-destination-now.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/nn-destination-now.jpg",
+  "sourceBytes": 160159,
+  "outBytes": 100862
+ },
+ "images/wp/discography/nn-get-set-go.jpg": {
+  "url": "images/og/images-wp-discography-nn-get-set-go.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/nn-get-set-go.jpg",
+  "sourceBytes": 116692,
+  "outBytes": 84470
+ },
+ "images/wp/discography/nn-good-luck-good-friends.jpg": {
+  "url": "images/og/images-wp-discography-nn-good-luck-good-friends.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/nn-good-luck-good-friends.jpg",
+  "sourceBytes": 137187,
+  "outBytes": 86431
+ },
+ "images/wp/discography/nn-nu-niles.jpg": {
+  "url": "images/og/images-wp-discography-nn-nu-niles.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/nn-nu-niles.jpg",
+  "sourceBytes": 137483,
+  "outBytes": 94177
+ },
+ "images/wp/discography/nn-sin-rendicion.jpg": {
+  "url": "images/og/images-wp-discography-nn-sin-rendicion.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/nn-sin-rendicion.jpg",
+  "sourceBytes": 90104,
+  "outBytes": 59935
+ },
+ "images/wp/discography/nn-you-didnt-come-to-my-funeral.jpg": {
+  "url": "images/og/images-wp-discography-nn-you-didnt-come-to-my-funeral.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/nn-you-didnt-come-to-my-funeral.jpg",
+  "sourceBytes": 208926,
+  "outBytes": 135798
+ },
+ "images/wp/discography/ray-gelato-portada.jpg": {
+  "url": "images/og/images-wp-discography-ray-gelato-portada.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/ray-gelato-portada.jpg",
+  "sourceBytes": 1703428,
+  "outBytes": 119726
+ },
+ "images/wp/discography/spencer-evoy-portada.jpg": {
+  "url": "images/og/images-wp-discography-spencer-evoy-portada.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/discography/spencer-evoy-portada.jpg",
+  "sourceBytes": 299182,
+  "outBytes": 94156
+ },
+ "images/wp/misc/ivan-bio-1.jpg": {
+  "url": "images/og/images-wp-misc-ivan-bio-1.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/misc/ivan-bio-1.jpg",
+  "sourceBytes": 187530,
+  "outBytes": 92022
+ },
+ "images/wp/projects/21-324x324.jpg": {
+  "url": "images/og/images-wp-projects-21-324x324.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/projects/21-324x324.jpg",
+  "sourceBytes": 82021,
+  "outBytes": 62415
+ },
+ "images/wp/projects/BASE-BN-2-BOTON.jpg": {
+  "url": "images/og/images-wp-projects-base-bn-2-boton.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/projects/BASE-BN-2-BOTON.jpg",
+  "sourceBytes": 144788,
+  "outBytes": 104948
+ },
+ "images/wp/projects/LAIZY-JUMPERS.jpg": {
+  "url": "images/og/images-wp-projects-laizy-jumpers.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/projects/LAIZY-JUMPERS.jpg",
+  "sourceBytes": 514501,
+  "outBytes": 86769
+ },
+ "images/wp/projects/Nu-Niles-Nu-Niles.jpg": {
+  "url": "images/og/images-wp-projects-nu-niles-nu-niles.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/projects/Nu-Niles-Nu-Niles.jpg",
+  "sourceBytes": 35668,
+  "outBytes": 53476
+ },
+ "images/wp/projects/bgko-live-novisad.jpg": {
+  "url": "images/wp/projects/bgko-live-novisad.jpg",
+  "w": 1400,
+  "h": 787,
+  "type": "image/jpeg",
+  "generated": false
+ },
+ "images/wp/projects/jambologyOK3.jpg": {
+  "url": "images/og/images-wp-projects-jambologyok3.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/projects/jambologyOK3.jpg",
+  "sourceBytes": 646032,
+  "outBytes": 111178
+ },
+ "images/wp/projects/shapeimage_1.jpg": {
+  "url": "images/og/images-wp-projects-shapeimage-1.jpg",
+  "w": 1200,
+  "h": 630,
+  "type": "image/jpeg",
+  "generated": true,
+  "source": "images/wp/projects/shapeimage_1.jpg",
+  "sourceBytes": 12677,
+  "outBytes": 56204
+ }
+}

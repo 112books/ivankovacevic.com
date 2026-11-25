@@ -1,0 +1,66 @@
+{{- /*
+  Pàgina de redirecció generada per Hugo a l'arrel del lloc multilingüe
+  (defaultContentLanguageInSubdir = true): "/" → "/en/".
+
+  IMPORTANT: els crawlers socials (Telegram, WhatsApp, Facebook, X, LinkedIn,
+  Slack...) NO segueixen <meta http-equiv="refresh">. Si aquesta pàgina no
+  porta les etiquetes OpenGraph/Twitter, en compartir "https://ivankovacevic.com"
+  no es mostra cap miniatura. Per això s'hi reprodueixen les meta de portada.
+
+  La imatge prové de data/og-images.json (vegeu scripts/make-og-images.py).
+*/ -}}
+{{- $ogPath    := strings.TrimPrefix "/" (site.Params.og_image | default "images/og-image.jpg") -}}
+{{- $ogImage   := $ogPath | absURL -}}
+{{- $ogW       := "" -}}
+{{- $ogH       := "" -}}
+{{- $ogType    := "" -}}
+{{- with index hugo.Data "og-images" -}}
+  {{- with index . $ogPath -}}
+    {{- $ogImage = .url | absURL -}}
+    {{- $ogW = .w -}}
+    {{- $ogH = .h -}}
+    {{- $ogType = .type -}}
+  {{- end -}}
+{{- end -}}
+{{- $title       := printf "%s · %s" site.Title (i18n "official_website_short" | default "Official website") -}}
+{{- $description := site.Params.description | default site.Title -}}
+{{- $lang        := site.Language.LanguageCode -}}
+{{- $locales     := dict "ca" "ca_ES" "es" "es_ES" "en" "en_GB" "sr" "sr_Latn" -}}
+{{- $ogLocale    := index $locales $lang | default "en_GB" -}}
+<!doctype html>
+<html lang="{{ $lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ $title }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+
+  <meta name="description" content="{{ $description }}">
+  <meta name="robots" content="noindex, follow">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="{{ $title }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:url"         content="{{ .Permalink }}">
+  <meta property="og:site_name"   content="{{ site.Title }}">
+  <meta property="og:locale"      content="{{ $ogLocale }}">
+  <meta property="og:image"       content="{{ $ogImage }}">
+  <meta property="og:image:alt"   content="{{ $title }}">
+  {{- with $ogW }}<meta property="og:image:width" content="{{ . }}">{{ end }}
+  {{- with $ogH }}<meta property="og:image:height" content="{{ . }}">{{ end }}
+  {{- with $ogType }}<meta property="og:image:type" content="{{ . }}">{{ end }}
+
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="{{ $title }}">
+  <meta name="twitter:description" content="{{ $description }}">
+  <meta name="twitter:image"       content="{{ $ogImage }}">
+  <meta name="twitter:image:alt"   content="{{ $title }}">
+
+  <link rel="icon" href="{{ "images/favicon.ico" | relURL }}" sizes="any">
+  <link rel="icon" href="{{ "images/favicon.svg" | relURL }}" type="image/svg+xml">
+</head>
+<body>
+  <h1><a href="{{ .Permalink }}">{{ site.Title }}</a></h1>
+</body>
+</html>

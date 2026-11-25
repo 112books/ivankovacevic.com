@@ -24,6 +24,8 @@ hugo server --environment local     # desenvolupament
 hugo --minify --environment production   # build producció
 rm -rf public && hugo --minify --environment staging && npx pagefind --site public
 ./sync-web.sh publish               # desplegament producció (SSH)
+python3 scripts/make-og-images.py          # miniatures socials 1200×630 (després de canviar portades/fotos)
+python3 scripts/make-og-images.py --check  # comprova que estiguin al dia (ho fa el CI)
 ```
 
 ## Estructura de configuració
@@ -41,6 +43,11 @@ rm -rf public && hugo --minify --environment staging && npx pagefind --site publ
   les portades de galeria, a `static/images/galleries/` (`scripts/fetch-gallery-covers.py`).
   **Mai** enllaçar imatges en calent des de `blog.pocallum.cat`: respon amb
   `Cross-Origin-Resource-Policy: same-site` i el navegador les bloqueja.
+- Imatges per compartir: `scripts/make-og-images.py` genera variants 1200×630 a
+  `static/images/og/` i `data/og-images.json` (llegit per `partials/seo.html`). Telegram,
+  WhatsApp i Facebook descarten imatges de més de 5 MB: **regenera les variants** quan afegeixis
+  o canviïs una portada/foto. L'arrel `/` redirigeix amb `layouts/alias.html`, que ha de dur
+  igualment les etiquetes OpenGraph (els crawlers no segueixen `meta refresh`).
 - Sense secrets al repositori. Cap credencial als `.md`.
 - Commits petits, convenció `feat:` / `fix:` / `chore:` / `docs:`. **Mai** `push --force`.
 - `rm -rf public` abans d'un build de producció.
