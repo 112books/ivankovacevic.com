@@ -4,7 +4,7 @@ import re, glob, os, html
 
 LANGS = [
     ("en", {"biography": "biography", "projects": "projects", "discography": "discography",
-             "gigs": "gigs", "videos": "videos", "photos": "photos", "press": "press", "contact": "contact"}),
+             "gigs": "concerts", "videos": "videos", "photos": "photos", "press": "press", "contact": "contact"}),
     ("ca", {"biography": "biografia", "projects": "projectes", "discography": "discografia",
              "gigs": "concerts", "videos": "videos", "photos": "fotografies", "press": "premsa", "contact": "contacte"}),
     ("es", {"biography": "biografia", "projects": "proyectos", "discography": "discografia",
