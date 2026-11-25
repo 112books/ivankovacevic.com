@@ -81,6 +81,10 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-20.
   anterior eren fals positiu per comptar `&amp;`).
 - **CI (2026-11-25)**: `build.yml` executa `make-og-images.py --check` i falla si una portada nova
   no té la variant 1200×630 o si `data/og-images.json` queda desfasat.
+- **Desplegament (2026-11-25)**: `./sync-web.sh publish` (2 rondes: contingut i migració a
+  `locale`). Verificat en viu: arrel amb `og:image`, `lang` `en-GB/ca-ES/es-ES/sr-Latn`,
+  `hreflang` cap = sitemap, variant 1200×630 servida (95 KB on abans 11 MB) i IndexNow amb
+  288 URLs. Pendent de Joan: refrescar la caché del preview amb @WebpageBot.
 
 ## Pendent
 
