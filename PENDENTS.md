@@ -61,6 +61,24 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-20.
 - **PRODUCCIÓ migrada a Hugo** (2026-10-15): `./sync-web.sh publish` completat (86,5 MB, rsync);
   301 antics verificats, `robots.txt`/`llms.txt`/`llms-full.txt`/`sitemap.xml` en línia.
 - **SEO**: el `SearchAction` de la home ara usa l'URL de cerca localitzat (cerca/buscar/pretraga).
+- **Miniatures socials (2026-11-25)**: en compartir `https://ivankovacevic.com` per Telegram/WhatsApp
+  no hi havia cap imatge perquè l'arrel és una pàgina de redirecció de Hugo (`meta refresh`) sense
+  etiquetes OpenGraph; els crawlers **no segueixen** `meta refresh`. Ara `layouts/alias.html`
+  genera l'arrel amb `og:image`, `twitter:card` i canonical cap a `/en/`.
+  A més, `scripts/make-og-images.py` crea variants 1200×630 a `static/images/og/` (48 imatges:
+  abans n'hi havia de 7-11 MB, per sobre del límit de 5 MB de Telegram/Facebook) i
+  `data/og-images.json`, que `seo.html` usa per emetre `og:image:width/height/type`.
+- **SEO/AI-SEO (2026-11-25)**: `llms.txt` i `generate-llms.py` apuntaven a `/en/gigs/` (404;
+  la secció és `/en/concerts/`). 12 `description` amb cometes mal escapades (`7\\\"` → `7"`).
+  404 amb `noindex`, un sol `<h1>` per idioma i `lang` correcte.
+- **Etiquetes d'idioma (2026-11-25)**: `languageCode` a `hugo.toml` (`en-GB`, `ca-ES`, `es-ES`,
+  **`sr-Latn`**) i `<html lang>`, `hreflang` (cap i sitemap), `<language>` de l'RSS i selector
+  d'idiomes emesos amb `.Language.LanguageCode` en lloc de `.Language.Lang`.
+- **Metes (2026-11-25)**: cap `description` per sobre de 160 caràcters (les 3 de la pàgina legal
+  venien del text de reserva de l'idioma, escurçat a `hugo.toml`; les altres 4 del recompte
+  anterior eren fals positiu per comptar `&amp;`).
+- **CI (2026-11-25)**: `build.yml` executa `make-og-images.py --check` i falla si una portada nova
+  no té la variant 1200×630 o si `data/og-images.json` queda desfasat.
 
 ## Pendent
 
@@ -103,6 +121,9 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-20.
 - [x] **Open Graph / Twitter**: `og:image` per pàgina (portada/foto; global de reserva) + OG/Twitter.
 - [x] **Dades estructurades (JSON-LD)**: `Person`, `MusicGroup`, `MusicAlbum`, `MusicEvent`,
       `BreadcrumbList`, `WebSite`+`SearchAction`.
+- [ ] **Metes curtes**: 45 pàgines (índexs de secció i legals, 4 idiomes) tenen `description`
+      de menys de 70 caràcters ("Galeries de fotografies.", "Actuacions en directe i vídeos."…).
+      Ampliar-les a 110-155 caràcters amb text propi per idioma.
 - [ ] **Dades estructurades — preus**: omplir `data/concert-prices.yaml` (clau `YYYY-MM-DD-lloc`,
       camps `price`/`priceCurrency`/`validFrom`) perquè els `MusicEvent` tornin a dur `offers`
       vàlides i Google no assenyali cap camp.

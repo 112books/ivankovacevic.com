@@ -48,7 +48,11 @@ fitxers del `wp-sitemap`/DB per mapar-les.
 ## 3. SEO on-page (pendent)
 
 - [ ] `title` i `meta description` únics i amb longitud correcta per pàgina i idioma (auditar les 4 llengües).
-- [ ] `og:image` real i específic per pàgina (ara s'usa el global `images/wp/foto-background.png`).
+- [x] `og:image` real i específic per pàgina + variants 1200×630 (`scripts/make-og-images.py`,
+      `data/og-images.json`), amb `og:image:width/height/type` i `twitter:image`.
+- [x] **Miniatura en compartir l'arrel**: `/` és una pàgina de redirecció de Hugo; ara
+      `layouts/alias.html` hi posa OpenGraph/Twitter (abans Telegram/WhatsApp no mostraven res
+      perquè els crawlers no segueixen `meta refresh`).
 - [ ] Confirmar `canonicalBaseURL` a `config/production/hugo.toml` (canonical absolut a `ivankovacevic.com`).
 - [ ] Decidir si cal RSS/feed (ara no hi ha secció de notícies).
 - [ ] Revisar que el 404 personalitzat es desplega correctament (`pages.yml` copia `en/404.html` → `404.html`).
