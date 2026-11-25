@@ -24,7 +24,7 @@
 {{- end -}}
 {{- $title       := printf "%s · %s" site.Title (i18n "official_website_short" | default "Official website") -}}
 {{- $description := site.Params.description | default site.Title -}}
-{{- $lang        := site.Language.LanguageCode -}}
+{{- $lang        := site.Language.Locale -}}
 {{- $locales     := dict "ca" "ca_ES" "es" "es_ES" "en" "en_GB" "sr" "sr_Latn" -}}
 {{- $ogLocale    := index $locales $lang | default "en_GB" -}}
 <!doctype html>

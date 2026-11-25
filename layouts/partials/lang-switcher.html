@@ -4,7 +4,7 @@
   {{- $translations := .Translations -}}
   {{- range hugo.Sites -}}
     {{- $lang := .Language.Lang -}}
-    {{- $code := .Language.LanguageCode -}}
+    {{- $code := .Language.Locale -}}
     {{- $url := printf "%s%s/" $baseURL $lang -}}
     {{- range $translations -}}
       {{- if eq .Language.Lang $lang -}}

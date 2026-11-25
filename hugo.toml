@@ -14,7 +14,6 @@ defaultContentLanguageInSubdir = true
   contentDir = "content/en"
   title = "Ivan Kovačević"
   label = "English"
-  languageCode = "en-GB"
   locale = "en-GB"
   weight = 1
 
@@ -85,7 +84,6 @@ defaultContentLanguageInSubdir = true
   contentDir = "content/ca"
   title = "Ivan Kovačević"
   label = "Català"
-  languageCode = "ca-ES"
   locale = "ca-ES"
   weight = 2
 
@@ -156,7 +154,6 @@ defaultContentLanguageInSubdir = true
   contentDir = "content/es"
   title = "Ivan Kovačević"
   label = "Español"
-  languageCode = "es-ES"
   locale = "es-ES"
   weight = 3
 
@@ -227,7 +224,6 @@ defaultContentLanguageInSubdir = true
   contentDir = "content/sr"
   title = "Ivan Kovačević"
   label = "Srpski"
-  languageCode = "sr-Latn"
   locale = "sr-Latn"
   weight = 4
 

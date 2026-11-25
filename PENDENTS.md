@@ -71,9 +71,11 @@ Web oficial del contrabaixista Ivan Kovačević. Actualitzat 2026-10-20.
 - **SEO/AI-SEO (2026-11-25)**: `llms.txt` i `generate-llms.py` apuntaven a `/en/gigs/` (404;
   la secció és `/en/concerts/`). 12 `description` amb cometes mal escapades (`7\\\"` → `7"`).
   404 amb `noindex`, un sol `<h1>` per idioma i `lang` correcte.
-- **Etiquetes d'idioma (2026-11-25)**: `languageCode` a `hugo.toml` (`en-GB`, `ca-ES`, `es-ES`,
+- **Etiquetes d'idioma (2026-11-25)**: `locale` a `hugo.toml` (`en-GB`, `ca-ES`, `es-ES`,
   **`sr-Latn`**) i `<html lang>`, `hreflang` (cap i sitemap), `<language>` de l'RSS i selector
-  d'idiomes emesos amb `.Language.LanguageCode` en lloc de `.Language.Lang`.
+  d'idiomes emesos amb `.Language.Locale` en lloc de `.Language.Lang`.
+  Nota: `languageCode`/`.Language.LanguageCode` estan **deprecats** des de Hugo 0.158; cal
+  `locale`/`.Language.Locale` (amb 0.166 el build ja no emet cap avís).
 - **Metes (2026-11-25)**: cap `description` per sobre de 160 caràcters (les 3 de la pàgina legal
   venien del text de reserva de l'idioma, escurçat a `hugo.toml`; les altres 4 del recompte
   anterior eren fals positiu per comptar `&amp;`).
