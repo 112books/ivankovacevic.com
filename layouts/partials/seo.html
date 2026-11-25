@@ -76,7 +76,7 @@
 {{ range .AllTranslations }}
 {{- $altURL := .Permalink -}}
 {{- if $canonBase }}{{ $altURL = replace .Permalink site.BaseURL $canonBase }}{{ end -}}
-<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ $altURL }}">
+<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ $altURL }}">
 {{ end }}
 {{- $xdefault := .Permalink -}}
 {{- range .AllTranslations }}{{ if eq .Language.Lang "en" }}{{ $xdefault = .Permalink }}{{ end }}{{ end -}}

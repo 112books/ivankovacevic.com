@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="ca">
+<html lang="{{ site.Language.LanguageCode }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>404 · Ivan Kovačević</title>
+  <meta name="robots" content="noindex, follow">
   <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
   <style>
     .error-page {
@@ -66,18 +67,22 @@
   <div class="error-page">
     <div class="error-content">
       <p class="error-code">404</p>
+      {{- /* Un sol <h1> per pàgina: el de l'idioma del build; la resta de blocs
+             (que només es mostren si 404.js canvia d'idioma) van com a <p>. */ -}}
+      {{- $cur := site.Language.Lang -}}
+      {{- if not (in (slice "ca" "es" "en") $cur) }}{{ $cur = "en" }}{{ end -}}
       <div id="msg-ca">
-        <h1 class="error-title">Aquesta pàgina s'ha perdut pel camí</h1>
+        {{- if eq $cur "ca" }}<h1 class="error-title">Aquesta pàgina s'ha perdut pel camí</h1>{{ else }}<p class="error-title">Aquesta pàgina s'ha perdut pel camí</p>{{ end }}
         <p class="error-message">Sembla que aquesta nota no existeix a la nostra partitura. Potser ha canviat d'URL o simplement s'ha evaporat com el so d'un violí.</p>
         <a class="error-back" href="{{ "ca/" | relURL }}">← Torna a l'inici</a>
       </div>
       <div id="msg-es" style="display:none">
-        <h1 class="error-title">Esta página se ha perdido por el camino</h1>
+        {{- if eq $cur "es" }}<h1 class="error-title">Esta página se ha perdido por el camino</h1>{{ else }}<p class="error-title">Esta página se ha perdido por el camino</p>{{ end }}
         <p class="error-message">Parece que esta nota no existe en nuestra partitura. Quizás cambió de URL o simplemente se evaporó como el sonido de un violín.</p>
         <a class="error-back" href="{{ "es/" | relURL }}">← Volver al inicio</a>
       </div>
       <div id="msg-en" style="display:none">
-        <h1 class="error-title">This page got lost along the way</h1>
+        {{- if eq $cur "en" }}<h1 class="error-title">This page got lost along the way</h1>{{ else }}<p class="error-title">This page got lost along the way</p>{{ end }}
         <p class="error-message">Looks like this note doesn't exist in our score. Maybe the URL changed, or it simply vanished like the sound of a violin.</p>
         <a class="error-back" href="{{ "en/" | relURL }}">← Back to home</a>
       </div>
